@@ -1,0 +1,42 @@
+name: Bug report / 问题反馈
+description: Tell us what happened in Zebra / 告诉我们 Zebra 遇到了什么问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Zebra. This report and its attachments are public. Please leave out private notes, passwords, keys and complete libraries.
+
+        感谢帮助改进 Zebra。本反馈及附件公开可见，请勿上传私人笔记、密码、密钥或完整资料库。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Device / 设备
+      options:
+        - Mac
+        - iPhone
+        - iPad
+        - Multiple devices / 多台设备
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Zebra and system versions / Zebra 与系统版本
+      description: Include the app build number if available. / 如方便，请一并填写 App 构建号。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: For sync issues, include where you edited first and whether a device was offline. / 同步问题请说明先在哪台设备修改，以及是否曾离线。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / 预期结果与实际情况
+      description: A small fictional Markdown example or redacted screenshot helps. / 简短的虚构 Markdown 示例或已隐去私人信息的截图会很有帮助。
+    validations:
+      required: true

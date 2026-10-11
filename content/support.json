@@ -1,0 +1,267 @@
+{
+  "contact": {
+    "repositoryURL": "https://github.com/entropysniper-app/zebra.app",
+    "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+  },
+  "externalLinks": [
+    {
+      "id": "github-privacy",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "label": {
+        "zh-Hans": "GitHub 隐私声明",
+        "en-US": "GitHub Privacy Statement"
+      },
+      "verifiedAt": "2026-10-11"
+    }
+  ],
+  "locales": {
+    "zh-Hans": {
+      "faqs": [
+        {
+          "id": "platforms",
+          "question": "Zebra 支持哪些设备？各端有什么区别？",
+          "answer": "Mac 需要 macOS 14 或更新版本；iPhone 和 iPad 需要 iOS 17 或更新版本。各端都支持 Markdown、表格、公式、Mermaid 图表、代码高亮、文件夹与层级标签。Mac 还提供本地语义搜索、文档转换和更多导出格式；iPhone 与 iPad 支持关键词搜索、文内查找、插入照片和文件，以及分享 Markdown 或笔记附件包。"
+        },
+        {
+          "id": "offline",
+          "question": "需要注册账号或保持联网吗？",
+          "answer": "无需注册 Zebra 账号。笔记默认保存在设备上，写作、整理和核心编辑功能可离线使用，改动会自动保存到本机。iCloud 同步需要 Apple 账户和网络；网页剪藏、链接预览与远程附件等联网功能会连接相应网站。"
+        },
+        {
+          "id": "sync-setup",
+          "question": "怎样让自己的设备同步笔记？",
+          "answer": "先在各台设备上登录同一个 Apple 账户，并确保 iCloud 可用，再分别打开 Zebra 设置中的 iCloud 同步。新安装默认关闭同步，已有选择会保留。首次同步需要时间，请打开 Zebra 并保持网络可用。同步暂时没有跟上时，可先查看应用内的同步状态，再检查网络和 iCloud 登录状态。停用一台设备的同步不会停用其他设备，也不会删除云端副本。"
+        },
+        {
+          "id": "concurrent-edits",
+          "question": "两台设备同时修改，会发生什么？",
+          "answer": "普通笔记使用 CRDT 合并正文：多台设备的并发改动可以在同步后汇合，离线编辑也能在重新连网后同步。加密笔记采用另一种方式：顺序修改继续更新，并发修改保留为不同的加密版本。出现待处理版本时，打开“加密笔记版本”，用对应密码查看内容，再选择要使用的版本。这个功能连接的是你自己的设备，不是多人协作空间。"
+        },
+        {
+          "id": "search",
+          "question": "记不清原句，还能找到笔记吗？",
+          "answer": "在 Mac 上按 ⌘O 打开 Zebra Actions，用自己的话描述内容。本地语义搜索结合中英文含义和关键词查找相关笔记，无需另行下载模型；系统语义能力不可用时，关键词搜索仍然可用。加密笔记即使解锁，也不加入语义索引。iPhone 与 iPad 当前提供关键词搜索和笔记内查找。"
+        },
+        {
+          "id": "import-export",
+          "question": "已有资料怎样导入？写好的笔记怎样带走？",
+          "answer": "Mac 可导入 Markdown、HTML、TextBundle 等格式，也能在本机把含文本的 PDF、DOCX、XLSX／XLS、PPTX 等文档转换成可编辑笔记并保留原件。转换侧重文字和结构，复杂版式可能变化。Mac 可导出 Markdown、PDF、HTML、DOCX、ePub 等格式。iPhone 与 iPad 可把照片或文件作为附件插入笔记，并从笔记菜单分享 Markdown，或把笔记与附件一起打包。"
+        },
+        {
+          "id": "backup-delete",
+          "question": "同步等于备份吗？删除后会怎样？",
+          "answer": "同步会传播修改，不应作为唯一备份。Mac 可通过“文件 → 导出备份”保存含笔记与附件的 .zebrabk 资料库备份，恢复前可先查看影响。停用同步或卸载应用不会清除其他设备、导出文件、备份或已有云端副本。删除加密笔记后，其同步历史仍保留用于恢复；当前没有清除全部云端历史的按钮。做删除或恢复操作前，请先保留需要的独立副本。"
+        },
+        {
+          "id": "encryption",
+          "question": "忘记加密笔记的密码怎么办？",
+          "answer": "Zebra 没有开发者保存的密码或恢复密钥，无法找回遗失的笔记密码。请妥善保存密码；备份中的加密内容仍需要密码。逐篇加密保护正文和加密附件，标题及部分外层信息仍可见。将普通笔记改为加密，不会撤回此前已同步、导出或备份的明文副本。"
+        }
+      ],
+      "privacy": {
+        "eyebrow": "Zebra · 隐私与数据",
+        "title": "内容存在哪里，何时会离开设备。",
+        "intro": "这份说明介绍 Zebra 当前应用的数据处理方式，以及使用网页和公开问题反馈时需要了解的边界。",
+        "documentType": "产品数据处理说明",
+        "lastReviewedLabel": "说明核对日期：2026 年 10 月 11 日",
+        "sections": [
+          {
+            "id": "local",
+            "title": "默认保存在本机",
+            "paragraphs": [
+              "笔记、标签、附件、设置和派生搜索索引保存在设备上的 Zebra 资料库；导出和备份保存到你选择的位置。Zebra 应用没有账号系统，不将笔记正文发送到开发者服务器。",
+              "当前应用不包含广告、行为跟踪、产品分析或第三方崩溃上报服务。这一说明针对 Zebra 应用本身，不代替网站托管方、Apple 或你选择的第三方服务的数据说明。"
+            ]
+          },
+          {
+            "id": "local-processing",
+            "title": "本地搜索与转换",
+            "paragraphs": [
+              "Mac 的语义搜索使用系统提供的中英文语言能力，在本机处理笔记和查询；Zebra 不为此下载模型或把正文发送到模型服务。加密笔记不进入持久化语义索引。系统语义能力不可用时，关键词搜索仍可使用。",
+              "Mac 的文档转换在本机运行。确认导入后，转换后的笔记和保留的原件进入资料库；之后是否同步或分享，取决于你的设置和操作。iPhone 与 iPad 没有这套本地文档转换或语义搜索功能。"
+            ]
+          },
+          {
+            "id": "icloud",
+            "title": "可选 iCloud 同步",
+            "paragraphs": [
+              "新安装默认关闭 iCloud 同步，已有选择会保留。开启后，普通笔记正文、相关元数据和引用附件会进入你 Apple 账户的私有 CloudKit 数据库。加密笔记以密文版本、加密附件和版本历史同步，标题与部分外层信息仍可见。这个同步通道不上传笔记密码或解密密钥。",
+              "Apple 提供 iCloud 服务，并按其条款和隐私政策处理服务数据。停用同步只停止当前设备，不会自动清除云端或其他设备上的副本。"
+            ]
+          },
+          {
+            "id": "encryption",
+            "title": "逐篇笔记加密",
+            "paragraphs": [
+              "密码保护作用于选择的笔记正文和加密附件，不代表整个资料库默认加密，也不隐藏全部外层信息。支持的设备可使用系统生物识别辅助解锁；Zebra 不获取指纹或其他生物识别模板。",
+              "开发者没有可用于恢复笔记的密码或密钥。将普通笔记改为加密，也不能撤回此前已进入云端、其他设备、导出文件或备份的明文副本。"
+            ]
+          },
+          {
+            "id": "web-and-sharing",
+            "title": "网页、链接与主动分享",
+            "paragraphs": [
+              "剪藏网页、从网址创建笔记、展示链接卡片或下载远程附件时，Zebra 可能直接请求相关网站。网站会收到正常连接所需的信息，例如请求的网址和 IP 地址。Safari 剪藏扩展在你调用剪藏时读取当前页面，再把选定内容交给 Zebra。",
+              "分享、导出、快捷指令或其他经你授权的操作，会把选择的内容交给相应应用或位置。接收方按照自己的设置和政策处理这些内容。"
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "保留与删除",
+            "paragraphs": [
+              "你可以在 Zebra 中删除笔记和管理废纸篓。移除应用或停用同步，不会自动删除导出文件、备份、其他设备或云端已持有的内容。",
+              "删除加密笔记后，同步历史中的旧版本和所引用附件仍可能保留，供恢复使用。当前没有清除全部云端历史的按钮。删除或恢复重要资料前，请先保留独立备份。"
+            ]
+          },
+          {
+            "id": "website-support",
+            "title": "本网站与问题反馈",
+            "paragraphs": [
+              "本网站由 GitHub Pages 托管，不加载广告或产品分析脚本。GitHub 仍会处理提供网页所需的网络请求，可能包括 IP 地址、请求路径、时间和浏览器信息，其处理方式以 GitHub 的隐私声明为准。应用的本地保存不代表网站访问不会产生网络记录。",
+              "使用 GitHub 提交公开问题时，账号信息、文字和附件由 GitHub 处理，并可被其他人看到。我们通过这些信息回复和排查问题。请只提交所需的最少信息，不要上传私人笔记、密码、完整资料库或密钥。"
+            ]
+          }
+        ]
+      },
+      "report": {
+        "title": "反馈问题",
+        "intro": "请描述你做了什么、原本希望发生什么，以及实际出现的结果。能稳定重现的小例子最有帮助。",
+        "include": [
+          "设备型号、系统版本，以及 Zebra 的版本号和构建号。",
+          "从打开应用开始的复现步骤，说明问题是否每次都会发生。",
+          "同步问题请注明涉及哪些设备、哪台先编辑，以及是否曾离线。",
+          "导入问题请注明原始应用和文件格式；编辑问题可提供不含私人内容的最小 Markdown 示例。",
+          "必要时附经过遮挡的截图，保留错误提示，隐藏个人内容。"
+        ],
+        "publicIssueLabel": "提交公开问题",
+        "publicIssueNotice": "GitHub 问题和附件会公开。请勿提交密码、私人笔记、完整资料库、恢复密钥或访问令牌。需要发送敏感资料时，请先等待开发者提供合适的私密渠道。",
+        "repositoryLabel": "查看项目与更新",
+        "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+      }
+    },
+    "en-US": {
+      "faqs": [
+        {
+          "id": "platforms",
+          "question": "Which devices does Zebra support? Are the features the same?",
+          "answer": "Zebra requires macOS 14 or later on Mac, and iOS 17 or later on iPhone and iPad. All platforms support Markdown, tables, math, Mermaid diagrams, code highlighting, folders, and nested tags. Mac also offers local semantic search, document conversion, and more export formats. iPhone and iPad offer keyword search, find within notes, photo and file attachments, and sharing as Markdown or a note package with attachments."
+        },
+        {
+          "id": "offline",
+          "question": "Do I need an account or an internet connection?",
+          "answer": "No Zebra account is required. Notes are stored on your device by default, and core writing and organization work offline. Changes save automatically on the device. iCloud sync needs an Apple Account and a connection. Web clipping, link previews, and remote attachments connect to the relevant websites."
+        },
+        {
+          "id": "sync-setup",
+          "question": "How do I sync my own devices?",
+          "answer": "Sign in to the same Apple Account on each device and make sure iCloud is available. Then enable iCloud sync in Zebra's settings on each device. Sync is off by default for new installations; existing choices are preserved. The first sync can take time, so open Zebra and keep a network connection available. If changes have not arrived, check the app's sync status, your connection, and your iCloud sign-in. Turning sync off on one device does not turn it off elsewhere or erase cloud copies."
+        },
+        {
+          "id": "concurrent-edits",
+          "question": "What happens if I edit on two devices at once?",
+          "answer": "Ordinary note text uses CRDT sync to merge concurrent edits across devices. Offline edits can join those changes when you reconnect. Encrypted notes work differently: sequential edits move forward, while concurrent edits are retained as separate encrypted versions. If there are versions to resolve, open Encrypted Note Versions, use the relevant password to view them, and choose the version to use. Sync connects your own devices; it is not a shared team workspace."
+        },
+        {
+          "id": "search",
+          "question": "Can I find a note without remembering the exact words?",
+          "answer": "On Mac, press ⌘O to open Zebra Actions and describe what you remember. Local semantic search combines the meaning of Chinese and English text with keywords. No separate model download is needed, and keyword search remains available if the system's semantic capabilities are unavailable. Encrypted notes are excluded from semantic indexing, even while unlocked. iPhone and iPad currently offer keyword search and find within notes."
+        },
+        {
+          "id": "import-export",
+          "question": "How can I bring existing work in and take my notes out?",
+          "answer": "On Mac, import Markdown, HTML, TextBundle, and other supported formats. Text-based PDFs, DOCX, XLSX/XLS, PPTX, and other supported documents can be converted locally into editable notes while keeping the originals. Conversion focuses on text and structure; complex layouts may change. Mac exports include Markdown, PDF, HTML, DOCX, and ePub. On iPhone and iPad, attach photos or files, then use the note menu to share Markdown or package the note and its attachments together."
+        },
+        {
+          "id": "backup-delete",
+          "question": "Is sync a backup? What happens when I delete something?",
+          "answer": "Sync carries changes between devices and should not be your only backup. On Mac, choose File > Export Backup to save a .zebrabk library backup with notes and attachments. You can review the effect of a restore before proceeding. Turning sync off or removing the app does not erase copies on other devices, exported files, backups, or existing cloud copies. Deleted encrypted notes retain their sync history for recovery. There is currently no button to erase all cloud history. Keep an independent copy before deleting or restoring important work."
+        },
+        {
+          "id": "encryption",
+          "question": "What if I forget an encrypted note's password?",
+          "answer": "The developer has no stored password or recovery key that can restore access. Keep your password safe; encrypted content in a backup still needs it. Individual note encryption protects the body and encrypted attachments, while titles and some outer information remain visible. Encrypting an ordinary note cannot retract plaintext copies that were previously synced, exported, or backed up."
+        }
+      ],
+      "privacy": {
+        "eyebrow": "Zebra · Privacy and data",
+        "title": "Where your content stays, and when it leaves your device.",
+        "intro": "This note explains how the current Zebra app handles data, and what to consider when visiting the website or reporting a public issue.",
+        "documentType": "Product data-handling information",
+        "lastReviewedLabel": "Information reviewed October 11, 2026",
+        "sections": [
+          {
+            "id": "local",
+            "title": "Local by default",
+            "paragraphs": [
+              "Notes, tags, attachments, settings, and derived search indexes are stored in Zebra's library on your device. Exports and backups go to a location you choose. The Zebra app has no account system and does not send note text to a developer server.",
+              "The current app contains no advertising, behavioral tracking, product analytics, or third-party crash-reporting service. This describes the Zebra app itself, not the separate practices of a website host, Apple, or a third-party service you choose to use."
+            ]
+          },
+          {
+            "id": "local-processing",
+            "title": "Local search and conversion",
+            "paragraphs": [
+              "Mac semantic search uses system Chinese and English language capabilities to process notes and queries on the device. Zebra does not download models for this feature or send note text to a model service. Encrypted notes are excluded from persistent semantic indexes. Keyword search remains available when system semantic capabilities are unavailable.",
+              "Mac document conversion runs locally. After you confirm an import, the converted note and retained original enter your library. Later sync or sharing depends on your settings and actions. This document conversion and semantic search are not available on iPhone or iPad."
+            ]
+          },
+          {
+            "id": "icloud",
+            "title": "Optional iCloud sync",
+            "paragraphs": [
+              "iCloud sync is off by default for new installations; existing choices are preserved. When enabled, ordinary note text, related metadata, and referenced attachments enter your Apple Account's private CloudKit database. Encrypted notes sync as ciphertext versions, encrypted attachments, and version history. Titles and some outer information remain visible. This sync channel does not upload note passwords or decryption keys.",
+              "Apple provides iCloud and handles service data under its own terms and privacy policy. Turning sync off stops only the current device; it does not automatically erase copies in the cloud or on other devices."
+            ]
+          },
+          {
+            "id": "encryption",
+            "title": "Individual note encryption",
+            "paragraphs": [
+              "Password protection applies to the selected note body and encrypted attachments. It does not mean the entire library is encrypted by default, and it does not hide all outer information. Supported devices can use system biometric authentication to assist with unlocking. Zebra does not receive fingerprints or other biometric templates.",
+              "The developer has no password or key that can recover your encrypted notes. Encrypting an ordinary note cannot retract plaintext copies previously received by the cloud, other devices, exported files, or backups."
+            ]
+          },
+          {
+            "id": "web-and-sharing",
+            "title": "Web content and sharing",
+            "paragraphs": [
+              "Clipping a page, creating a note from a URL, displaying a link card, or downloading a remote attachment may request the relevant website directly. The site receives normal connection information, such as the requested URL and IP address. The Safari clipping extension reads the current page when you invoke clipping and passes the selected content to Zebra.",
+              "Sharing, exports, Shortcuts, and other actions you authorize can provide selected content to another app or destination. That recipient handles the content under its own settings and policies."
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "Retention and deletion",
+            "paragraphs": [
+              "You can delete notes and manage Trash in Zebra. Removing the app or turning sync off does not automatically remove exports, backups, or content already held by other devices or the cloud.",
+              "When an encrypted note is deleted, earlier versions and their referenced attachments may remain in sync history for recovery. There is currently no button to erase all cloud history. Keep an independent backup before deleting or restoring important work."
+            ]
+          },
+          {
+            "id": "website-support",
+            "title": "This website and issue reports",
+            "paragraphs": [
+              "This website is hosted by GitHub Pages and does not load advertising or product analytics scripts. GitHub still handles the network requests needed to serve the site, which may include an IP address, requested path, time, and browser information. GitHub's privacy statement describes its handling of this information. Local storage in the app does not mean website visits produce no network records.",
+              "When you report a public issue on GitHub, GitHub handles the account information, text, and attachments you submit, and other people can see them. We use that information to respond and investigate. Share only what is needed. Do not upload private notes, passwords, a complete library, or keys."
+            ]
+          }
+        ]
+      },
+      "report": {
+        "title": "Report a problem",
+        "intro": "Tell us what you did, what you expected, and what happened instead. A small example that reliably reproduces the issue is especially helpful.",
+        "include": [
+          "Your device model, system version, and Zebra version and build number.",
+          "Steps starting from opening the app, and whether the issue happens every time.",
+          "For sync issues, which devices are involved, where you edited first, and whether a device was offline.",
+          "For import issues, the source app and file format. For editing issues, a small Markdown example without private content.",
+          "If useful, a screenshot with private information hidden and the error message still visible."
+        ],
+        "publicIssueLabel": "Report a public issue",
+        "publicIssueNotice": "GitHub issues and attachments are public. Do not post passwords, private notes, a complete library, recovery keys, or access tokens. If sensitive information is needed, wait for the developer to provide an appropriate private channel.",
+        "repositoryLabel": "View the project and updates",
+        "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+      }
+    }
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "macos": {
+    "zh-Hans": [
+      {
+        "id": "write",
+        "headline": "写下想法，自成篇章",
+        "subheadline": "标题、清单、表格与链接，让想法自然成形。",
+        "benefits": [
+          "原生 Markdown",
+          "直接编辑表格",
+          "主题与排版"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "把思路画清楚",
+        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "benefits": [
+          "流程与关系",
+          "源码可编辑",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "让推导清晰可读",
+        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "benefits": [
+          "行内公式",
+          "独立公式块",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "代码，也有好排版",
+        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "benefits": [
+          "语法高亮",
+          "代码块",
+          "文字说明"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "分门别类，也能串联",
+        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "benefits": [
+          "文件夹",
+          "层级标签",
+          "维基链接"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "按意思，找回线索",
+        "subheadline": "用自己的话描述内容，在本机查找相关笔记。",
+        "benefits": [
+          "语义与关键词",
+          "本地处理",
+          "无需下载模型"
+        ],
+        "footnote": "支持中英文；加密笔记不参与语义索引。"
+      },
+      {
+        "id": "import-export",
+        "headline": "旧资料，新思路",
+        "subheadline": "在本机把文档转成笔记，再用需要的格式分享成果。",
+        "benefits": [
+          "导入文档",
+          "保留原件",
+          "多格式导出"
+        ],
+        "footnote": "支持含文本 PDF 与 Office 文档；复杂版式可能变化。"
+      },
+      {
+        "id": "sync",
+        "headline": "多端改动，自动合并",
+        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "benefits": [
+          "离线也能写",
+          "连网后同步"
+        ],
+        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      }
+    ],
+    "en-US": [
+      {
+        "id": "write",
+        "headline": "Give your thoughts shape",
+        "subheadline": "Headings, tasks, tables, and links bring structure to every idea.",
+        "benefits": [
+          "Native Markdown",
+          "Editable tables",
+          "Themes & typography"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "Draw ideas with words",
+        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "benefits": [
+          "Processes & relationships",
+          "Editable source",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "Make room for math",
+        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "benefits": [
+          "Inline math",
+          "Equation blocks",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "Code with context",
+        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "benefits": [
+          "Syntax highlighting",
+          "Code blocks",
+          "Your explanation"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "A place. A connection.",
+        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "benefits": [
+          "Folders",
+          "Nested tags",
+          "Wiki links"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "Search beyond exact words",
+        "subheadline": "Describe an idea in your own words to find related notes locally.",
+        "benefits": [
+          "Meaning & keywords",
+          "On-device processing",
+          "No model download"
+        ],
+        "footnote": "Chinese and English supported. Encrypted notes are excluded from semantic indexing."
+      },
+      {
+        "id": "import-export",
+        "headline": "Bring your work along",
+        "subheadline": "Turn documents into editable notes locally, then export the format you need.",
+        "benefits": [
+          "Import documents",
+          "Keep originals",
+          "Multiple export formats"
+        ],
+        "footnote": "Supports text-based PDFs and Office documents. Complex layouts may change."
+      },
+      {
+        "id": "sync",
+        "headline": "Your edits come together",
+        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "benefits": [
+          "Write offline",
+          "Sync when connected"
+        ],
+        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      }
+    ]
+  },
+  "iphone": {
+    "zh-Hans": [
+      {
+        "id": "write",
+        "headline": "从一句话，写成一篇",
+        "subheadline": "随手写下灵感，用标题、待办与表格整理思路。",
+        "benefits": [
+          "原生 Markdown",
+          "直接编辑表格",
+          "键盘格式工具"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "把思路画清楚",
+        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "benefits": [
+          "流程与关系",
+          "源码可编辑",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "让推导清晰可读",
+        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "benefits": [
+          "行内公式",
+          "独立公式块",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "代码，也有好排版",
+        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "benefits": [
+          "语法高亮",
+          "代码块",
+          "文字说明"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "分门别类，也能串联",
+        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "benefits": [
+          "文件夹",
+          "层级标签",
+          "维基链接"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "找到写过的那一句",
+        "subheadline": "搜关键词找笔记，再在文内定位需要的那一句。",
+        "benefits": [
+          "关键词搜索",
+          "文内查找"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "收进来，也分享出去",
+        "subheadline": "照片与文件留在笔记里，Markdown 与附件随时分享。",
+        "benefits": [
+          "照片与文件",
+          "分享 Markdown",
+          "笔记与附件"
+        ],
+        "footnote": "文档转换与更多导出格式在 Mac 版提供。"
+      },
+      {
+        "id": "sync",
+        "headline": "多端改动，自动合并",
+        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "benefits": [
+          "离线也能写",
+          "连网后同步"
+        ],
+        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      }
+    ],
+    "en-US": [
+      {
+        "id": "write",
+        "headline": "Give your thoughts room",
+        "subheadline": "Capture an idea, then shape it with headings, tasks, and tables.",
+        "benefits": [
+          "Native Markdown",
+          "Editable tables",
+          "Keyboard format tools"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "Draw ideas with words",
+        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "benefits": [
+          "Processes & relationships",
+          "Editable source",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "Make room for math",
+        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "benefits": [
+          "Inline math",
+          "Equation blocks",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "Code with context",
+        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "benefits": [
+          "Syntax highlighting",
+          "Code blocks",
+          "Your explanation"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "A place. A connection.",
+        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "benefits": [
+          "Folders",
+          "Nested tags",
+          "Wiki links"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "Find what you wrote",
+        "subheadline": "Search notes by keyword, then find the passage you need.",
+        "benefits": [
+          "Keyword search",
+          "Find within notes"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "Your notes. Ready to share.",
+        "subheadline": "Attach photos and files. Share Markdown or a note with its attachments.",
+        "benefits": [
+          "Photos & files",
+          "Share Markdown",
+          "Notes & attachments"
+        ],
+        "footnote": "Document conversion and additional export formats are available on Mac."
+      },
+      {
+        "id": "sync",
+        "headline": "Your edits come together",
+        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "benefits": [
+          "Write offline",
+          "Sync when connected"
+        ],
+        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      }
+    ]
+  },
+  "ipad": {
+    "zh-Hans": [
+      {
+        "id": "write",
+        "headline": "从一句话，写成一篇",
+        "subheadline": "给长篇写作多一点空间，用标题、表格与链接整理思路。",
+        "benefits": [
+          "原生 Markdown",
+          "直接编辑表格",
+          "键盘格式工具"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "把思路画清楚",
+        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "benefits": [
+          "流程与关系",
+          "源码可编辑",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "让推导清晰可读",
+        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "benefits": [
+          "行内公式",
+          "独立公式块",
+          "离线渲染"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "代码，也有好排版",
+        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "benefits": [
+          "语法高亮",
+          "代码块",
+          "文字说明"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "分门别类，也能串联",
+        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "benefits": [
+          "文件夹",
+          "层级标签",
+          "维基链接"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "找到写过的那一句",
+        "subheadline": "搜关键词找笔记，再在文内定位需要的那一句。",
+        "benefits": [
+          "关键词搜索",
+          "文内查找"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "收进来，也分享出去",
+        "subheadline": "照片与文件留在笔记里，Markdown 与附件随时分享。",
+        "benefits": [
+          "照片与文件",
+          "分享 Markdown",
+          "笔记与附件"
+        ],
+        "footnote": "文档转换与更多导出格式在 Mac 版提供。"
+      },
+      {
+        "id": "sync",
+        "headline": "多端改动，自动合并",
+        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "benefits": [
+          "离线也能写",
+          "连网后同步"
+        ],
+        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      }
+    ],
+    "en-US": [
+      {
+        "id": "write",
+        "headline": "Give your thoughts room",
+        "subheadline": "Spread out your ideas with headings, tables, and links on iPad.",
+        "benefits": [
+          "Native Markdown",
+          "Editable tables",
+          "Keyboard format tools"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "Draw ideas with words",
+        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "benefits": [
+          "Processes & relationships",
+          "Editable source",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "Make room for math",
+        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "benefits": [
+          "Inline math",
+          "Equation blocks",
+          "Offline rendering"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "Code with context",
+        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "benefits": [
+          "Syntax highlighting",
+          "Code blocks",
+          "Your explanation"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "A place. A connection.",
+        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "benefits": [
+          "Folders",
+          "Nested tags",
+          "Wiki links"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "Find what you wrote",
+        "subheadline": "Search notes by keyword, then find the passage you need.",
+        "benefits": [
+          "Keyword search",
+          "Find within notes"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "Your notes. Ready to share.",
+        "subheadline": "Attach photos and files. Share Markdown or a note with its attachments.",
+        "benefits": [
+          "Photos & files",
+          "Share Markdown",
+          "Notes & attachments"
+        ],
+        "footnote": "Document conversion and additional export formats are available on Mac."
+      },
+      {
+        "id": "sync",
+        "headline": "Your edits come together",
+        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "benefits": [
+          "Write offline",
+          "Sync when connected"
+        ],
+        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      }
+    ]
+  }
+}
