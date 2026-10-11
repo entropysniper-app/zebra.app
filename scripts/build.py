@@ -29,7 +29,7 @@ UI = {
    ['Bring in & take out','Local document conversion and exports including PDF, DOCX and ePub','Photo and file attachments; share Markdown or a note package'],
    ['Continue writing','Optional iCloud sync with your own devices','Optional iCloud sync with your own devices']],
   'supportEyebrow':'A helping hoof','supportTitle':'A few useful answers.','supportIntro':'From the first note to a detail worth finding again. Here is how writing, search, sync and your data work.',
-  'contactTitle':'Something not quite right?','contactBody':'Tell us your device, Zebra version, what you expected and what happened. A small example helps. GitHub reports are public: leave out private notes, passwords and complete libraries.','contactAction':'Report an issue ↗',
+  'contactTitle':'Something not quite right?','contactBody':'Email us for help or privacy questions. Include your device, Zebra version, what you expected and what happened. You can also report a public issue on GitHub.','contactAction':'Report a public issue ↗','emailAction':'Email support','emailFooter':'Email us','privacyContactTitle':'Support and privacy questions','privacyContactBody':'Contact us at the email address below for help with Zebra or questions about how your data is handled.',
   'footer':'Made for the way ideas happen.','source':'GitHub','close':'Close screenshot','noScript':'These Mac screenshots and the support content work without JavaScript. Enable JavaScript to switch devices and open larger images.',
   'privacyTitle':'Privacy & data — Zebra','privacyType':'Product data-handling information','back':'Back to Zebra','githubPrivacy':'GitHub Privacy Statement',
  },
@@ -52,7 +52,7 @@ UI = {
    ['导入与分享','本地文档转换，以及 PDF、DOCX、ePub 等多格式导出','照片和文件附件；分享 Markdown 或笔记附件包'],
    ['继续写作','按需开启 iCloud，与自己的设备同步','按需开启 iCloud，与自己的设备同步']],
   'supportEyebrow':'需要时，搭把手','supportTitle':'一些实用的答案。','supportIntro':'从写下第一篇，到找回某个细节。这里说明搜索、同步，以及你的数据如何处理。',
-  'contactTitle':'遇到问题了？','contactBody':'告诉我们设备、Zebra 版本、预期结果和实际情况，一个简短的复现示例会很有帮助。GitHub 反馈公开可见，请勿上传私人笔记、密码或完整资料库。','contactAction':'反馈问题 ↗',
+  'contactTitle':'遇到问题了？','contactBody':'使用问题或隐私疑问，可以直接发邮件。请说明设备、Zebra 版本、预期结果和实际情况；也可以在 GitHub 提交公开反馈。','contactAction':'提交公开反馈 ↗','emailAction':'邮件联系','emailFooter':'联系我们','privacyContactTitle':'支持与隐私联系','privacyContactBody':'使用 Zebra 遇到问题，或对数据处理方式有疑问，可以通过以下邮箱联系我们。',
   'footer':'让想法，自然成篇。','source':'GitHub','close':'关闭截图','noScript':'关闭 JavaScript 时仍可浏览 Mac 截图和帮助内容。开启后可切换设备、查看大图。',
   'privacyTitle':'隐私与数据 — Zebra','privacyType':'产品数据处理说明','back':'返回 Zebra','githubPrivacy':'GitHub 隐私声明',
  }
@@ -65,14 +65,15 @@ def page(locale, privacy=False):
  u=UI[locale]; zh=locale=='zh-Hans'; pre='../' if zh else ''; home='index.html'; filename='privacy.html' if privacy else 'index.html'; path=('zh/' if zh else '')+filename
  other=('../'+filename) if zh else ('zh/'+filename); canonical=BASE+path
  title=u['privacyTitle'] if privacy else u['title']
+ email=E(SUPPORT['contact']['email']); email_link=f'<a href="mailto:{email}">{email}</a>'
  head=f'''<!doctype html>
 <html lang="{u['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="theme-color" content="#faf7f0"><meta name="referrer" content="strict-origin-when-cross-origin"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <title>{E(title)}</title><meta name="description" content="{E(u['description'])}"><link rel="canonical" href="{canonical}"><link rel="alternate" hreflang="en" href="{BASE}{filename}"><link rel="alternate" hreflang="zh-Hans" href="{BASE}zh/{filename}"><link rel="alternate" hreflang="x-default" href="{BASE}{filename}"><meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(u['description'])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{BASE}assets/images/macos/{locale}/01-write-large.webp"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="{pre}assets/images/icon.png"><link rel="apple-touch-icon" href="{pre}assets/images/icon.png"><link rel="stylesheet" href="{pre}assets/site.css"><script defer src="{pre}assets/site.js"></script></head><body>
 <a class="skip-link" href="#main">{u['skip']}</a><div class="container"><header class="site-header"><a class="brand" href="{home}" aria-label="Zebra {u['home']}"><img src="{pre}assets/images/icon.png" width="42" height="42" alt="">zebra</a><nav class="site-nav" aria-label="{'主导航' if zh else 'Main navigation'}"><a class="nav-extra" href="{home}#explore">{u['features']}</a><a class="nav-extra" href="{home}#sync">{u['sync']}</a><a href="{home}#support">{u['support']}</a><a class="language" href="{other}" lang="{'en' if zh else 'zh-Hans'}" hreflang="{'en' if zh else 'zh-Hans'}">{u['other']}</a></nav></header>'''
- footer=f'''<footer class="site-footer"><div><span class="footer-brand">zebra</span> &nbsp; {u['footer']}</div><nav class="footer-links" aria-label="{'页脚导航' if zh else 'Footer navigation'}"><a href="{home}#support">{u['support']}</a><a href="privacy.html">{u['privacy']}</a><a href="{SUPPORT['contact']['repositoryURL']}">{u['source']} ↗</a></nav></footer></div></body></html>'''
+ footer=f'''<footer class="site-footer"><div><span class="footer-brand">zebra</span> &nbsp; {u['footer']}</div><nav class="footer-links" aria-label="{'页脚导航' if zh else 'Footer navigation'}"><a href="{home}#support">{u['support']}</a><a href="privacy.html">{u['privacy']}</a><a href="mailto:{email}">{u['emailFooter']}</a><a href="{SUPPORT['contact']['repositoryURL']}">{u['source']} ↗</a></nav></footer></div></body></html>'''
  if privacy:
   d=SUPPORT['locales'][locale]['privacy']; sections=''.join(f'<section id="{x["id"]}"><h2>{E(x["title"])}</h2>'+''.join(f'<p>{E(t)}</p>' for t in x['paragraphs'])+'</section>' for x in d['sections'])
-  body=f'''<main id="main" class="document"><p class="eyebrow">{E(d['eyebrow'])}</p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p><p class="notice">{E(d['documentType'])}<br>{E(d['lastReviewedLabel'])}</p>{sections}<p><a href="{SUPPORT['externalLinks'][0]['url']}">{u['githubPrivacy']} ↗</a></p><a class="button secondary" href="{home}">← {u['back']}</a></main>'''
+  body=f'''<main id="main" class="document"><p class="eyebrow">{E(d['eyebrow'])}</p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p><p class="notice">{E(d['documentType'])}<br>{E(d['lastReviewedLabel'])}</p>{sections}<p><a href="{SUPPORT['externalLinks'][0]['url']}">{u['githubPrivacy']} ↗</a></p><section id="privacy-contact"><h2>{u['privacyContactTitle']}</h2><p>{u['privacyContactBody']}</p><p>{email_link}</p></section><a class="button secondary" href="{home}">← {u['back']}</a></main>'''
   return head+body+footer
  devices={}; sizes={'macos':(2880,1800),'iphone':(1206,2622),'ipad':(2752,2064)}
  for platform in ['macos','iphone','ipad']:
@@ -95,7 +96,7 @@ def page(locale, privacy=False):
 <section id="sync" class="sync-section"><div><p class="eyebrow">{u['syncEyebrow']}</p><h2>{E(u['syncTitle']).replace(chr(10),'<br>')}</h2><p>{u['syncIntro']}</p><span class="sync-mark">{u['syncMark']}</span></div><div><div class="sync-card"><h3>{u['ordinaryTitle']}</h3><p>{u['ordinaryBody']}</p></div><div class="sync-card"><h3>{u['encryptedTitle']}</h3><p>{u['encryptedBody']}</p></div></div></section>
 <section class="platforms"><h2>{u['platformTitle']}</h2><table class="platform-table"><caption>{u['platformCaption']}</caption>{table}</table></section>
 <section class="support" id="support"><div class="intro"><p class="eyebrow">{u['supportEyebrow']}</p><h2>{u['supportTitle']}</h2><p>{u['supportIntro']}</p><a href="privacy.html">{u['privacy']} ↗</a></div><div class="faq">{faq}</div></section>
-<section class="contact" id="contact"><div><h2>{u['contactTitle']}</h2><p>{u['contactBody']}</p></div><a class="button" href="{SUPPORT['contact']['publicIssueURL']}">{u['contactAction']}</a></section></main>
+<section class="contact" id="contact"><div><h2>{u['contactTitle']}</h2><p>{u['contactBody']}</p><p class="contact-email">{email_link}</p></div><div class="contact-options"><a class="button" href="mailto:{email}">{u['emailAction']}</a><a class="button secondary" href="{SUPPORT['contact']['publicIssueURL']}">{u['contactAction']}</a></div></section></main>
 <dialog id="poster-dialog" class="poster-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><h2 id="dialog-title"></h2><button id="dialog-close" type="button" aria-label="{u['close']}">×</button></div><img id="dialog-image" alt=""></dialog><script id="gallery-data" type="application/json">{serial}</script>'''
  return head+body+footer
 

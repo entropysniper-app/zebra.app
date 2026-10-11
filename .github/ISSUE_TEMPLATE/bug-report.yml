@@ -8,6 +8,10 @@ body:
         Thank you for helping improve Zebra. This report and its attachments are public. Please leave out private notes, passwords, keys and complete libraries.
 
         感谢帮助改进 Zebra。本反馈及附件公开可见，请勿上传私人笔记、密码、密钥或完整资料库。
+
+        For private support or privacy questions, email [entropysniper@gmail.com](mailto:entropysniper@gmail.com).
+
+        如需私下说明问题或咨询隐私事项，请发邮件至 [entropysniper@gmail.com](mailto:entropysniper@gmail.com)。
   - type: dropdown
     id: platform
     attributes:

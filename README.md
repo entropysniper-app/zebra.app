@@ -6,6 +6,7 @@ Bilingual product and support website for Zebra, with real Mac, iPhone and iPad 
 - 简体中文：`zh/index.html`
 - Data handling: `privacy.html` and `zh/privacy.html`
 - Public support: <https://github.com/entropysniper-app/zebra.app/issues>
+- Support and privacy email: <entropysniper@gmail.com>
 
 This is a static website. No dependencies, server, account system, analytics scripts or remote fonts are required to serve it. The interactive gallery has 8 features × 3 devices × 2 languages. Each screenshot has a 720px and a larger WebP variant. The browser chooses a responsive image; the dialog uses the larger version. The main page content and FAQ remain usable without JavaScript.
 
@@ -39,7 +40,7 @@ Semantic search and rich document conversion/export are Mac capabilities. Mobile
 
 All note content in the images is fictional. The synchronization illustration explains the mechanism and is not a recorded sync test. Original App Store poster images were exported separately at their full submission dimensions; the images in this repository are smaller website derivatives. Their provenance and hashes are in `asset-manifest.json`.
 
-The privacy pages are factual product data-handling information. A formal operator-specific privacy policy and private support email have not been supplied; this site does not invent them or make a response-time commitment. Public reports use GitHub Issues. Do not attach private notes, passwords, keys or complete libraries.
+The privacy pages are factual product data-handling information. Support and privacy questions can be sent to entropysniper@gmail.com; public reports can also use GitHub Issues. The email address was supplied by the site owner. A formal operator-specific privacy policy still requires the operator's identity; no response-time or retention-period commitment is made here. Share only the information needed to investigate, and do not send passwords or keys.
 
 ## Repository relationship
 

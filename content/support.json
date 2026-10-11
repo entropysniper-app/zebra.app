@@ -1,7 +1,8 @@
 {
   "contact": {
     "repositoryURL": "https://github.com/entropysniper-app/zebra.app",
-    "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+    "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new",
+    "email": "entropysniper@gmail.com"
   },
   "externalLinks": [
     {
@@ -61,7 +62,7 @@
       "privacy": {
         "eyebrow": "Zebra · 隐私与数据",
         "title": "内容存在哪里，何时会离开设备。",
-        "intro": "这份说明介绍 Zebra 当前应用的数据处理方式，以及使用网页和公开问题反馈时需要了解的边界。",
+        "intro": "这份说明介绍 Zebra 当前应用的数据处理方式，以及使用网页、邮件支持和公开问题反馈时需要了解的边界。",
         "documentType": "产品数据处理说明",
         "lastReviewedLabel": "说明核对日期：2026 年 10 月 11 日",
         "sections": [
@@ -118,7 +119,8 @@
             "title": "本网站与问题反馈",
             "paragraphs": [
               "本网站由 GitHub Pages 托管，不加载广告或产品分析脚本。GitHub 仍会处理提供网页所需的网络请求，可能包括 IP 地址、请求路径、时间和浏览器信息，其处理方式以 GitHub 的隐私声明为准。应用的本地保存不代表网站访问不会产生网络记录。",
-              "使用 GitHub 提交公开问题时，账号信息、文字和附件由 GitHub 处理，并可被其他人看到。我们通过这些信息回复和排查问题。请只提交所需的最少信息，不要上传私人笔记、密码、完整资料库或密钥。"
+              "使用 GitHub 提交公开问题时，账号信息、文字和附件由 GitHub 处理，并可被其他人看到。我们通过这些信息回复和排查问题。请只提交所需的最少信息，不要上传私人笔记、密码、完整资料库或密钥。",
+              "通过邮件联系我们时，我们和邮件服务商 Gmail 会处理你的邮箱地址、消息及你主动发送的附件，用于回复和排查问题。请只发送必要的信息，不要发送密码或恢复密钥。"
             ]
           }
         ]
@@ -134,7 +136,7 @@
           "必要时附经过遮挡的截图，保留错误提示，隐藏个人内容。"
         ],
         "publicIssueLabel": "提交公开问题",
-        "publicIssueNotice": "GitHub 问题和附件会公开。请勿提交密码、私人笔记、完整资料库、恢复密钥或访问令牌。需要发送敏感资料时，请先等待开发者提供合适的私密渠道。",
+        "publicIssueNotice": "GitHub 问题和附件会公开。请勿提交密码、私人笔记、完整资料库、恢复密钥或访问令牌。需要私下说明问题时，请发送邮件至 entropysniper@gmail.com，仅提供排查所需的信息。",
         "repositoryLabel": "查看项目与更新",
         "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
       }
@@ -185,7 +187,7 @@
       "privacy": {
         "eyebrow": "Zebra · Privacy and data",
         "title": "Where your content stays, and when it leaves your device.",
-        "intro": "This note explains how the current Zebra app handles data, and what to consider when visiting the website or reporting a public issue.",
+        "intro": "This note explains how the current Zebra app handles data, and what to consider when visiting the website, contacting support by email, or reporting a public issue.",
         "documentType": "Product data-handling information",
         "lastReviewedLabel": "Information reviewed October 11, 2026",
         "sections": [
@@ -242,7 +244,8 @@
             "title": "This website and issue reports",
             "paragraphs": [
               "This website is hosted by GitHub Pages and does not load advertising or product analytics scripts. GitHub still handles the network requests needed to serve the site, which may include an IP address, requested path, time, and browser information. GitHub's privacy statement describes its handling of this information. Local storage in the app does not mean website visits produce no network records.",
-              "When you report a public issue on GitHub, GitHub handles the account information, text, and attachments you submit, and other people can see them. We use that information to respond and investigate. Share only what is needed. Do not upload private notes, passwords, a complete library, or keys."
+              "When you report a public issue on GitHub, GitHub handles the account information, text, and attachments you submit, and other people can see them. We use that information to respond and investigate. Share only what is needed. Do not upload private notes, passwords, a complete library, or keys.",
+              "When you email us, we and our email provider, Gmail, process your email address, message, and any attachments you choose to send to respond and investigate the issue. Share only what is needed, and do not send passwords or recovery keys."
             ]
           }
         ]
@@ -258,7 +261,7 @@
           "If useful, a screenshot with private information hidden and the error message still visible."
         ],
         "publicIssueLabel": "Report a public issue",
-        "publicIssueNotice": "GitHub issues and attachments are public. Do not post passwords, private notes, a complete library, recovery keys, or access tokens. If sensitive information is needed, wait for the developer to provide an appropriate private channel.",
+        "publicIssueNotice": "GitHub issues and attachments are public. Do not post passwords, private notes, a complete library, recovery keys, or access tokens. If you need to discuss an issue privately, email entropysniper@gmail.com and share only what is needed to investigate.",
         "repositoryLabel": "View the project and updates",
         "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
       }
