@@ -1,6 +1,6 @@
 # Zebra public website
 
-Bilingual product and support website for Zebra, with real Mac, iPhone and iPad screenshots and an original zebra window mascot.
+Bilingual product and support website for Zebra, with real Mac, iPhone and iPad screenshots and four original comic-style zebra window mascots, assigned by feature.
 
 - English: `index.html`
 - 简体中文：`zh/index.html`

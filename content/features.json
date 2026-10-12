@@ -3,52 +3,52 @@
     "zh-Hans": [
       {
         "id": "write",
-        "headline": "写下想法，自成篇章",
-        "subheadline": "标题、清单、表格与链接，让想法自然成形。",
+        "headline": "直接写 Markdown",
+        "subheadline": "直接输入 Markdown，标题、列表、加粗与代码块边写边呈现。",
         "benefits": [
-          "原生 Markdown",
-          "直接编辑表格",
-          "主题与排版"
+          "直接输入语法",
+          "原生编辑体验",
+          "工具栏辅助"
         ],
         "footnote": ""
       },
       {
         "id": "diagrams",
-        "headline": "把思路画清楚",
-        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "headline": "用文字，把流程画出来",
+        "subheadline": "用 Mermaid 画清流程和关系，改文字就能改图。",
         "benefits": [
-          "流程与关系",
-          "源码可编辑",
+          "Mermaid 图表",
+          "源文本可编辑",
           "离线渲染"
         ],
         "footnote": ""
       },
       {
         "id": "math",
-        "headline": "让推导清晰可读",
-        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "headline": "公式和推导，写在一起",
+        "subheadline": "行内公式、完整推导，用 LaTeX 和文字一起讲清楚。",
         "benefits": [
-          "行内公式",
-          "独立公式块",
+          "LaTeX 公式",
+          "行内与公式块",
           "离线渲染"
         ],
         "footnote": ""
       },
       {
         "id": "code",
-        "headline": "代码，也有好排版",
-        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "headline": "代码高亮，解释就在旁",
+        "subheadline": "高亮代码，写清原理，让下次回看少一点猜测。",
         "benefits": [
           "语法高亮",
-          "代码块",
-          "文字说明"
+          "可编辑代码块",
+          "说明紧邻代码"
         ],
         "footnote": ""
       },
       {
         "id": "organize",
-        "headline": "分门别类，也能串联",
-        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "headline": "文件夹归类，标签串联",
+        "subheadline": "文件夹收好项目，层级标签和笔记链接串起相关想法。",
         "benefits": [
           "文件夹",
           "层级标签",
@@ -58,21 +58,21 @@
       },
       {
         "id": "search",
-        "headline": "按意思，找回线索",
-        "subheadline": "用自己的话描述内容，在本机查找相关笔记。",
+        "headline": "忘了原话，也能搜",
+        "subheadline": "用自己的话描述想法，找回相关笔记，搜索留在本机。",
         "benefits": [
           "语义与关键词",
           "本地处理",
-          "无需下载模型"
+          "无需配置模型"
         ],
         "footnote": "支持中英文；加密笔记不参与语义索引。"
       },
       {
         "id": "import-export",
-        "headline": "旧资料，新思路",
-        "subheadline": "在本机把文档转成笔记，再用需要的格式分享成果。",
+        "headline": "导入旧文档，导出新成果",
+        "subheadline": "PDF、Word 转为可编辑笔记，导出 PDF、Markdown。",
         "benefits": [
-          "导入文档",
+          "文档转笔记",
           "保留原件",
           "多格式导出"
         ],
@@ -80,32 +80,33 @@
       },
       {
         "id": "sync",
-        "headline": "多端改动，自动合并",
-        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "headline": "多端同时改，正文自动合并",
+        "subheadline": "手机补灵感，Mac 改计划；普通笔记的正文改动自动合并。",
         "benefits": [
           "离线也能写",
-          "连网后同步"
+          "正文自动合并",
+          "少管冲突副本"
         ],
-        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。"
       },
       {
         "id": "themes",
-        "headline": "让配色，也属于你",
-        "subheadline": "自定义、导入与导出主题，把喜欢的配色分享出去。",
+        "headline": "自定义主题，分享你的配色",
+        "subheadline": "挑选 22 套主题，自己调色；主题文件可导入、导出与分享。",
         "benefits": [
-          "自定义配色",
-          "导入与导出",
-          "分享主题"
+          "22 套内置主题",
+          "调色与实时预览",
+          "主题导入导出"
         ],
         "footnote": ""
       },
       {
         "id": "tables",
-        "headline": "表格，直接动手改",
-        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "headline": "表格直接改，行列随手调",
+        "subheadline": "点进单元格直接写，增删移动行列，让表格跟着计划调整。",
         "benefits": [
-          "单元格编辑",
-          "增删行列",
+          "直接编辑单元格",
+          "增删移动行列",
           "列对齐"
         ],
         "footnote": ""
@@ -114,21 +115,21 @@
     "en-US": [
       {
         "id": "write",
-        "headline": "Give your thoughts shape",
-        "subheadline": "Headings, tasks, tables, and links bring structure to every idea.",
+        "headline": "Type Markdown directly",
+        "subheadline": "Type Markdown directly. Headings, lists, bold text, and code take shape as you write.",
         "benefits": [
-          "Native Markdown",
-          "Editable tables",
-          "Themes & typography"
+          "Type Markdown",
+          "Native editing",
+          "Handy formatting tools"
         ],
         "footnote": ""
       },
       {
         "id": "diagrams",
-        "headline": "Draw ideas with words",
-        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "headline": "Turn text into diagrams",
+        "subheadline": "Write Mermaid to map a process. Edit the text to update your diagram.",
         "benefits": [
-          "Processes & relationships",
+          "Mermaid diagrams",
           "Editable source",
           "Offline rendering"
         ],
@@ -136,30 +137,30 @@
       },
       {
         "id": "math",
-        "headline": "Make room for math",
-        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "headline": "Math, with the thinking",
+        "subheadline": "Keep LaTeX formulas beside the reasoning that makes them useful.",
         "benefits": [
-          "Inline math",
-          "Equation blocks",
+          "LaTeX formulas",
+          "Inline & display",
           "Offline rendering"
         ],
         "footnote": ""
       },
       {
         "id": "code",
-        "headline": "Code with context",
-        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "headline": "Code alongside its context",
+        "subheadline": "Keep highlighted code beside your explanations, ready for your next visit.",
         "benefits": [
           "Syntax highlighting",
-          "Code blocks",
-          "Your explanation"
+          "Editable code blocks",
+          "Explanations alongside"
         ],
         "footnote": ""
       },
       {
         "id": "organize",
-        "headline": "A place. A connection.",
-        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "headline": "Organize projects. Connect ideas.",
+        "subheadline": "Give projects a home in folders, then connect ideas with tags and links.",
         "benefits": [
           "Folders",
           "Nested tags",
@@ -169,54 +170,55 @@
       },
       {
         "id": "search",
-        "headline": "Search beyond exact words",
-        "subheadline": "Describe an idea in your own words to find related notes locally.",
+        "headline": "Find notes by meaning",
+        "subheadline": "Describe what you remember. Find related notes with on-device semantic search.",
         "benefits": [
           "Meaning & keywords",
-          "On-device processing",
-          "No model download"
+          "On-device search",
+          "No model setup"
         ],
         "footnote": "Chinese and English supported. Encrypted notes are excluded from semantic indexing."
       },
       {
         "id": "import-export",
-        "headline": "Bring your work along",
-        "subheadline": "Turn documents into editable notes locally, then export the format you need.",
+        "headline": "Import docs. Export your work.",
+        "subheadline": "Import PDFs and Word documents as editable notes; export Markdown, PDF, and more.",
         "benefits": [
-          "Import documents",
-          "Keep originals",
+          "Documents into notes",
+          "Originals preserved",
           "Multiple export formats"
         ],
         "footnote": "Supports text-based PDFs and Office documents. Complex layouts may change."
       },
       {
         "id": "sync",
-        "headline": "Your edits come together",
-        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "headline": "Your edits merge automatically",
+        "subheadline": "Edit on your own devices at once. Ordinary note text merges automatically.",
         "benefits": [
           "Write offline",
-          "Sync when connected"
+          "Edits merge",
+          "Less version juggling"
         ],
-        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions."
       },
       {
         "id": "themes",
-        "headline": "Make themes your own",
-        "subheadline": "Customize, import, and export themes, then share the colors you love.",
+        "headline": "Custom themes, ready to share",
+        "subheadline": "Choose from 22 themes, customize colors, and import or export theme files.",
         "benefits": [
-          "Custom colors",
-          "Import & export",
-          "Share themes"
+          "22 built-in themes",
+          "Colors & live preview",
+          "Import & export"
         ],
         "footnote": ""
       },
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "subheadline": "Type into cells. Add or move rows and columns as your plans change.",
         "benefits": [
-          "Edit cells",
-          "Add rows & columns",
+          "Edit cells directly",
+          "Add or move rows",
           "Column alignment"
         ],
         "footnote": ""
@@ -227,221 +229,245 @@
     "zh-Hans": [
       {
         "id": "write",
-        "headline": "从一句话，写成一篇",
-        "subheadline": "随手写下灵感，用标题、待办与表格整理思路。",
+        "headline": "直接写 Markdown",
+        "subheadline": "直接输入 Markdown，标题、列表、加粗与代码块边写边呈现。",
         "benefits": [
-          "原生 Markdown",
-          "直接编辑表格",
-          "键盘格式工具"
+          "直接输入语法",
+          "原生编辑体验",
+          "工具栏辅助"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "直接写\nMarkdown"
       },
       {
         "id": "diagrams",
-        "headline": "把思路画清楚",
-        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "headline": "用文字，把流程画出来",
+        "subheadline": "用 Mermaid 画清流程和关系，改文字就能改图。",
         "benefits": [
-          "流程与关系",
-          "源码可编辑",
+          "Mermaid 图表",
+          "源文本可编辑",
           "离线渲染"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "用文字，\n把流程画出来"
       },
       {
         "id": "math",
-        "headline": "让推导清晰可读",
-        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "headline": "公式和推导，写在一起",
+        "subheadline": "行内公式、完整推导，用 LaTeX 和文字一起讲清楚。",
         "benefits": [
-          "行内公式",
-          "独立公式块",
+          "LaTeX 公式",
+          "行内与公式块",
           "离线渲染"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "公式和推导，\n写在一起"
       },
       {
         "id": "code",
-        "headline": "代码，也有好排版",
-        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "headline": "代码高亮，解释就在旁",
+        "subheadline": "高亮代码，写清原理，让下次回看少一点猜测。",
         "benefits": [
           "语法高亮",
-          "代码块",
-          "文字说明"
+          "可编辑代码块",
+          "说明紧邻代码"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "代码高亮，\n解释就在旁"
       },
       {
         "id": "organize",
-        "headline": "分门别类，也能串联",
-        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "headline": "文件夹归类，标签串联",
+        "subheadline": "文件夹收好项目，层级标签和笔记链接串起相关想法。",
         "benefits": [
           "文件夹",
           "层级标签",
           "维基链接"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "文件夹归类，\n标签串联"
       },
       {
         "id": "search",
-        "headline": "找到写过的那一句",
-        "subheadline": "搜关键词找笔记，再在文内定位需要的那一句。",
+        "headline": "搜出关键词，找回那一句",
+        "subheadline": "先搜资料库，再在笔记里高亮查找，回到需要的那一段。",
         "benefits": [
-          "关键词搜索",
-          "文内查找"
+          "整库搜索",
+          "文内查找",
+          "命中高亮"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "搜出关键词，\n找回那一句"
       },
       {
         "id": "import-export",
-        "headline": "收进来，也分享出去",
-        "subheadline": "照片与文件留在笔记里，Markdown 与附件随时分享。",
+        "headline": "导入照片文件，导出笔记",
+        "subheadline": "照片文件作为附件导入，导出 Markdown 或笔记附件包。",
         "benefits": [
-          "照片与文件",
-          "分享 Markdown",
-          "笔记与附件"
+          "导入照片文件",
+          "导出 Markdown",
+          "笔记附件打包"
         ],
-        "footnote": "文档转换与更多导出格式在 Mac 版提供。"
+        "footnote": "文档转换与更多导出格式在 Mac 版提供。",
+        "phoneHeadline": "导入照片文件，\n导出笔记"
       },
       {
         "id": "sync",
-        "headline": "多端改动，自动合并",
-        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "headline": "多端同时改，正文自动合并",
+        "subheadline": "手机补灵感，Mac 改计划；普通笔记的正文改动自动合并。",
         "benefits": [
           "离线也能写",
-          "连网后同步"
+          "正文自动合并",
+          "少管冲突副本"
         ],
-        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。",
+        "phoneHeadline": "多端同时改，\n正文自动合并"
       },
       {
         "id": "themes",
-        "headline": "换个主题，换种心情",
-        "subheadline": "挑选喜欢的主题，让文字、代码与表格一起换个样子。",
+        "headline": "22 套主题，随心切换",
+        "subheadline": "浅色或深色，让文字、代码和表格一起换成你喜欢的配色。",
         "benefits": [
-          "主题选择",
+          "22 套主题",
           "浅色与深色",
-          "统一的配色"
+          "统一配色"
         ],
-        "footnote": "自定义与主题文件导入、导出在 Mac 版提供。"
+        "footnote": "自定义与主题文件导入、导出在 Mac 版提供。",
+        "phoneHeadline": "22 套主题，\n随心切换"
       },
       {
         "id": "tables",
-        "headline": "表格，直接动手改",
-        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "headline": "表格直接改，行列随手调",
+        "subheadline": "点进单元格直接写，增删移动行列，让表格跟着计划调整。",
         "benefits": [
-          "单元格编辑",
-          "增删行列",
+          "直接编辑单元格",
+          "增删移动行列",
           "列对齐"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "表格直接改，\n行列随手调"
       }
     ],
     "en-US": [
       {
         "id": "write",
-        "headline": "Give your thoughts room",
-        "subheadline": "Capture an idea, then shape it with headings, tasks, and tables.",
+        "headline": "Type Markdown directly",
+        "subheadline": "Type Markdown directly. Headings, lists, bold text, and code take shape as you write.",
         "benefits": [
-          "Native Markdown",
-          "Editable tables",
-          "Keyboard format tools"
+          "Type Markdown",
+          "Native editing",
+          "Handy formatting tools"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Type Markdown\ndirectly"
       },
       {
         "id": "diagrams",
-        "headline": "Draw ideas with words",
-        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "headline": "Turn text into diagrams",
+        "subheadline": "Write Mermaid to map a process. Edit the text to update your diagram.",
         "benefits": [
-          "Processes & relationships",
+          "Mermaid diagrams",
           "Editable source",
           "Offline rendering"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Turn text\ninto diagrams"
       },
       {
         "id": "math",
-        "headline": "Make room for math",
-        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "headline": "Math, with the thinking",
+        "subheadline": "Keep LaTeX formulas beside the reasoning that makes them useful.",
         "benefits": [
-          "Inline math",
-          "Equation blocks",
+          "LaTeX formulas",
+          "Inline & display",
           "Offline rendering"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Math, with\nthe thinking"
       },
       {
         "id": "code",
-        "headline": "Code with context",
-        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "headline": "Code alongside its context",
+        "subheadline": "Keep highlighted code beside your explanations, ready for your next visit.",
         "benefits": [
           "Syntax highlighting",
-          "Code blocks",
-          "Your explanation"
+          "Editable code blocks",
+          "Explanations alongside"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Code alongside\nits context"
       },
       {
         "id": "organize",
-        "headline": "A place. A connection.",
-        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "headline": "Organize projects. Connect ideas.",
+        "subheadline": "Give projects a home in folders, then connect ideas with tags and links.",
         "benefits": [
           "Folders",
           "Nested tags",
           "Wiki links"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Organize projects.\nConnect ideas."
       },
       {
         "id": "search",
-        "headline": "Find what you wrote",
-        "subheadline": "Search notes by keyword, then find the passage you need.",
+        "headline": "Back to that exact line",
+        "subheadline": "Search by keyword, then highlight the passage you need inside a note.",
         "benefits": [
-          "Keyword search",
-          "Find within notes"
+          "Library search",
+          "Find within notes",
+          "Highlighted matches"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Back to that\nexact line"
       },
       {
         "id": "import-export",
-        "headline": "Your notes. Ready to share.",
-        "subheadline": "Attach photos and files. Share Markdown or a note with its attachments.",
+        "headline": "Import files. Export notes.",
+        "subheadline": "Import photos and files as attachments. Export Markdown or a note with its attachments.",
         "benefits": [
-          "Photos & files",
-          "Share Markdown",
-          "Notes & attachments"
+          "Import attachments",
+          "Export Markdown",
+          "Notes with attachments"
         ],
-        "footnote": "Document conversion and additional export formats are available on Mac."
+        "footnote": "Document conversion and additional export formats are available on Mac.",
+        "phoneHeadline": "Import files.\nExport notes."
       },
       {
         "id": "sync",
-        "headline": "Your edits come together",
-        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "headline": "Your edits merge automatically",
+        "subheadline": "Edit on your own devices at once. Ordinary note text merges automatically.",
         "benefits": [
           "Write offline",
-          "Sync when connected"
+          "Edits merge",
+          "Less version juggling"
         ],
-        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions.",
+        "phoneHeadline": "Your edits merge\nautomatically"
       },
       {
         "id": "themes",
-        "headline": "A theme for your ideas",
-        "subheadline": "Choose a theme for your notes, code, and tables.",
+        "headline": "22 themes for your notes",
+        "subheadline": "Pick a light or dark theme for your notes, code, and tables.",
         "benefits": [
-          "Theme choices",
+          "22 built-in themes",
           "Light & dark",
           "Coordinated colors"
         ],
-        "footnote": "Customize, import, and export themes on Mac."
+        "footnote": "Customize, import, and export themes on Mac.",
+        "phoneHeadline": "22 themes\nfor your notes"
       },
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "subheadline": "Type into cells. Add or move rows and columns as your plans change.",
         "benefits": [
-          "Edit cells",
-          "Add rows & columns",
+          "Edit cells directly",
+          "Add or move rows",
           "Column alignment"
         ],
-        "footnote": ""
+        "footnote": "",
+        "phoneHeadline": "Edit tables,\ncell by cell"
       }
     ]
   },
@@ -449,52 +475,52 @@
     "zh-Hans": [
       {
         "id": "write",
-        "headline": "从一句话，写成一篇",
-        "subheadline": "给长篇写作多一点空间，用标题、表格与链接整理思路。",
+        "headline": "直接写 Markdown",
+        "subheadline": "直接输入 Markdown，标题、列表、加粗与代码块边写边呈现。",
         "benefits": [
-          "原生 Markdown",
-          "直接编辑表格",
-          "键盘格式工具"
+          "直接输入语法",
+          "原生编辑体验",
+          "工具栏辅助"
         ],
         "footnote": ""
       },
       {
         "id": "diagrams",
-        "headline": "把思路画清楚",
-        "subheadline": "用 Mermaid 表达流程与关系，修改文字就能更新图表。",
+        "headline": "用文字，把流程画出来",
+        "subheadline": "用 Mermaid 画清流程和关系，改文字就能改图。",
         "benefits": [
-          "流程与关系",
-          "源码可编辑",
+          "Mermaid 图表",
+          "源文本可编辑",
           "离线渲染"
         ],
         "footnote": ""
       },
       {
         "id": "math",
-        "headline": "让推导清晰可读",
-        "subheadline": "LaTeX 公式融入正文，思路与推导写在一起。",
+        "headline": "公式和推导，写在一起",
+        "subheadline": "行内公式、完整推导，用 LaTeX 和文字一起讲清楚。",
         "benefits": [
-          "行内公式",
-          "独立公式块",
+          "LaTeX 公式",
+          "行内与公式块",
           "离线渲染"
         ],
         "footnote": ""
       },
       {
         "id": "code",
-        "headline": "代码，也有好排版",
-        "subheadline": "用语法高亮记录代码，让解释与实现留在同一篇。",
+        "headline": "代码高亮，解释就在旁",
+        "subheadline": "高亮代码，写清原理，让下次回看少一点猜测。",
         "benefits": [
           "语法高亮",
-          "代码块",
-          "文字说明"
+          "可编辑代码块",
+          "说明紧邻代码"
         ],
         "footnote": ""
       },
       {
         "id": "organize",
-        "headline": "分门别类，也能串联",
-        "subheadline": "文件夹管项目，层级标签串联跨项目的想法。",
+        "headline": "文件夹归类，标签串联",
+        "subheadline": "文件夹收好项目，层级标签和笔记链接串起相关想法。",
         "benefits": [
           "文件夹",
           "层级标签",
@@ -504,53 +530,55 @@
       },
       {
         "id": "search",
-        "headline": "找到写过的那一句",
-        "subheadline": "搜关键词找笔记，再在文内定位需要的那一句。",
+        "headline": "搜出关键词，找回那一句",
+        "subheadline": "先搜资料库，再在笔记里高亮查找，回到需要的那一段。",
         "benefits": [
-          "关键词搜索",
-          "文内查找"
+          "整库搜索",
+          "文内查找",
+          "命中高亮"
         ],
         "footnote": ""
       },
       {
         "id": "import-export",
-        "headline": "收进来，也分享出去",
-        "subheadline": "照片与文件留在笔记里，Markdown 与附件随时分享。",
+        "headline": "导入照片文件，导出笔记",
+        "subheadline": "照片文件作为附件导入，导出 Markdown 或笔记附件包。",
         "benefits": [
-          "照片与文件",
-          "分享 Markdown",
-          "笔记与附件"
+          "导入照片文件",
+          "导出 Markdown",
+          "笔记附件打包"
         ],
         "footnote": "文档转换与更多导出格式在 Mac 版提供。"
       },
       {
         "id": "sync",
-        "headline": "多端改动，自动合并",
-        "subheadline": "跨设备同时修改普通笔记，正文会自动合并。",
+        "headline": "多端同时改，正文自动合并",
+        "subheadline": "手机补灵感，Mac 改计划；普通笔记的正文改动自动合并。",
         "benefits": [
           "离线也能写",
-          "连网后同步"
+          "正文自动合并",
+          "少管冲突副本"
         ],
-        "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。"
       },
       {
         "id": "themes",
-        "headline": "换个主题，换种心情",
-        "subheadline": "挑选喜欢的主题，让文字、代码与表格一起换个样子。",
+        "headline": "22 套主题，随心切换",
+        "subheadline": "浅色或深色，让文字、代码和表格一起换成你喜欢的配色。",
         "benefits": [
-          "主题选择",
+          "22 套主题",
           "浅色与深色",
-          "统一的配色"
+          "统一配色"
         ],
         "footnote": "自定义与主题文件导入、导出在 Mac 版提供。"
       },
       {
         "id": "tables",
-        "headline": "表格，直接动手改",
-        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "headline": "表格直接改，行列随手调",
+        "subheadline": "点进单元格直接写，增删移动行列，让表格跟着计划调整。",
         "benefits": [
-          "单元格编辑",
-          "增删行列",
+          "直接编辑单元格",
+          "增删移动行列",
           "列对齐"
         ],
         "footnote": ""
@@ -559,21 +587,21 @@
     "en-US": [
       {
         "id": "write",
-        "headline": "Give your thoughts room",
-        "subheadline": "Spread out your ideas with headings, tables, and links on iPad.",
+        "headline": "Type Markdown directly",
+        "subheadline": "Type Markdown directly. Headings, lists, bold text, and code take shape as you write.",
         "benefits": [
-          "Native Markdown",
-          "Editable tables",
-          "Keyboard format tools"
+          "Type Markdown",
+          "Native editing",
+          "Handy formatting tools"
         ],
         "footnote": ""
       },
       {
         "id": "diagrams",
-        "headline": "Draw ideas with words",
-        "subheadline": "Map a process or relationship with editable Mermaid diagrams.",
+        "headline": "Turn text into diagrams",
+        "subheadline": "Write Mermaid to map a process. Edit the text to update your diagram.",
         "benefits": [
-          "Processes & relationships",
+          "Mermaid diagrams",
           "Editable source",
           "Offline rendering"
         ],
@@ -581,30 +609,30 @@
       },
       {
         "id": "math",
-        "headline": "Make room for math",
-        "subheadline": "Keep LaTeX formulas and the thinking behind them together.",
+        "headline": "Math, with the thinking",
+        "subheadline": "Keep LaTeX formulas beside the reasoning that makes them useful.",
         "benefits": [
-          "Inline math",
-          "Equation blocks",
+          "LaTeX formulas",
+          "Inline & display",
           "Offline rendering"
         ],
         "footnote": ""
       },
       {
         "id": "code",
-        "headline": "Code with context",
-        "subheadline": "Keep syntax-highlighted code and its explanation in the same note.",
+        "headline": "Code alongside its context",
+        "subheadline": "Keep highlighted code beside your explanations, ready for your next visit.",
         "benefits": [
           "Syntax highlighting",
-          "Code blocks",
-          "Your explanation"
+          "Editable code blocks",
+          "Explanations alongside"
         ],
         "footnote": ""
       },
       {
         "id": "organize",
-        "headline": "A place. A connection.",
-        "subheadline": "Folders hold projects. Nested tags connect ideas across them.",
+        "headline": "Organize projects. Connect ideas.",
+        "subheadline": "Give projects a home in folders, then connect ideas with tags and links.",
         "benefits": [
           "Folders",
           "Nested tags",
@@ -614,41 +642,43 @@
       },
       {
         "id": "search",
-        "headline": "Find what you wrote",
-        "subheadline": "Search notes by keyword, then find the passage you need.",
+        "headline": "Back to that exact line",
+        "subheadline": "Search by keyword, then highlight the passage you need inside a note.",
         "benefits": [
-          "Keyword search",
-          "Find within notes"
+          "Library search",
+          "Find within notes",
+          "Highlighted matches"
         ],
         "footnote": ""
       },
       {
         "id": "import-export",
-        "headline": "Your notes. Ready to share.",
-        "subheadline": "Attach photos and files. Share Markdown or a note with its attachments.",
+        "headline": "Import files. Export notes.",
+        "subheadline": "Import photos and files as attachments. Export Markdown or a note with its attachments.",
         "benefits": [
-          "Photos & files",
-          "Share Markdown",
-          "Notes & attachments"
+          "Import attachments",
+          "Export Markdown",
+          "Notes with attachments"
         ],
         "footnote": "Document conversion and additional export formats are available on Mac."
       },
       {
         "id": "sync",
-        "headline": "Your edits come together",
-        "subheadline": "Concurrent edits to ordinary note text merge across your iCloud devices.",
+        "headline": "Your edits merge automatically",
+        "subheadline": "Edit on your own devices at once. Ordinary note text merges automatically.",
         "benefits": [
           "Write offline",
-          "Sync when connected"
+          "Edits merge",
+          "Less version juggling"
         ],
-        "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions."
       },
       {
         "id": "themes",
-        "headline": "A theme for your ideas",
-        "subheadline": "Choose a theme for your notes, code, and tables.",
+        "headline": "22 themes for your notes",
+        "subheadline": "Pick a light or dark theme for your notes, code, and tables.",
         "benefits": [
-          "Theme choices",
+          "22 built-in themes",
           "Light & dark",
           "Coordinated colors"
         ],
@@ -657,10 +687,10 @@
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "subheadline": "Type into cells. Add or move rows and columns as your plans change.",
         "benefits": [
-          "Edit cells",
-          "Add rows & columns",
+          "Edit cells directly",
+          "Add or move rows",
           "Column alignment"
         ],
         "footnote": ""
