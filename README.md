@@ -8,7 +8,7 @@ Bilingual product and support website for Zebra, with real Mac, iPhone and iPad 
 - Public support: <https://github.com/entropysniper-app/zebra.app/issues>
 - Support and privacy email: <entropysniper@gmail.com>
 
-This is a static website. No dependencies, server, account system, analytics scripts or remote fonts are required to serve it. The interactive gallery has 8 features × 3 devices × 2 languages. Each screenshot has a 720px and a larger WebP variant. The browser chooses a responsive image; the dialog uses the larger version. The main page content and FAQ remain usable without JavaScript.
+This is a static website. No dependencies, server, account system, analytics scripts or remote fonts are required to serve it. The interactive gallery has 10 features × 3 devices × 2 languages. Each screenshot has a 720px and a larger WebP variant. The browser chooses a responsive image; the dialog uses the larger version. The main page content and FAQ remain usable without JavaScript.
 
 ## GitHub Pages
 

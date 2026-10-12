@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-10-11T14:32:56.958Z",
-  "description": "Web derivatives of the final 48 Zebra App Store posters. Application pixels and decorative mascot come from the frozen source posters; only proportional resizing and WebP encoding were applied.",
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T01:17:09.221Z",
+  "description": "Web derivatives of the final 60 Zebra App Store posters: 10 scenes across 3 device groups and 2 languages. Only proportional resizing and WebP encoding were applied to the frozen posters.",
   "generator": {
     "name": "sharp",
     "version": "0.35.5",
@@ -15,7 +15,7 @@
   "sourceRenderManifest": {
     "repository": "zebra",
     "path": "AppStoreSubmission/refresh-2026-10-11/render-manifest.json",
-    "sha256": "19c385d08e83cef0a563bc5e4ede8c36a727d1d21c1c14ad433fc7aee493f6c1"
+    "sha256": "921aedc3efba4a31f81406e555c354eb41ca6bdf4964ad2c18f9d16d93bf9931"
   },
   "posters": [
     {
@@ -26,15 +26,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/01-write.png",
-        "sha256": "4c292ee0de6e486795ef2cabcbb1fdad03bdcc6a7ef36a4db643839509bafadc",
+        "sha256": "de5a140d0427b48f893d93f5f0b93fb955693dd68ddbb1af3bf0524161e6a679",
         "width": 2880,
         "height": 1800,
-        "bytes": 831534
+        "bytes": 808634
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/write.png",
-          "sha256": "ba0eb04f831c88dd26be465a3f221dfefa7015ed0f7659ce39e39010f0fd9cd8"
+          "sha256": "9dabdc6488da6bd57f21e384f0affa9668c8a894c0e96cd6c9b1412ad67094d9",
+          "appThemeRawValue": "Parchment"
         }
       ],
       "decorativeAssets": [
@@ -50,15 +51,15 @@
           "path": "assets/images/macos/zh-Hans/01-write-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 31902,
-          "sha256": "896e1e322a8177850d9b867271a58b35d346584a2ae8400a00a07c3381234a03"
+          "bytes": 32120,
+          "sha256": "5e31e125afa134eaa7a18bcb0fc2b951596c0b1e1c95968a33041aa63d0c4f3b"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/01-write-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 81994,
-          "sha256": "a3960391ccffc9466df661ffea911311fdb26180118021b70171f64a5eeb5785"
+          "bytes": 83536,
+          "sha256": "304e9965a086e58390c2cb4500f0b5a26302427356fc7088695827f1aa0c8e34"
         }
       }
     },
@@ -70,19 +71,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/02-diagrams.png",
-        "sha256": "f80ceded7e1f8836e193ee8954b43ea0e7283ac25c7585585df8f7682744871b",
+        "sha256": "d3e7f9ecd7a1194f509a9649d10e2edd18d0a04cfd826ae93134bd36455edb5c",
         "width": 2880,
         "height": 1800,
-        "bytes": 761882
+        "bytes": 756302
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/diagrams.png",
-          "sha256": "f990c9e06e8e82678c49135f10b05d7ea2ffffa5faab322a6b776735fcc83a56"
+          "sha256": "676cac4a4746a42501608905a8e04d0bafb5fb6f17c4620b076d7b20cb94ea01",
+          "appThemeRawValue": "Glacier"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/diagrams.png",
-          "sha256": "f990c9e06e8e82678c49135f10b05d7ea2ffffa5faab322a6b776735fcc83a56"
+          "sha256": "676cac4a4746a42501608905a8e04d0bafb5fb6f17c4620b076d7b20cb94ea01",
+          "appThemeRawValue": "Glacier"
         }
       ],
       "decorativeAssets": [
@@ -98,15 +101,15 @@
           "path": "assets/images/macos/zh-Hans/02-diagrams-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 22422,
-          "sha256": "09b8af2bd510854081d3b7dfc3f7f3a490b08128e68a2cb3200abea730935fed"
+          "bytes": 23192,
+          "sha256": "e184ad22cbee831a2a7c4aeffdfea044e243abf50e9569e2d409945156bb23d5"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/02-diagrams-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 57204,
-          "sha256": "a3dbcf3a36fc8197baafcf757f37b7174f3112f1834e285c7fdf90e1ad1755de"
+          "bytes": 61126,
+          "sha256": "25a273aa0bf623f1dec137a27094cd340e5a34f4220bd3b5a72741c6270d4917"
         }
       }
     },
@@ -118,15 +121,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/03-math.png",
-        "sha256": "f65d6b42dccccb84a473df0d30d143599a68b3b5941b8591af262ee646342375",
+        "sha256": "8febb6e20d012ac6d774a9c3818f48bbb5ffb0cf8caff9336a5b9193fd0df629",
         "width": 2880,
         "height": 1800,
-        "bytes": 773207
+        "bytes": 733120
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/math.png",
-          "sha256": "295d23d03c6907369982a02453119c71c61ab0d36d68d0abc38de5c22daad6d4"
+          "sha256": "0ce1f9e3c1033eeede94d2fe3c50000bc86b03ea76f8c59e209a0ba60e87290c",
+          "appThemeRawValue": "Blossom"
         }
       ],
       "decorativeAssets": [
@@ -142,15 +146,15 @@
           "path": "assets/images/macos/zh-Hans/03-math-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28018,
-          "sha256": "21500261aecd52c7dc37a85708f0ecdb40ebd024788353667451cf7774c7090d"
+          "bytes": 28238,
+          "sha256": "6d11cf8a7746244791f1f0b6758e9791ea240ffaad3bf7bb38806d1031ee4786"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/03-math-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 70234,
-          "sha256": "0d92af21e061009b6366e558bfa64458fd430e5bf7a0dac350b21e5628f6c5bb"
+          "bytes": 71308,
+          "sha256": "adde657d5e77d40c264a8506e2fffe74f998c4e6be0d1ac9768dddd0ecfd644a"
         }
       }
     },
@@ -162,15 +166,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/04-code.png",
-        "sha256": "dfff9abf8738de57882b442aaa4cc20125e8f73d7185cefae702dd0f92e564f4",
+        "sha256": "12e89bbe099b60ef5be1408c3c1473915d0d6a60bba10af70a8b9e82de4ed70f",
         "width": 2880,
         "height": 1800,
-        "bytes": 802762
+        "bytes": 763077
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/code.png",
-          "sha256": "ba21d866df9fb3408b84932c308259db903a1e4fd4d1e0306e76b9207ec34d05"
+          "sha256": "88e9ce6c07a66e3f1259d2a98b5eb9f59590afc8719987100cd1235607901828",
+          "appThemeRawValue": "Night Circuit"
         }
       ],
       "decorativeAssets": [
@@ -186,15 +191,15 @@
           "path": "assets/images/macos/zh-Hans/04-code-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 29362,
-          "sha256": "1a954d8a49dc2d4b446ce0c4b32cc493917aaa5f252218bceeb5b7b9003908e1"
+          "bytes": 32208,
+          "sha256": "0e6af09f99572a383c182ed7b4d47b7907d31d81005e86bceb4f19fe1225820a"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/04-code-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 73094,
-          "sha256": "5fcf0c32e45eb2c6752feff962a005da8f16da6495474f317adfd50a68fb5490"
+          "bytes": 83182,
+          "sha256": "a8a9c742f7290dd11aff9ff407593cc1df6db694744307c00b30d6edd51bc60e"
         }
       }
     },
@@ -206,15 +211,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/05-organize.png",
-        "sha256": "5c7ef63a1393e7d2fefbe9aba156d7f8d8dd8dc0c0b74794434eb8d2133b8557",
+        "sha256": "e2f5c90ca29b92c4b4d7dd2e778295014f03893d569c4549ebb971bcac410718",
         "width": 2880,
         "height": 1800,
-        "bytes": 868846
+        "bytes": 823804
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/organize.png",
-          "sha256": "586baff696ff038e428e65be8887eac8c251763b8ff0d86c9345917e587c88a9"
+          "sha256": "1affc2469a8dd260692d62e6041ebb4e6e1ee95fd46cc1e6fee07dce8ed8f5a4",
+          "appThemeRawValue": "Sage"
         }
       ],
       "decorativeAssets": [
@@ -230,15 +236,15 @@
           "path": "assets/images/macos/zh-Hans/05-organize-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 31932,
-          "sha256": "6408f0857a2a7ecdde855ad96bd53cf90b7be80fe2d76ce00ba1df0d5c81ccb4"
+          "bytes": 31848,
+          "sha256": "17d777bc94e32db76e38006e07470a9d88f63402051aed14e40bcad63b1a96ae"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/05-organize-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 84256,
-          "sha256": "73d122e8042bac97ed2fa2fc2a3b69ef1467af00c707122a8756fe38bcfb8112"
+          "bytes": 84656,
+          "sha256": "ee82185055f2dd746ba1105ae993110d74081fa51fc4fad502345d942a9687e5"
         }
       }
     },
@@ -250,19 +256,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/06-search.png",
-        "sha256": "665c604c364d2b416ee003e8fcb2dcd50eb210d07374293981bc819e7fe2bc80",
+        "sha256": "3eca1c8174aabfc4d2a7f4bd5ef378fd3ec6b9cc5035e8b572d7914cc6a9b557",
         "width": 2880,
         "height": 1800,
-        "bytes": 856947
+        "bytes": 914164
       },
       "captureSources": [
         {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/math.png",
-          "sha256": "295d23d03c6907369982a02453119c71c61ab0d36d68d0abc38de5c22daad6d4"
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/search-context.png",
+          "sha256": "07cfc3e798366b62fa362d27f312ef69ff151fb364aa4ec4f7a11c8cc387bd24",
+          "appThemeRawValue": "Hologram"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/search.png",
-          "sha256": "0572bee792dd905de7733afd14679398f285b9e7da9683430b0c9e75bbec46f3"
+          "sha256": "84b6e15dc2eed95edd11cd7edb81eb7c8f138a3d7a472390546247f7cc255f4d",
+          "appThemeRawValue": "Hologram"
         }
       ],
       "decorativeAssets": [
@@ -278,15 +286,15 @@
           "path": "assets/images/macos/zh-Hans/06-search-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28802,
-          "sha256": "3a08500421bbb695d8745ba4e12c86042df20b9142c43fc2c084ef2e0b61d228"
+          "bytes": 28494,
+          "sha256": "c571b20846ae25857752aa0ea91c8470719452030fbef1220cbc6f7809ee5fe6"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/06-search-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 74858,
-          "sha256": "7a79c8990351fd9fab55aff4defaf4ba806265249eb912a79b1e459069d7e480"
+          "bytes": 74302,
+          "sha256": "ac03ff0a91fcaae5ee5332bf96c1e356247a6a24b5a88b0d7484034a9f7fd0f5"
         }
       }
     },
@@ -298,19 +306,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/07-import-export.png",
-        "sha256": "27205d733b83713b116542f1fdc5b809805809b6d5d9bb268e24e422315a7a90",
+        "sha256": "8975adce3b62324783c673b586e4af9c4d0ec685e175a2637a7eaf727735ad10",
         "width": 2880,
         "height": 1800,
-        "bytes": 870524
+        "bytes": 869984
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/import-export-context.png",
-          "sha256": "6abe102c0e26ea9c8b1d97933fa9b69bffdc610726f12ef4ea39541b29d4d635"
+          "sha256": "b3179e3edab430b9bb9908c96aaf7729169826a4235b43496581d173516d0323",
+          "appThemeRawValue": "Espresso"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/import-export.png",
-          "sha256": "fbc80b77a8cbcfa66d5cfd6cf04e0565e16b99ace12cf304d5bc91fe4380d84b"
+          "sha256": "c3ae7241611ca22ae2c7caef44c26b81d913262f2911e4a73f446f98e5ff38d5",
+          "appThemeRawValue": "Espresso"
         }
       ],
       "decorativeAssets": [
@@ -326,15 +336,15 @@
           "path": "assets/images/macos/zh-Hans/07-import-export-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28320,
-          "sha256": "512937f0b4ad708ba8fd0ef65ce856fde17f45d8641ebc29ad04b66420bda6bc"
+          "bytes": 29788,
+          "sha256": "b4bf646009d9dcb6163485c8c57dc7c10449b4fa1445a20eaa4413ad24f851ef"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/07-import-export-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 75070,
-          "sha256": "3096c0ecb5ba02e1a5723ce3ebd2b1f3f41e618be60570c8dec31402d945c1e7"
+          "bytes": 78592,
+          "sha256": "80c510829f565ba0322a1032a6c60e7e926596db02e255da8531af981e2a93e1"
         }
       }
     },
@@ -346,15 +356,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/08-sync.png",
-        "sha256": "f895259a8104469f47b8247aa69b0b5aeaf965600ce28f4dd5f7ab564a036505",
+        "sha256": "3187ad4e6fca2369139fa0b230456440af250f7c33476245b024afafdcd7ad51",
         "width": 2880,
         "height": 1800,
-        "bytes": 648621
+        "bytes": 660888
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/sync.png",
-          "sha256": "7125fdfd96bbfa2003197a3dc8213c648ebd219db3bfd1ac50a937110bbcc285"
+          "sha256": "28bdc77f48b58cd3adc0b12c9667c23979323f2331312cfbb1f6e162865ff845",
+          "appThemeRawValue": "Pine"
         }
       ],
       "decorativeAssets": [
@@ -370,15 +381,119 @@
           "path": "assets/images/macos/zh-Hans/08-sync-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 26906,
-          "sha256": "19c6f477c8e428de6e078f4731e25694130bf2bf5293f6efe4eb899025db386a"
+          "bytes": 28176,
+          "sha256": "0a32c811a31daf41813e848022e9c6cf0557a704a1528d8d4c0ed902dd85f231"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/08-sync-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 68516,
-          "sha256": "0c4973f3d41ff77a4e42719c2faa6a6772c881804cd2383282e3fe3ff83b6eed"
+          "bytes": 72898,
+          "sha256": "98ec7e458b07bbd60c203ec71eb01c877df4a13e885ac733f865233c87a02bbc"
+        }
+      }
+    },
+    {
+      "platform": "macos",
+      "locale": "zh-Hans",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/09-themes.png",
+        "sha256": "86d4e7cd6cad40b7286dcaf7ec82f7955646bb29b751e75172e2047bab3f4b78",
+        "width": 2880,
+        "height": 1800,
+        "bytes": 926380
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/themes-library.png",
+          "sha256": "ff59ddae6d6a7ef791cf368df5592816b19d9dcdbe0c25ceb69ee02241379323",
+          "appThemeRawValue": "Aurora",
+          "baseThemeRawValue": "Aurora",
+          "customThemeName": "极光工作室"
+        },
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/themes.png",
+          "sha256": "c871a388acbacc731a558cd768aa576f08b51d642b948ffe56610e73e1edce06",
+          "appThemeRawValue": "Aurora",
+          "baseThemeRawValue": "Aurora",
+          "customThemeName": "极光工作室"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/macos/zh-Hans/09-themes-small.webp",
+          "width": 720,
+          "height": 450,
+          "bytes": 31538,
+          "sha256": "6edee7c54fe472377e378758c7b28b13c1f6f5bff7339b9d6e2cedca97a05b75"
+        },
+        "large": {
+          "path": "assets/images/macos/zh-Hans/09-themes-large.webp",
+          "width": 1440,
+          "height": 900,
+          "bytes": 83088,
+          "sha256": "7fd3a6dff61cf5dd332311b61ddf9c6606937e553473a297059e0643291f3ef2"
+        }
+      }
+    },
+    {
+      "platform": "macos",
+      "locale": "zh-Hans",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/10-tables.png",
+        "sha256": "9ab1ce14b68bbee1a5a7954263944a3c2a16d2d219825468aac3cde871949ccf",
+        "width": 2880,
+        "height": 1800,
+        "bytes": 1107091
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/tables.png",
+          "sha256": "fcac01c1c54258f4cec2dcf5d0fc4a3ca4d7aed2efd0a2556114dd98ee3a94ac",
+          "appThemeRawValue": "Daybreak"
+        },
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/tables-panel.png",
+          "sha256": "bc9deac1ade2725d6e7c6f290f25a4091ccc4e10a5135ac7c2d222d87be4aec2",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/macos/zh-Hans/10-tables-small.webp",
+          "width": 720,
+          "height": 450,
+          "bytes": 30800,
+          "sha256": "ac9aea8c69fa5e85a0b53adbd63e9605aa5bc25612e32f6ac6d08228f43ab6f7"
+        },
+        "large": {
+          "path": "assets/images/macos/zh-Hans/10-tables-large.webp",
+          "width": 1440,
+          "height": 900,
+          "bytes": 83912,
+          "sha256": "50a98866064d42687b18dc7713d569ff9ae1754ff8e0ada910e06a77ef5dbdd6"
         }
       }
     },
@@ -390,15 +505,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/01-write.png",
-        "sha256": "ff85ad73a21c5d56947cdcf337e83c0e0961c0b9e9182599082e3f3d8e995290",
+        "sha256": "919b5edb7b26ec5cbae778244cf64b480ecbb6e503786dfccabfae6813e8bf77",
         "width": 2880,
         "height": 1800,
-        "bytes": 874025
+        "bytes": 843623
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/write.png",
-          "sha256": "5bea866ba55f62ae7d959dfc271cee9ff1f522c590037e94bacac8d9a48d773c"
+          "sha256": "247a731c7525883470b7f9753bd33cb4be423601eebd6f06a2cb609265cb5978",
+          "appThemeRawValue": "Parchment"
         }
       ],
       "decorativeAssets": [
@@ -414,15 +530,15 @@
           "path": "assets/images/macos/en-US/01-write-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 38500,
-          "sha256": "f50243314ec42b68509c917180b12e2c3cfde64d20f8e19ae5e7779aa003d22a"
+          "bytes": 38828,
+          "sha256": "50e32fc8483760572563f1a0cc500d2d985e1ee06958e88b4a8af4f27e0af119"
         },
         "large": {
           "path": "assets/images/macos/en-US/01-write-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 96414,
-          "sha256": "23f86364ee1630be05cf14852ce82e7421285a93a6425595aa723d0fecb797a0"
+          "bytes": 96626,
+          "sha256": "0cb2d9be67198a8db1df95be6f460660621b0306d4b6f375e8744835489dafb3"
         }
       }
     },
@@ -434,19 +550,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/02-diagrams.png",
-        "sha256": "da3993d42e92df17151eec247235757f6c0b1d095e772de83ff496a8680d915b",
+        "sha256": "cc1e1292c521093161792d2877680d213582fe575110fe25c1b4f5e3a2a7142b",
         "width": 2880,
         "height": 1800,
-        "bytes": 765713
+        "bytes": 793526
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/diagrams.png",
-          "sha256": "ea23b13b5405382caa8bfd1405394b6cd10d4e3c119ef66f0bc94d4791f965fa"
+          "sha256": "a6d1c2e283e34a811299e0f78ed9eb6552bba4618a0fb39fec93ad6631570ff8",
+          "appThemeRawValue": "Glacier"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/diagrams.png",
-          "sha256": "ea23b13b5405382caa8bfd1405394b6cd10d4e3c119ef66f0bc94d4791f965fa"
+          "sha256": "a6d1c2e283e34a811299e0f78ed9eb6552bba4618a0fb39fec93ad6631570ff8",
+          "appThemeRawValue": "Glacier"
         }
       ],
       "decorativeAssets": [
@@ -462,15 +580,15 @@
           "path": "assets/images/macos/en-US/02-diagrams-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 24972,
-          "sha256": "2ebf6afeeca7501330b1536670abc44c3a1a88952e7695d02f80f91c269bd85d"
+          "bytes": 26214,
+          "sha256": "fab2ba58e277792d9d97d9a6ad42efa94ed06bca091ef732492749ca7dd2a2fd"
         },
         "large": {
           "path": "assets/images/macos/en-US/02-diagrams-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 63206,
-          "sha256": "8433fe577e3d562880bd65818024fa6b57229e800ca6fd261a58d15d5b6391ea"
+          "bytes": 68590,
+          "sha256": "c5da1f4556d8735b7a4f152e0161d66bc742ec66118b9b500b6cd2b339c0fe44"
         }
       }
     },
@@ -482,15 +600,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/03-math.png",
-        "sha256": "e89db1363e38eef251a52c7d340a8ccbdc496c74840cf17650ebc4510df2a4c0",
+        "sha256": "9a2ff1b5014c606309bad424713c488f09068d23b4b193e94fe6722b21c12c30",
         "width": 2880,
         "height": 1800,
-        "bytes": 772393
+        "bytes": 766365
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/math.png",
-          "sha256": "262f0c17974d4793ae213067360d7fd085fc4992657516fe85816f9d799f110d"
+          "sha256": "7de3c4ddc2c93ce03166d302215b0625b73102107228fadc7e3ba8397dc18b8e",
+          "appThemeRawValue": "Blossom"
         }
       ],
       "decorativeAssets": [
@@ -506,15 +625,15 @@
           "path": "assets/images/macos/en-US/03-math-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32074,
-          "sha256": "c389d94e0b68be0da706b78fe7f3f0a8f66c870ccddcd8defc03ce1a35b83b83"
+          "bytes": 32096,
+          "sha256": "604c71de2a1fd4fc1c32dfd952cd826f253fc356951a5f8e9c20bbb38ca8041e"
         },
         "large": {
           "path": "assets/images/macos/en-US/03-math-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 77910,
-          "sha256": "e0bf2f994bcb08b3bb8a35c931fbb1928685ba3a1ad860866892127c0b8e4483"
+          "bytes": 79292,
+          "sha256": "c51d30073bdc640791b08011d863628fd3749790ad1360023cb301229daf2b09"
         }
       }
     },
@@ -526,15 +645,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/04-code.png",
-        "sha256": "693ad7d578d727b5557078f79468a75f7c908ccdfec9c66fd4c95f52e8269427",
+        "sha256": "f13e5e54ee037775236e4d95fd26bcefb136673ccdde44c82c5d1eccc82c41f4",
         "width": 2880,
         "height": 1800,
-        "bytes": 763168
+        "bytes": 766424
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/code.png",
-          "sha256": "749ca63f63b49e8f14459f671047058805fab04d1da6d2de96484478756cc56c"
+          "sha256": "24412f0960f30d775ef9670305de1cc21dd7219e48301043f58710265ca05a66",
+          "appThemeRawValue": "Night Circuit"
         }
       ],
       "decorativeAssets": [
@@ -550,15 +670,15 @@
           "path": "assets/images/macos/en-US/04-code-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32120,
-          "sha256": "bfebe6b613be13b9cd08563521a9024c981b4ae1eefa9c043dfe72c5bddb21e7"
+          "bytes": 35254,
+          "sha256": "293e57e514abbe71a786e6362c6258c6a0807b207b9e867162d9ebccf95213f8"
         },
         "large": {
           "path": "assets/images/macos/en-US/04-code-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 77704,
-          "sha256": "b874c9a0b271033af2181f8d53963fde97e5ce2b9b3984c4bfdb77c136e8a60d"
+          "bytes": 88372,
+          "sha256": "fbd1522da173122f234276c3b7e169ad6aa7f4d68a061081b39cb594ce601029"
         }
       }
     },
@@ -570,15 +690,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/05-organize.png",
-        "sha256": "feb3f804e8820ed0454ac4ab295accbe7870d630f6f4ea609547127ea0f1a646",
+        "sha256": "0dd2db76232cae7e9c64bb32b58582df590aa4f9a23b46289bf4b997ca1fa08e",
         "width": 2880,
         "height": 1800,
-        "bytes": 760496
+        "bytes": 731840
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/organize.png",
-          "sha256": "e4bfa7f23ef18eac96afdde942cf257f4e69348e33fdebeb60908750edecbb47"
+          "sha256": "448c3a776e9e4b6374065ed044ad6275816e1eed23f8633a9d5f532cf61ce5a8",
+          "appThemeRawValue": "Sage"
         }
       ],
       "decorativeAssets": [
@@ -594,15 +715,15 @@
           "path": "assets/images/macos/en-US/05-organize-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 30688,
-          "sha256": "cfc774ccc90b1ca356ff5e45175030c6b4bd565b8641c8ea850386e246a91713"
+          "bytes": 30640,
+          "sha256": "ff580b9b67a4883388326fa5cd40c4367738d729b9a9d2d5bdb465758d24375d"
         },
         "large": {
           "path": "assets/images/macos/en-US/05-organize-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 75630,
-          "sha256": "bd4749034ff82b28429a3eb0f1432fdb063dcc2f2223375dbc136eef36523a08"
+          "bytes": 75404,
+          "sha256": "8e6521c46245ef007da23df6a07ae0ff1a6c532b2e5c1e12d6bbc73328bb9576"
         }
       }
     },
@@ -614,19 +735,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/06-search.png",
-        "sha256": "d0141406b2630bed758561f5e6eed50fd21212121f086ff77271035edfb6140c",
+        "sha256": "dc4e1342eb38d0602c8c0ef52c86d667bd9b238adb3eccf99b6c53dbdfd9c98f",
         "width": 2880,
         "height": 1800,
-        "bytes": 927323
+        "bytes": 903548
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/search-context.png",
-          "sha256": "5d78445b11f02fc2134c3ee3f79a744e53712641f138d190f8179734aa4f968d"
+          "sha256": "88bd982b84b201c8b9ea8fec153214e993adc160f1b45851f3e93f8ced924e9f",
+          "appThemeRawValue": "Hologram"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/search.png",
-          "sha256": "91df4b736c8cc054b8012b64efcf5ebda2cee9a54325a22ed552cbbee167b134"
+          "sha256": "6a00ed0d765cf4a083b448598ad3637554b7b16d302a024cab4fd237f7e68e1b",
+          "appThemeRawValue": "Hologram"
         }
       ],
       "decorativeAssets": [
@@ -642,15 +765,15 @@
           "path": "assets/images/macos/en-US/06-search-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 33030,
-          "sha256": "7aaebf893709c1641ddcd18d9aebe4d4657e95fd3ce8bf67a64e1e5993ff5c7e"
+          "bytes": 34174,
+          "sha256": "511ae481568d278a15a8aa6f66cfc97ad6b65526ace700392b6264e31c058bea"
         },
         "large": {
           "path": "assets/images/macos/en-US/06-search-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 85062,
-          "sha256": "9707d42131014d83b544b8f5c5f68135ebe741f4caf12032a573e9e97c8fbd5b"
+          "bytes": 87704,
+          "sha256": "148e46d38689911e42e61d189cd0c9175cf6a6f534e7162aa4b8dfcff4a9f9f9"
         }
       }
     },
@@ -662,19 +785,21 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/07-import-export.png",
-        "sha256": "16ab091e48f9d05ade9e06446df3d877a13cb05bf122e5290583ebfe3dbf49a8",
+        "sha256": "2da5ed6131e9db6f63f0788aeb6896fcd8c338bd3cdc182c8e30fac873e55d68",
         "width": 2880,
         "height": 1800,
-        "bytes": 884927
+        "bytes": 917467
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/import-export-context.png",
-          "sha256": "3a043b3e833bfd26594897bf1ed3a116e48002e8efbe7c34e1b4a13b477e9b3f"
+          "sha256": "017e95b87fa0c66771f907b81932364ea8640d40dd7be459282b419df52090d5",
+          "appThemeRawValue": "Espresso"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/import-export.png",
-          "sha256": "6c4cf129bf5447fce7a65f105bd3163c8fd1c2025c1b9cd8e95a9a9d67649223"
+          "sha256": "3699a78a869809c393ec676d2a75d9253192943860dd81e52dd89d5104c62103",
+          "appThemeRawValue": "Espresso"
         }
       ],
       "decorativeAssets": [
@@ -690,15 +815,15 @@
           "path": "assets/images/macos/en-US/07-import-export-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 33030,
-          "sha256": "fa23b20065b14181fb2de6fc3b1074d23663a17fabe99a9ef262952647aff361"
+          "bytes": 34952,
+          "sha256": "6d59f4e22744d5935d588f11b2dc59c5ce35a1673aab1068ab5d9a2dccd92db9"
         },
         "large": {
           "path": "assets/images/macos/en-US/07-import-export-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 86426,
-          "sha256": "4cc90b263c882664856440443aa304a8245abe6d8a9e889bbf854851b0fcd05e"
+          "bytes": 90750,
+          "sha256": "95fdca6481edfc78ec8a8b0fafb65415aeb519685496182364dba802101d65ba"
         }
       }
     },
@@ -710,15 +835,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/08-sync.png",
-        "sha256": "de2ff945f8e3d5bafe58e6d3d1c23aca17a5be8bbd4755033fc44cad112e3ea2",
+        "sha256": "1c4772f575ca2b8c854188ccf65f5af19a0aae7c0762905163bd20a564ac0024",
         "width": 2880,
         "height": 1800,
-        "bytes": 695645
+        "bytes": 696123
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/sync.png",
-          "sha256": "698f1e7cf7b580976d53fc5da1ffba3af28d82969ecd4f2a0d457c103c6184de"
+          "sha256": "498611b28c841a92aa170aab17a988b969fe283786897e22cf6975770be6aefa",
+          "appThemeRawValue": "Pine"
         }
       ],
       "decorativeAssets": [
@@ -734,15 +860,119 @@
           "path": "assets/images/macos/en-US/08-sync-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32706,
-          "sha256": "d5e2de3cb725bf699adf9852988789160f122a81c5e2fd5928b6fec42b57f178"
+          "bytes": 34698,
+          "sha256": "952953a36907f4fbbb973c6de0021c675a238b7f6d977cb8f54bb2a64a341539"
         },
         "large": {
           "path": "assets/images/macos/en-US/08-sync-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 81286,
-          "sha256": "393d57da0db084b1d587a586349dacb284af2aaf57649d2cc2a737b15a3a525c"
+          "bytes": 85474,
+          "sha256": "622d137e13450acde3a6d4e0a8c45e38991642fa8589af1263ceeb88093766ee"
+        }
+      }
+    },
+    {
+      "platform": "macos",
+      "locale": "en-US",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/09-themes.png",
+        "sha256": "30714edbc53a79f504bfd15631f082ae52a5c3a624142df35e190a3e7651895a",
+        "width": 2880,
+        "height": 1800,
+        "bytes": 955455
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/themes-library.png",
+          "sha256": "3e38197eb09eac5e6856406f2c650442a0f6cbb5c527ae383a3b333cf28d0f5a",
+          "appThemeRawValue": "Aurora",
+          "baseThemeRawValue": "Aurora",
+          "customThemeName": "Aurora Studio"
+        },
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/themes.png",
+          "sha256": "b8e4268376eea31a6d335ad0c0f9b4aabaf7a821b4762f8c2b09ae6bdee53fef",
+          "appThemeRawValue": "Aurora",
+          "baseThemeRawValue": "Aurora",
+          "customThemeName": "Aurora Studio"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/macos/en-US/09-themes-small.webp",
+          "width": 720,
+          "height": 450,
+          "bytes": 35412,
+          "sha256": "4aad5fc3a8ae7c45f4b02d45ebbf9f8957994e8d6d588a6e12cec3a14e48b56f"
+        },
+        "large": {
+          "path": "assets/images/macos/en-US/09-themes-large.webp",
+          "width": 1440,
+          "height": 900,
+          "bytes": 92590,
+          "sha256": "df266683f5cd15fc36a02972216157d6eb49f240a64cddee992b3e8f72503d25"
+        }
+      }
+    },
+    {
+      "platform": "macos",
+      "locale": "en-US",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/10-tables.png",
+        "sha256": "81ed58bb6fcc9f70e0fa50676a09811b7887573ced4928f6aafc5c66fc5daabb",
+        "width": 2880,
+        "height": 1800,
+        "bytes": 1148467
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/tables.png",
+          "sha256": "d8e1ab18d43032fd2cc68dbddd2fabc3b8616e64eb3c91f93dc8e656c3ff016b",
+          "appThemeRawValue": "Daybreak"
+        },
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/tables-panel.png",
+          "sha256": "1f6104a76d38ff2e80ec224e755d0aa7acd4b5159434fe277b016b1731e0dac0",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/macos/en-US/10-tables-small.webp",
+          "width": 720,
+          "height": 450,
+          "bytes": 34456,
+          "sha256": "89180979e375bc7d29cdff5c97dac7a236f5a835ba4510b322d636ed3ccd21ee"
+        },
+        "large": {
+          "path": "assets/images/macos/en-US/10-tables-large.webp",
+          "width": 1440,
+          "height": 900,
+          "bytes": 90602,
+          "sha256": "41e8bca59b363f18fff3ce7e22ea0aefe767fad62b879f7d2afcdc5aa232c7df"
         }
       }
     },
@@ -754,15 +984,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/01-write.png",
-        "sha256": "8f5855edb4ecbd0cb51c00d6aa74d20f833493ef97da3904851aec250ce9dc00",
+        "sha256": "09013240c442e1584f83b3cfd513df158f077351b99177b89bb6945ae10472ba",
         "width": 1206,
         "height": 2622,
-        "bytes": 472407
+        "bytes": 477020
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/write.png",
-          "sha256": "34e88c3d5eb79d7384dbfa02f55dfc7b5e3b182f64066bdb3551e43ff1088dd6"
+          "sha256": "34a9a637fa3d16c35801c6c8e850a7b747ddc77b2d667bc1ae2285767de78909",
+          "appThemeRawValue": "Parchment"
         }
       ],
       "decorativeAssets": [
@@ -778,15 +1009,15 @@
           "path": "assets/images/iphone/zh-Hans/01-write-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 60122,
-          "sha256": "598beb05803a97aa58ca5c21953068b517f56549db8929fad367f1f420938cdb"
+          "bytes": 60614,
+          "sha256": "cc0f800cdfb33a981ec30a3db42267d4d0273737f6a997bf20229c2334ca578d"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/01-write-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 106838,
-          "sha256": "9ae692d9dab29ebbf8a3aed1b1bb887481337d1ad2ee6600a06418888c469391"
+          "bytes": 107564,
+          "sha256": "beb3c6e976ee6ff2d2d92d11d0a03fc4156747b88ae5b2402f37d804e8639c19"
         }
       }
     },
@@ -798,15 +1029,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/02-diagrams.png",
-        "sha256": "22e603f6674345761b0f9f1e5b47d56aa3a7d5e71634d1b8e171b3ed956dbca5",
+        "sha256": "87a871f3f276b0dac972a53dfa70ceb4caf2c882bcb1abb1a859f3f4231c032d",
         "width": 1206,
         "height": 2622,
-        "bytes": 401172
+        "bytes": 402143
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/diagrams.png",
-          "sha256": "38a50b7e61ace73258110a3dde8f57b7d82f49bfd3e7c0efa83f03a3ada1a676"
+          "sha256": "5de7d4de0e23cd6ccbfbf4806cd4c5fb904b7b8d6bb00727d6043b7911691a29",
+          "appThemeRawValue": "Glacier"
         }
       ],
       "decorativeAssets": [
@@ -822,15 +1054,15 @@
           "path": "assets/images/iphone/zh-Hans/02-diagrams-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 44002,
-          "sha256": "b80d6d0d65b414c658a4fb9d40f5ff5fde6d740f46d914add58d3b6fc3d9c25f"
+          "bytes": 45722,
+          "sha256": "4c87845e47301c29122c04d5e8ac86bfc483eb06b2273aee256bcc956c8e330a"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/02-diagrams-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 76150,
-          "sha256": "8de997f424ad422f73592daa07c27762e4cce7ae1844b50d2b3c17aa48d620d2"
+          "bytes": 79350,
+          "sha256": "4b9bdf8805eebf9b0390de94afd5fc303b1578c49fea973fd0c8f041c4c60f35"
         }
       }
     },
@@ -842,15 +1074,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/03-math.png",
-        "sha256": "fb15078627fc3fe6e7da98142aa516b78ded8d9cd86c193f86e03040bf081133",
+        "sha256": "cb14f4c74ef9fac5169ba925a452e5b22540379ad03a3726207a3b705922b1a8",
         "width": 1206,
         "height": 2622,
-        "bytes": 419144
+        "bytes": 418225
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/math.png",
-          "sha256": "bf6e1cf63955557176b9adf684e89f033f7fe761349159019f793e725dc674e1"
+          "sha256": "3dd7e99a5602dbdf0ef280f345fe37a977ce086bd1f583b56190004be580217e",
+          "appThemeRawValue": "Blossom"
         }
       ],
       "decorativeAssets": [
@@ -866,15 +1099,15 @@
           "path": "assets/images/iphone/zh-Hans/03-math-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 49322,
-          "sha256": "51ab1bfccb2a1637a64f15e2eaa0a60d2fe48b11151c2a42d9c99513d384d31d"
+          "bytes": 49654,
+          "sha256": "ed307d900dbf930c7557649b272b55971e9809acdbe475f0d546450473b943fc"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/03-math-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 85914,
-          "sha256": "2dfbf8cca127cd2d5c686213ea3e6d108c59ec52e300ae6be4932df9ff1b2cb9"
+          "bytes": 86176,
+          "sha256": "728301581d97b6f320620cbc2076663303c62d588b310cd10f4223f4d675301c"
         }
       }
     },
@@ -886,15 +1119,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/04-code.png",
-        "sha256": "9e7f8d663d44deae2d862213f82635673ce8d5f577dec32c5e2e0db38f998cf0",
+        "sha256": "a397f7eae85c07e0d14af3099861edb344e8cb1ee0643be05738cf7af0760dd2",
         "width": 1206,
         "height": 2622,
-        "bytes": 469903
+        "bytes": 467681
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/code.png",
-          "sha256": "1b7a6a69cc0b821f6e841f10523387660bcab586cc02102d704956860d94b1b0"
+          "sha256": "897ef6a9f694584ebe2e6987663626e0164582b30ffb1f2025b7ec0b00d29bdb",
+          "appThemeRawValue": "Night Circuit"
         }
       ],
       "decorativeAssets": [
@@ -910,15 +1144,15 @@
           "path": "assets/images/iphone/zh-Hans/04-code-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 57748,
-          "sha256": "5062dbf8a0280d3ce84b2535567f7358c5854226f3b0db5ce23809279421e730"
+          "bytes": 60984,
+          "sha256": "1d9d29a2594e3be3da9e4a13e7648919cbc929dff47667140fe2045cc9980961"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/04-code-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 101690,
-          "sha256": "5aa621a808fc71974b28a653fc2e304229a247a537a6a311571b0d08040652e2"
+          "bytes": 103764,
+          "sha256": "2de0aa6addff20be7c5e8775ac6f82620e5045dfa92981d12d20e4e2124df63d"
         }
       }
     },
@@ -930,15 +1164,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/05-organize.png",
-        "sha256": "49250d4b254a0844652d83fc0ef9d9037e0bb59a41e5a1b1e4bb323e87082595",
+        "sha256": "a7d0d48c13805fc2232384b3ff86bf4a52f78b6dee9e408abc52adfc6d341dac",
         "width": 1206,
         "height": 2622,
-        "bytes": 344839
+        "bytes": 441536
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/organize.png",
-          "sha256": "d612228749f814498d8705e49b400527f5b3e51282ebafac61a30be8957f6c61"
+          "sha256": "abe5a7b3ba3246cef2df0580a6c505097cd1d11bea0173171a3ce2b084553a7c",
+          "appThemeRawValue": "Sage"
         }
       ],
       "decorativeAssets": [
@@ -954,1115 +1189,15 @@
           "path": "assets/images/iphone/zh-Hans/05-organize-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 38470,
-          "sha256": "639a77e74247c5201a438d56e51998339e12b6117eeef50de23210e12311b84d"
+          "bytes": 40050,
+          "sha256": "d6e8f122e5fe6119c3dab72340435eb51d41aed870acdf34ea146c23a63beb56"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/05-organize-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 67228,
-          "sha256": "2f9180c4bdb1045e3e212188ea43d8078a663b7024c2e8b83a9766829b72e956"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "zh-Hans",
-      "scene": "import-export",
-      "slug": "07-import-export",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/07-import-export.png",
-        "sha256": "ef4f7e1ecddfa3de38bfe6b6b1835f67310107fc8e720dff710ece258846d4a3",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 618789
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/import-export.png",
-          "sha256": "426e88bc60fec5a27ac3a77d3ef966c983e577e67cc6ccf6ab0afcc77702a728"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/zh-Hans/07-import-export-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 65318,
-          "sha256": "1aabfdb0e40f9ac9e7ebfbd354c64ac42b97b603983df2a3be810ac273da3db0"
-        },
-        "large": {
-          "path": "assets/images/iphone/zh-Hans/07-import-export-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 114060,
-          "sha256": "170f141dbd0d76b001f2448c607b960a8d1575ee759a90491fac3e04e7de0de5"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "zh-Hans",
-      "scene": "sync",
-      "slug": "08-sync",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/08-sync.png",
-        "sha256": "fe583332843c3c2f55a8bcc37d8913ecac2af7bc69626861acc2993c84458a23",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 442999
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/sync.png",
-          "sha256": "54dafc661a3878c135a9a993506f40d1a1026eda5e761bb8d3bd8be2ba781e88"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/zh-Hans/08-sync-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 58020,
-          "sha256": "272487e8e5490b0c1bb09fc6d8c3bcb710295585cb390dc280649436f30a2834"
-        },
-        "large": {
-          "path": "assets/images/iphone/zh-Hans/08-sync-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 103680,
-          "sha256": "9691cd8a61f02135635b670dbfc51066ffd497c8bdd5f5e1b0c0e57e2b0d0159"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "write",
-      "slug": "01-write",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/01-write.png",
-        "sha256": "03211a8620f17c9f8dd0756fd93864344ce97318134c216b434a9860f2ecc807",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 530185
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/write.png",
-          "sha256": "c335962226d5cbec4c839f867feac2b5a0558ba5c55442251cdb488d95e289ed"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/01-write-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 70468,
-          "sha256": "d1f4294b6c8568c44a767eb7dbbf2a334b8307ad1fd375fcac2e1e04c2c5e70a"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/01-write-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 123410,
-          "sha256": "51ff5cf2244d3e070b66ea42322d135c9c1fe021962cad587b357813faf4af77"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "diagrams",
-      "slug": "02-diagrams",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/02-diagrams.png",
-        "sha256": "9e5711f136ceeedff1c269cff404d3fab2801823ea8912b6fefdf194ff934d27",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 425071
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/diagrams.png",
-          "sha256": "88c8ff6c79729ee41cb6a773cc711b6c1b3c0eec2b07c53ba166eb33a4e9f9a1"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/02-diagrams-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 48296,
-          "sha256": "7a53ff9224f5e1c3ac7d8ab19693057003088ba5e1357b74b3bbdb3bc2a64fa0"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/02-diagrams-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 84496,
-          "sha256": "908e4b9b833cd502511c63124a6b104bcbe909b0e0da31941bf77b1854757670"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "math",
-      "slug": "03-math",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/03-math.png",
-        "sha256": "34cf96f983e4d434d291cd1fde3a4abfae2c7fd68f11fa4b71dbe0fb28e9a605",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 433997
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/math.png",
-          "sha256": "6ceb429df91a71dcb26f2d372e2c0db9557096dac0d6e832a3be7df2b3d731b4"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/03-math-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 52050,
-          "sha256": "5b0795f32d95be9cbfcb785d3bb0fb7c2ef32dbea20ef69e6e57cc95bc33cfb2"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/03-math-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 91780,
-          "sha256": "cc1d71cbdd2b377e5a8190f9d0a452e6aaff54d410576b4534cef0e339a32634"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "code",
-      "slug": "04-code",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/04-code.png",
-        "sha256": "3a98b10f4766530fa040d8a52775d152afef30e8e90dd5a307f032d346039434",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 491284
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/code.png",
-          "sha256": "33910c126cee150f30a5b531fe2a7561007f3b5ba02a380ac2257a98c69000b3"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/04-code-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 61130,
-          "sha256": "719bfcf6f2a828e2ad616d10592d759307c524fde86137ce75719fe66bf08756"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/04-code-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 109138,
-          "sha256": "1168c60769a0a644e7f0a136b46388389c17518e3fa4317592dd02fb263e3efd"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "organize",
-      "slug": "05-organize",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/05-organize.png",
-        "sha256": "25aee356f56ca11506d7546228db26d8dbf3cbbe62e341259b69116d754dcc3f",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 338053
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/organize.png",
-          "sha256": "3ec8665b1b8cac472e030f7b9cc0679b4e75ae26c3b2b77e0ed72ec7a4b23d87"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/05-organize-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 38028,
-          "sha256": "686a13a140447851182a2f87d431cedf7fa441efad56436c390786026af635cf"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/05-organize-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 67544,
-          "sha256": "13ebd363e5f2e85c19e56504e7d78725d20750c8286961c2e2082c2e75f2ceb9"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "import-export",
-      "slug": "07-import-export",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/07-import-export.png",
-        "sha256": "3c534bba5f657ef4113b07bd983c11a67dfe5f4a9af2096a05511228522eb6b5",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 650531
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/import-export.png",
-          "sha256": "4fc73eccca2212598c2365b26e5a2945587c2689a08f0b95e1d9d24d3c419e1c"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/07-import-export-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 68974,
-          "sha256": "7c533a5619183b60e4ea665798248f287f0ad45f33f43cf897501a61f68af4dc"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/07-import-export-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 121126,
-          "sha256": "bbd6dffed81b2a2f907dabbab974d3ef50ae42e20213a5f608089c0cb41dd38e"
-        }
-      }
-    },
-    {
-      "platform": "iphone",
-      "locale": "en-US",
-      "scene": "sync",
-      "slug": "08-sync",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/08-sync.png",
-        "sha256": "f5e1733d48fe51eedb3e641ff9460342092bd45dc221579fc615a69ffbc4383f",
-        "width": 1206,
-        "height": 2622,
-        "bytes": 496578
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/sync.png",
-          "sha256": "55dc01ee3608effbfd7c0c8b42efa28e60b6d46ab1126c8041b70c3dabed6a79"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/iphone/en-US/08-sync-small.webp",
-          "width": 720,
-          "height": 1565,
-          "bytes": 69140,
-          "sha256": "d06547895e97bce2356cec2905868dda4b03bc508eec2d6cda75aae5d23ec4ee"
-        },
-        "large": {
-          "path": "assets/images/iphone/en-US/08-sync-large.webp",
-          "width": 1206,
-          "height": 2622,
-          "bytes": 125074,
-          "sha256": "02e8254744f94c44eea8ca3329f446068d715212ea86874927edc4c13bf5f75f"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "write",
-      "slug": "01-write",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/01-write.png",
-        "sha256": "dd5083c31d85d23501aed1392ce1dfb5d2b36268263d24304f30004815e0dd58",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 930735
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/write.png",
-          "sha256": "5e4c93113f689e075bef13b6f820840b6461477f81bda3653dcbf8ef87067691"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/01-write-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 33510,
-          "sha256": "b52e80a495661cd2369f53960b23d66ef63f76e7e2cd41ba07dfef5d653a8163"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/01-write-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 94694,
-          "sha256": "6a7121cff25fc4eb78d8a9695625a2537ba002b737b76debc15c8bc34e8ec123"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "diagrams",
-      "slug": "02-diagrams",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/02-diagrams.png",
-        "sha256": "d810cfc25e7481bbb3c13d1d858ad4a91f010e66ee952aea53ddcdc718a2c405",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 899350
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/diagrams.png",
-          "sha256": "73e90ba35ec59d9dfc6b91a860c177a74bb2ee96d343fdfb54de747a7cc766ed"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/02-diagrams-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 29990,
-          "sha256": "a9c8b9bbd178073427a8ec9469a47fdc1c425a8822ea74bb93cab770986afa43"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/02-diagrams-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 82950,
-          "sha256": "ee58c5a3aa51e570db4a6963017113db61e5748d86e88e6552fa84b31b4751d9"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "math",
-      "slug": "03-math",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/03-math.png",
-        "sha256": "097e7a4311b92378edbffcc5e46a066c39bb5eb231369c48a912b81e01720ea8",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 916343
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/math.png",
-          "sha256": "1bece12a563d9414daf87d070a1af87ebddf39a6ba3978800d4a2ba847fd3478"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/03-math-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 32044,
-          "sha256": "8a6d20ffa79f2ac4e87d3c9ef4d8a38a279336a0cc94b4fd6c04f327dfb39400"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/03-math-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 89126,
-          "sha256": "334f34b9a07719c6f255bdd4795072318223f3d42c193b2dc5961b72fec244ef"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "code",
-      "slug": "04-code",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/04-code.png",
-        "sha256": "1f627ac1620fc7787923b7f255cc2a55ccc62b2fec947d8dc531d6982f6998ae",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 923964
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/code.png",
-          "sha256": "61523f84cab636fed183b6aaa4e67c32e091593821185be925c496dd2a500b96"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/04-code-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 33050,
-          "sha256": "bf9d9ec7603ac18756f7c29f0713bb8b4b7cfe4eb1cb5b0eff798e4d28fdeb0b"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/04-code-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 90798,
-          "sha256": "6da3ae12b62c2d7a7b65022a5a1d4f4d019638f71550d721e38926073d042f10"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "organize",
-      "slug": "05-organize",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/05-organize.png",
-        "sha256": "bc0134fc64b66e59e3e1bce8c1adb454578775f53c5a0c16a16482f7084ebdee",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 947685
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/organize.png",
-          "sha256": "733981b9b1b802badc87d87105918440d8865bdd59d79c7278e79655f646f3c2"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/05-organize-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 32310,
-          "sha256": "7acaaf328ef3a05ae7c2750a982177b0a0439c91601d6e5e0f7c562b1e17bc9a"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/05-organize-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 91202,
-          "sha256": "8bf26c5483b7e1304a90b46eda4ced8539a94b8b806aebbd383364b750477ae6"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "search",
-      "slug": "06-search",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/06-search.png",
-        "sha256": "3f62dbbcd6dcc749a63d3d05f9e14cfc0fbdf9c2a9d1825310a7e60df89f14ea",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 616535
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/search.png",
-          "sha256": "366693a578b367dd724fb4f13930b9eb2f8f21de8066c3f3b9d7b06b1266f8fb"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/06-search-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 22104,
-          "sha256": "84c121ff4a6cf5ffd1f45765ead04289ab18c74133bda0fc5b2e492d5a33edf0"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/06-search-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 57678,
-          "sha256": "b5f9ff9ae7c573e539b255c327f2fa6ee52a68ac18a5899052a00aeb6f719717"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "import-export",
-      "slug": "07-import-export",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/07-import-export.png",
-        "sha256": "3ae78243b30dbf567aca60a125e159f854525dfc1c0192292a0d3d4489b51b77",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 1008607
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/import-export.png",
-          "sha256": "a524cc8ffd6cd71a301dd9c03398b7a7a8ac606c865c1dea607a6addd26335a1"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/07-import-export-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 35026,
-          "sha256": "000acc8b3580b4c570d423af255e91e3448a3a14b4b800e64939c35257758300"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/07-import-export-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 97414,
-          "sha256": "e26a925f62131b46dab923c7659d3cbb301b1cfa3c148dd2605c56a69dd87c63"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "zh-Hans",
-      "scene": "sync",
-      "slug": "08-sync",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/08-sync.png",
-        "sha256": "97a708c8daaa4df9912583bd3d5940b0ab0dc4be445608bc6923b2f0b93228fa",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 828477
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/sync.png",
-          "sha256": "b004f0609cb58a9584ee29df2dec80c1f192104726eaee769de04120fe8d9481"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/zh-Hans/08-sync-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 31996,
-          "sha256": "cb5b19dcc561f3d427215c0c7cb0f75106c30f25da8fdfe7095040956fe7b8bf"
-        },
-        "large": {
-          "path": "assets/images/ipad/zh-Hans/08-sync-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 85702,
-          "sha256": "e084315f828a39798514952c710b9c2bc39bdf5559e5950f567b5d8ef1c9096b"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "write",
-      "slug": "01-write",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/01-write.png",
-        "sha256": "71b024e13dc78102a814c3ce8c5e0afd9c3696b155625bca0f680936eb408b3b",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 936592
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/write.png",
-          "sha256": "f853688c7af3097e786714b9b21d3636a87de3db527cd16daf2d32759f83c178"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/01-write-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 37700,
-          "sha256": "4f7a5670d8270f8ed9cb8ddb7a516753430b6b815605902153d0cfaeb4f30740"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/01-write-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 100946,
-          "sha256": "e3be5a051365f3f441ecc0294189b02576d2e0663645300fa4e228a4351c445d"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "diagrams",
-      "slug": "02-diagrams",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/02-diagrams.png",
-        "sha256": "b0ec15c7f6ea3933968330ac3d478168f72eea30ead06d05602ba42158deff29",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 895994
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/diagrams.png",
-          "sha256": "bafd04c1dd9ba6724498961893b8117e34d76949e68fa06256364cf7b02a288a"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/02-diagrams-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 32994,
-          "sha256": "caea1870de997ad9a61fbbaab72ccd761623da4e9c733f577fb750049a6e49d4"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/02-diagrams-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 87122,
-          "sha256": "9580cfa64752dba72564814c58c798b2047ff81514a0776586a3ef35daf6a716"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "math",
-      "slug": "03-math",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/03-math.png",
-        "sha256": "af86a10b8f83eb96c9c47ea5d9c612c5a5a57076f62aa2feaf8ec062a3f65736",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 905735
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/math.png",
-          "sha256": "61741b71a158e34261d6b470659d2473343ca0539a255676510b923d07a7803d"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/03-math-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 34586,
-          "sha256": "962215f948c05736bd13456ba860a9f5fb351258f1547c313920fd07ed979cf0"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/03-math-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 91868,
-          "sha256": "42f356e0b6a58327e1e881f2d61851bc3b53483e20784c3f1443da082c3dd450"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "code",
-      "slug": "04-code",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/04-code.png",
-        "sha256": "903efb9fcd5585147edee6216b262705c5dcbcc1bb8d61a89779e09865a69cd4",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 915648
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/code.png",
-          "sha256": "9157d74cf35e513683b55c69c98d846cd7a4b05ffaf9d2ba8e9cb5b7e1f9cc24"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/04-code-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 35394,
-          "sha256": "fa6d4c54d2f40866c85a14ec9fc5052820976371a4d015a704a27254b8419b05"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/04-code-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 94052,
-          "sha256": "14d307d881a1672509e050f9b58775b60d372336f45f8861a794d5096e240e82"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "organize",
-      "slug": "05-organize",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/05-organize.png",
-        "sha256": "8d52f945ab8802fd8650bf04d0dc2652a72eb053f553a4c59f49772076ccbc7b",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 934576
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/organize.png",
-          "sha256": "2d63471845000dc56464a642757b7c40a9c2386c602bcd6ce82a672a1bf9e286"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/05-organize-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 34924,
-          "sha256": "1cfea9745422e0d4438a58274f11527271a95a5a8cfa95a9624465de6b680c3a"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/05-organize-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 94794,
-          "sha256": "d161b81acbdd87e9b29f28470c4e319c3a7720d404aa6aa63a85d00b44b5fb0e"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "search",
-      "slug": "06-search",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/06-search.png",
-        "sha256": "ecc9dbd3f6e3b297e58ac2568e95e74d91a960d4efc072db9cb6b88538bdc396",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 705304
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/search.png",
-          "sha256": "46262e9e529fd4077a08fd5def44cfb33eb21eb7bedc652a6250f8ee17053213"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/06-search-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 26006,
-          "sha256": "04a0887f1c12b8519818e572d3a60fc86a3e430cb6638b8176e3c0715f7723ed"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/06-search-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 67894,
-          "sha256": "f0f0e222defc0be4a49a08f751633575a947f3d6f66b84564b7f4490ba1610ac"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "import-export",
-      "slug": "07-import-export",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/07-import-export.png",
-        "sha256": "a319f7d1d2c14c20ea8a2d156756a117167e7ea38b2aba585cb8e0547e0e93aa",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 1005626
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/import-export.png",
-          "sha256": "9f2bdfec24da9118db9c1b24c9514e299ac03f8c2b0b1d88a03441e9ea495ca6"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/07-import-export-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 38926,
-          "sha256": "bcc8e6515971debd8d9ad60a732e140fb104edd1307c05d4dfd6dba0213e3236"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/07-import-export-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 103736,
-          "sha256": "719a95a9ca040df4821e4b8799df13b09bc3e367ad2e897288a0b40f47cad24c"
-        }
-      }
-    },
-    {
-      "platform": "ipad",
-      "locale": "en-US",
-      "scene": "sync",
-      "slug": "08-sync",
-      "source": {
-        "repository": "zebra",
-        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/08-sync.png",
-        "sha256": "1553dfd041cf082a96ee7bef3480000d65e8e45e87a8d1f8198e3d5a8b8f07fd",
-        "width": 2752,
-        "height": 2064,
-        "bytes": 838812
-      },
-      "captureSources": [
-        {
-          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/sync.png",
-          "sha256": "2b08eb27ed1c978550a61e3d22bab87a132f453a48f2f354f5d20d858c104d02"
-        }
-      ],
-      "decorativeAssets": [
-        {
-          "id": "zebra-window-mascot",
-          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
-          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-          "role": "decorative brand asset; not captured application UI"
-        }
-      ],
-      "variants": {
-        "small": {
-          "path": "assets/images/ipad/en-US/08-sync-small.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 36834,
-          "sha256": "065c9ccb0d08886ab6266d5d858156fc2f053bc4160f682f1d3303feb0a7ab12"
-        },
-        "large": {
-          "path": "assets/images/ipad/en-US/08-sync-large.webp",
-          "width": 1440,
-          "height": 1080,
-          "bytes": 94988,
-          "sha256": "46fa6b4150c1f473950f0660634bef928fb14815a0790d2808cb4402bb150743"
+          "bytes": 71682,
+          "sha256": "218980422d2dc7133efc2dae1b9d3bbd1e52e748a963b2de0c9ba6c1132099fe"
         }
       }
     },
@@ -2074,15 +1209,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/06-search.png",
-        "sha256": "3e65a258a4b23072ba8d9641009f2935c6a64197627f7670d2cdcb5701622a54",
+        "sha256": "18174914950df96f7dd2dc3af0af1a9ebf8520c752c2e68ee1a8c3423a0686be",
         "width": 1206,
         "height": 2622,
-        "bytes": 402829
+        "bytes": 406303
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/search.png",
-          "sha256": "e348864064f8fb172ec45543d4e266d05c1b5f0b07e483167edf8715858b5eb3"
+          "sha256": "d12356337f11fb9a82a5c12be389a7a1fa2d86952966daee43e6ba2f46f5ea40",
+          "appThemeRawValue": "Hologram"
         }
       ],
       "decorativeAssets": [
@@ -2098,15 +1234,420 @@
           "path": "assets/images/iphone/zh-Hans/06-search-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 45018,
-          "sha256": "be2a2a0d7354c4c354aeaed340ba20921e024c1896f60ff9e57c864bab3e3737"
+          "bytes": 44816,
+          "sha256": "dc2e85d6fc41125323963613fa1bcfdc934382d58652978b264fd0240a900953"
         },
         "large": {
           "path": "assets/images/iphone/zh-Hans/06-search-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 79928,
-          "sha256": "e64eeec960aef733d55b3bb3e31bc3e89b4c7ae52e3da90f6345fbb80a349589"
+          "bytes": 79272,
+          "sha256": "eaf78fbc3abd9a129ac0967be1b48e88cb73129304c9156fcfa69d6f2f35cdd5"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "scene": "import-export",
+      "slug": "07-import-export",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/07-import-export.png",
+        "sha256": "99a061b04d4af20dfc6116f3270005e80d3aff559811905e6f68bee80baa7ad9",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 649351
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/import-export.png",
+          "sha256": "e75d20e11b16e34e00f390ef691829495abad1bbe6c3c32641b563e1eaf59f1e",
+          "appThemeRawValue": "Espresso"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/zh-Hans/07-import-export-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 67488,
+          "sha256": "295a18bf38ddb452f23fcb7973c3c3af0aef807f71d957f4166fe0bf21bca836"
+        },
+        "large": {
+          "path": "assets/images/iphone/zh-Hans/07-import-export-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 117040,
+          "sha256": "2d0b5572841ba01f96c0470f044f0f1de921f68fb8c9e7c305cca2ba06ce5674"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "scene": "sync",
+      "slug": "08-sync",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/08-sync.png",
+        "sha256": "184c5e4a0b2d59f7e425d54c6bdc591780da28e57298e2b90f5923797e67ff05",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 439838
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/sync.png",
+          "sha256": "c2a468146ed3017a8d7d434fc4ea8c58d87dd13decfb40163c9a2a0b60ca8d21",
+          "appThemeRawValue": "Pine"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/zh-Hans/08-sync-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 59600,
+          "sha256": "7325bc214705f3c46f73768b85da08c2c7415d733619cb98790f78ba29584d0b"
+        },
+        "large": {
+          "path": "assets/images/iphone/zh-Hans/08-sync-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 104864,
+          "sha256": "d2396c31fc91bc185183322a3cce01a43dc30aef65d8633f3087575c3b0a995b"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/09-themes.png",
+        "sha256": "1bf0e44434c711d1ddb4b082beb80ef71dcafec503add708d35d7a2894e47cbf",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 579030
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/themes.png",
+          "sha256": "1a6b3cce217bbeea152c4cda77f94a4d9f3d09b8b725f67b1109a29bc4727cda",
+          "appThemeRawValue": "Aurora"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/zh-Hans/09-themes-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 71102,
+          "sha256": "924d0c4e72739bbbd6be2cacbdf59180f3962aa8680bdfd82b744b55d99d5513"
+        },
+        "large": {
+          "path": "assets/images/iphone/zh-Hans/09-themes-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 132492,
+          "sha256": "704d867ac7707fc262ff06e60de29a4ca24d57aed6611b867b34b96000a70f53"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/zh-Hans/10-tables.png",
+        "sha256": "b8b0fd87da0bccb28911b8d9f50ff7d1daeb07b3fe27454fdab2abe196661cdc",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 552646
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/tables.png",
+          "sha256": "c104c9ad83bc1de2c868fc5871ee07acaf940e418935ba2674d9fa6d83290909",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/zh-Hans/10-tables-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 51174,
+          "sha256": "26c11a6e71894ce1c6c27e8b02c514f61b208a95c8b9da52fd39ff576ef16da3"
+        },
+        "large": {
+          "path": "assets/images/iphone/zh-Hans/10-tables-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 92332,
+          "sha256": "a209f3350cde3ea73bdfb34c52c82720bc266567e9a66915067a44bcbd623b15"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "write",
+      "slug": "01-write",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/01-write.png",
+        "sha256": "dfc21056decdf791f8a4b880ff900cba533300c63306dfe307bb5982bd0d4ada",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 536231
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/write.png",
+          "sha256": "6d5932d223f7285780b10813a8595d5479b6a3bc86a71456da31ee8569ae4189",
+          "appThemeRawValue": "Parchment"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/01-write-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 71014,
+          "sha256": "b299ee742a89e8df61a75099847b7f3d2235259513146815c980e083c02c4d35"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/01-write-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 123248,
+          "sha256": "451f9277e5acd92ad1b26c925e2a169973efb26be710b1a05612d19fad818718"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "diagrams",
+      "slug": "02-diagrams",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/02-diagrams.png",
+        "sha256": "72626e188719a9a4b63cd47916b328bb7520ec6cf322d7243f5e18c8b5358b30",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 427789
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/diagrams.png",
+          "sha256": "19be313e9f4351404f4603169ef7a1245abd2febe9f0cae8e5c3b52c3f2865fd",
+          "appThemeRawValue": "Glacier"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/02-diagrams-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 50076,
+          "sha256": "9f30d7195c99aa59fd028b82b457ef40ed115da227a7d6fe68a285a41f8ce2bd"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/02-diagrams-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 87868,
+          "sha256": "36c9718a5c81751279d32bf0eda105487b47f6151958f89c52db81fd12d64ee1"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "math",
+      "slug": "03-math",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/03-math.png",
+        "sha256": "ddc42fac624a86da8f0308d2f9c134997a5963ebd163d422467321f8632e2ce4",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 433473
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/math.png",
+          "sha256": "13d3c7b82c26880e3827bd93f0deaf65e38d45a50a52c9556e3abbf758536db4",
+          "appThemeRawValue": "Blossom"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/03-math-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 51788,
+          "sha256": "1c8ba3733f7ad25cd923b5721555c97bb04e4964d1243343be7aba056127ea1e"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/03-math-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 91634,
+          "sha256": "a9fa2edf36edc81d9618caaf6a42cd681522119013659f1df27660d1b5433d1f"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "code",
+      "slug": "04-code",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/04-code.png",
+        "sha256": "94423d7f601b16f0fd9db366ec63ecb67e33be10f67f309b87c14387a6bac092",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 490910
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/code.png",
+          "sha256": "8d047fcb9e6bd5d3735711e37d9af5fde9dcde41a00eef1f46f85ad1240bcddd",
+          "appThemeRawValue": "Night Circuit"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/04-code-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 65086,
+          "sha256": "d095a2cac697fc7429d8cd28caa3343ba1cc397f7a7c2f5367e3d3dbe9a14a3c"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/04-code-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 112276,
+          "sha256": "7669c75c5bec7eb3b69a2f574041721068d26989cedbaf0b25e7443250068be5"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "organize",
+      "slug": "05-organize",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/05-organize.png",
+        "sha256": "61039525e0ea3fb558b80232001d51cc9989057aaf8398be3e0159ff470b39fa",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 439231
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/organize.png",
+          "sha256": "4f984b221385661149e728568ef594c17a790e5e658664f4bef9c11b5d06aaad",
+          "appThemeRawValue": "Sage"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/05-organize-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 39908,
+          "sha256": "e3b17f21558fdb293f969d8c252f8e09e7987f55912f22281a8b706cac9dd2c8"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/05-organize-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 71034,
+          "sha256": "fd47efa6dbef7c47b54da4c46e89bc0710923ac8a2f22c5d95c72f3d0f88ccdf"
         }
       }
     },
@@ -2118,15 +1659,16 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/06-search.png",
-        "sha256": "adacf7e8687ef669d7c2b9deb64f68f50e962ee5cd309b50f946df26269f2f15",
+        "sha256": "9ecad6afb1771ea5eade58d6d8055555af2b63e620ba14fee50c679f05ba5918",
         "width": 1206,
         "height": 2622,
-        "bytes": 407666
+        "bytes": 412041
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/search.png",
-          "sha256": "63e55c3e219bd36e3a0c3641e914077172b4d0852745ac88a1a4a04110589769"
+          "sha256": "01b469f3a9d0e488eb5dc40221177e52f78b2b107e1adcb9c0981b1fd82ba996",
+          "appThemeRawValue": "Hologram"
         }
       ],
       "decorativeAssets": [
@@ -2142,15 +1684,1095 @@
           "path": "assets/images/iphone/en-US/06-search-small.webp",
           "width": 720,
           "height": 1565,
-          "bytes": 45950,
-          "sha256": "43ab069a763df2bb30037bf03ffb37bbce40ca358e5a24e90f7422225f1b73a9"
+          "bytes": 46096,
+          "sha256": "1b0cd3f447bfd0970569bfbef650561581b2bde34760ea8585b11f86dee41210"
         },
         "large": {
           "path": "assets/images/iphone/en-US/06-search-large.webp",
           "width": 1206,
           "height": 2622,
-          "bytes": 82476,
-          "sha256": "ad701f7fd665e59d76bbf027da22a1e6d5c5b5c977161c882464b6c2d3e0c3ed"
+          "bytes": 81866,
+          "sha256": "aa4493d8990e7c106501444c4cb59aa58dc1b62578b63589f30f7d2196b56b2c"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "import-export",
+      "slug": "07-import-export",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/07-import-export.png",
+        "sha256": "1dade89f510e3d26f5aa05bc59212394db0edc6480d7bc8953cc14eacdf5ef6e",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 690300
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/import-export.png",
+          "sha256": "97f7d5e62bac4540d3dbe5705d7443f428f5c0d59fa8003947da7e2e78306424",
+          "appThemeRawValue": "Espresso"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/07-import-export-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 69232,
+          "sha256": "c84399456965d818cdf1a50fbb3796c8f02eeb6f10019b0f1c13d5dc6a5fedac"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/07-import-export-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 120668,
+          "sha256": "fb437cfb1aaeaf51c9eb76423022446df00c4729bd562c2d831ff712c66fb9f0"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "sync",
+      "slug": "08-sync",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/08-sync.png",
+        "sha256": "3760cb4009c120c9f2792810a38fb7f42819f86efa506aa0127976ef8cfaf8a6",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 494046
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/sync.png",
+          "sha256": "e2906f643f034ac756739bce2b9174a90f2cd2495494387d02e39d859713b7ee",
+          "appThemeRawValue": "Pine"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/08-sync-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 71946,
+          "sha256": "8b152574f268d3287dfa756696d056b362572605ad4d9700aab0c70d396987e2"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/08-sync-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 128452,
+          "sha256": "1be3d12dfbb82d5b4863457b4bbf23e3c4ff2d7a8741d0faac2d9b27f08f00d3"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/09-themes.png",
+        "sha256": "afa641740f01cc354ccdb5f30123cdb733830df89b2dbc8fd0ce747f6eb939e1",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 555981
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/themes.png",
+          "sha256": "948dbc44c29f4a8d175c6588e69b79c2300b5ef7a3cb7e0ee46e193098be8b9c",
+          "appThemeRawValue": "Aurora"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/09-themes-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 68990,
+          "sha256": "0c05c845efe4b224912747dd63ec3eafafd09769633b4d5c5d76209ec2243313"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/09-themes-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 128542,
+          "sha256": "e16f86ca0af153063277a02fc546b38bb22ad48c63f6dfe8f430939a19be262a"
+        }
+      }
+    },
+    {
+      "platform": "iphone",
+      "locale": "en-US",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/iphone/en-US/10-tables.png",
+        "sha256": "3558c93787b14ebd5d8f93c546fbe2ddad339f303814732731714c5e937d236b",
+        "width": 1206,
+        "height": 2622,
+        "bytes": 561148
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/tables.png",
+          "sha256": "4e11ffd6f7abebad1e82abd7ad493f4be8e89343a27fc54ceab417291f7bfdf4",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/iphone/en-US/10-tables-small.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 54610,
+          "sha256": "06b680abfdc085e9c9ffe37ccb6ca1f2120d21b210b1e2115c2e2ace1262fe3c"
+        },
+        "large": {
+          "path": "assets/images/iphone/en-US/10-tables-large.webp",
+          "width": 1206,
+          "height": 2622,
+          "bytes": 96110,
+          "sha256": "8b90399427edaafc3f5c7e285ae2e2732efc548267e4cd04fcb17dd119980c11"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "write",
+      "slug": "01-write",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/01-write.png",
+        "sha256": "cb850e97144a417c6402cf0ab3256e5ab193e689c3dbfc6b4f4bde202c1d9106",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 933361
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/write.png",
+          "sha256": "87bdd08f89f064f1722a9fa70fd067614538f0588930d700b8fef9b41f9e9dad",
+          "appThemeRawValue": "Parchment"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/01-write-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 32964,
+          "sha256": "ab9322df767fb242ea92882e088ddd9f32287bbff16ed3da95c9d92bd07025be"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/01-write-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 94018,
+          "sha256": "7eaf3590c9ee0ec574bd40f016fc5dcc8bd4576cb2a96783cba93fc29d62c69c"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "diagrams",
+      "slug": "02-diagrams",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/02-diagrams.png",
+        "sha256": "64520daab24689da6f87fc236bb2b3005e7d11eeedbca7214920bd76381f8cfc",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 915438
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/diagrams.png",
+          "sha256": "ba746ba93c01db9007f4f85e07880925ae71809555253add6e8fdcb8dc9fb5f1",
+          "appThemeRawValue": "Glacier"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/02-diagrams-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 31216,
+          "sha256": "57bdaa905f11bcf1f0827d124896f881421ee66b4bdf04760e2aa0ae770acb80"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/02-diagrams-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 86984,
+          "sha256": "307ea5404437ed0934d048a77a95bf7dfd4f53b5baca58ea640b110cfc2820a6"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "math",
+      "slug": "03-math",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/03-math.png",
+        "sha256": "1284c1efed015b79990a5220686504dd630b96ec0ec54a7275cd95d0450b19d3",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 930392
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/math.png",
+          "sha256": "65518e8f978415b75cbf34a3755fa2ef454d97a6943167f567fe4833df64b232",
+          "appThemeRawValue": "Blossom"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/03-math-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 32352,
+          "sha256": "2aa2125b0200919bb57271dc45dd2e69e7a3b9f137d4919590b7c72f1a765e8a"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/03-math-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 90540,
+          "sha256": "c3f452cd5f7210afeedc906e2c8a0ff91c0fd665b14dfc5f0b2fbc8069aafd34"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "code",
+      "slug": "04-code",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/04-code.png",
+        "sha256": "a8b213287c9cb1192d516df017625e8bd7a0b01d80f62cc353e00a0b105e393b",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 948493
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/code.png",
+          "sha256": "8c6d483647adb6a83e7dd65a52afc1d245d56ae3f31c051fba0c872b2d85993b",
+          "appThemeRawValue": "Night Circuit"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/04-code-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 34972,
+          "sha256": "6b5f2740607276fbe979fad2da64f3f743480a800d316e85af5c5a2ba052eecd"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/04-code-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 100068,
+          "sha256": "100047e3ebe653d0a78ef2caf701278aa9133b55fbe8622af2332ca5e5bef403"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "organize",
+      "slug": "05-organize",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/05-organize.png",
+        "sha256": "e25b75b4a32654a3e439eed80be89e26e90d8ead2a91a91bebc835e8252f22c1",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 964364
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/organize.png",
+          "sha256": "be28d0dce8711ab12db80022787f210439a2d3022b9d928a7096190e5ac9af10",
+          "appThemeRawValue": "Sage"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/05-organize-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 31920,
+          "sha256": "2e43c6c7c378016abcfcbb8a43f50e8fcadab07b3f75754f5648a9c7a5423633"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/05-organize-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 90694,
+          "sha256": "c89f776ebb5f336328e0e7be4f2ec1a2502d19736ed42e117d94f3c964d0094e"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "search",
+      "slug": "06-search",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/06-search.png",
+        "sha256": "628bd8b1836d577b010d831089828add9f6ad4bdc83074a7355ca3d9b6243699",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 915971
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/search.png",
+          "sha256": "1842fc649d851161a1493e0993591128bd01ead298cd30978c4da6aeb63eae9a",
+          "appThemeRawValue": "Hologram"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/06-search-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 27668,
+          "sha256": "8b09fab0c4c90ed6be00a5f85c80620b9825e9c6146fb737616ef95bba2d8799"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/06-search-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76214,
+          "sha256": "3bf0944f03e14eeeefa1dac680507060ba46ac432f5eae17445dab040754a1c5"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "import-export",
+      "slug": "07-import-export",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/07-import-export.png",
+        "sha256": "86d706ff2cef9c20fe7c8633d0c3942eb3d7d02664e01f0623a82a6166db6174",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1023271
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/import-export.png",
+          "sha256": "ca40992008d05225110229653a7564a2148388431f6bc14030f641f2218caf4a",
+          "appThemeRawValue": "Espresso"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/07-import-export-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 36412,
+          "sha256": "dbaa816d1ae565a3cb41c1b81799f10df4ecfa21d1f8bb3b8701bd002ca81e45"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/07-import-export-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 101164,
+          "sha256": "fe893c0b08678ce7f2b552c7a890285043d9eb56567f42c00ebd1868ce533b64"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "sync",
+      "slug": "08-sync",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/08-sync.png",
+        "sha256": "3f69f6c0e0466f12b3eae37325c7a626a7391c21a8bc0d8ddab0d5cdde0edef7",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 843068
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/sync.png",
+          "sha256": "2e3c7001564c761ea3524cf9d0ad88f950bd0f378f448aff298c6e92d2ba82e3",
+          "appThemeRawValue": "Pine"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/08-sync-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 32484,
+          "sha256": "5bf55b5005a2ec6ae2eff9d8dfe6aa8e12ad9d2bb917b3f4fca62e51c42d244d"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/08-sync-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 89272,
+          "sha256": "e7585c3eb0616d481f010371082c49fae22551250f0e6dfa17dcb02db0d05052"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/09-themes.png",
+        "sha256": "25cf7978227d614d98cbec3f3b1fe53d2691aab38680aec317509701c640fe18",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1085927
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/themes.png",
+          "sha256": "bf27e1ea97781c8749b49fb878314140170b98160e1822787ecf95c639552ad8",
+          "appThemeRawValue": "Aurora"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/09-themes-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 36760,
+          "sha256": "d6ce7c69d0e60f9f649df1df1647685be9deaa4b6ee463e892695d6225be9c0c"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/09-themes-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 99226,
+          "sha256": "1e99a26f3d92607607aecbf850c202b9cda88115341fa77cfbb0e04a6a65b362"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/zh-Hans/10-tables.png",
+        "sha256": "75282302e33e23ce632f4977543f416b906c4b69d741157d3971650467ef19ca",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1033858
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/tables.png",
+          "sha256": "645a4d9a76b0d02a7de26657f29dbb62d142fc39913aa0b8ab7ddf5ac56dcf12",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/zh-Hans/10-tables-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 34824,
+          "sha256": "bd60070e495105e482c9307d79237cc04fdcac6ba0dca6c29dfae94b7d9fde25"
+        },
+        "large": {
+          "path": "assets/images/ipad/zh-Hans/10-tables-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 95920,
+          "sha256": "252fddd07c9d2685012086430ce9f7b81ba6b0a62653ce35c6537179b573ef78"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "write",
+      "slug": "01-write",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/01-write.png",
+        "sha256": "1668e80e6a5537477e207c0509c920d49f99a67dc54701b4b4aa970f84e1f2db",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 951909
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/write.png",
+          "sha256": "4b6aa3f8969cfe7f08f4fd80f86e9222ad39e54dad7f8e7028a78193d52ef0f8",
+          "appThemeRawValue": "Parchment"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/01-write-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 37412,
+          "sha256": "dbd17d8671a8c6527f0db3b869a5fc1eab065421ae96086695025395e9d28912"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/01-write-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 101298,
+          "sha256": "bebf4921ac51a680547ba905b8e2b6cf49df958977474b7b3feda981601f4406"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "diagrams",
+      "slug": "02-diagrams",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/02-diagrams.png",
+        "sha256": "03ef1d23c250253b67d48299f40e12ba26aa706b009a1133f59fc70997bd5dd3",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 920704
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/diagrams.png",
+          "sha256": "32388d714f1e5b61c86aa7d8eae88744791c5f87b9c3d6ee60c20bfdee111b87",
+          "appThemeRawValue": "Glacier"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/02-diagrams-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 33930,
+          "sha256": "d5f9165809aff13130e8cfc9d92ec847706ca8a2fb2281e907fa7eccd2d7dfdd"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/02-diagrams-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 93176,
+          "sha256": "c61e077dc01d12460c503a725b531233def8a76292d4e8c4a3903f0b4459315a"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "math",
+      "slug": "03-math",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/03-math.png",
+        "sha256": "ab26cdcc9174d995e8d52b5e3184d47260293264f41b79f44e4a7f0015ea0c6a",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 914414
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/math.png",
+          "sha256": "a098474a9b5495dae24903ad28fd8f1f2cb04a538389cfbaf138a0daefe2c061",
+          "appThemeRawValue": "Blossom"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/03-math-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 34838,
+          "sha256": "dbe6ea2d5f2edb8a98e7f963dfdd9ed778db81c631f412b899ab345e9d67ee32"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/03-math-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 93350,
+          "sha256": "56c91cf4a8a60ace4e5a3ae616cae9b5222e04b25080b6b250d446aa4eb3202d"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "code",
+      "slug": "04-code",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/04-code.png",
+        "sha256": "ce9dff859e2a9ce3f97cccd4edd12435bf921cbbfc0bd4a5d89efcc0f1bb4d8b",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 933479
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/code.png",
+          "sha256": "aa3c2bbd1b1de19dac3709efb7a67711f4f9bb90e7379dc3b6654c45cdd41d52",
+          "appThemeRawValue": "Night Circuit"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/04-code-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 37092,
+          "sha256": "79d70e9449c5ab1a4897a1d25eec44e7512eb060f929e9938321651574b3de25"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/04-code-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 103418,
+          "sha256": "e83bac2842ee2b9c7b4a96e32cd504ed1a87d8652a79d3f836cf541c86a8f842"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "organize",
+      "slug": "05-organize",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/05-organize.png",
+        "sha256": "faa6b7506ef917a4682bf53122978536f6cc622b4083e0165e190886144802e7",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 949887
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/organize.png",
+          "sha256": "8752c4b52b4869d5e29e0aa081453ef5eec9a9e78e4ded4bb977c3a811a54c65",
+          "appThemeRawValue": "Sage"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/05-organize-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 34440,
+          "sha256": "70b56dd912789c6a5685c579f2118e6491af13817a4e552672540b46168be9a3"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/05-organize-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 94180,
+          "sha256": "0b25e101b1fcb7acd19283735d370b8ea5b10930e956333616cbfa919b9ed5a8"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "search",
+      "slug": "06-search",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/06-search.png",
+        "sha256": "1bb77f03cff54f20f738a2869912bf3069bddb44d90bf05e7eed8683c4e8e261",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 898620
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/search.png",
+          "sha256": "1bcdc75bf89c1f9fe4689036628f799c43668eb0b5b61b037a6367b1983a0756",
+          "appThemeRawValue": "Hologram"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/06-search-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 28890,
+          "sha256": "5fa3463f6c3d989cb97a523d8c6c529812e49b58540b5f5cb5f8b2f0b842249f"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/06-search-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 79544,
+          "sha256": "9d84cb84d48ffb2a75a2e2dee38deffd204e028049787dc274fe73c062a1ea2e"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "import-export",
+      "slug": "07-import-export",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/07-import-export.png",
+        "sha256": "c0c49b7150b1c58a0922b69ecccda46f1e1d4faa4c1402a28ce043ecd39acead",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1022718
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/import-export.png",
+          "sha256": "0c80ea1b39183e3eb54a31cbc61b55de9c441a55a366b39f67f5534e31392d35",
+          "appThemeRawValue": "Espresso"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/07-import-export-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 40740,
+          "sha256": "248e36365e5758f2621d83486002d86dd9e39097fe1a652f3b57ef5f82f7ef41"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/07-import-export-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 109258,
+          "sha256": "26f927770eb18fcb674e19e011abeb51875978af4383f71befe3b150499ce132"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "sync",
+      "slug": "08-sync",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/08-sync.png",
+        "sha256": "c202c0f4d605451e5dd2110c9f31926db87bc8486ebc547a2bb39e19281d5eec",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 847187
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/sync.png",
+          "sha256": "5adc2f6013541987f7150706a13031527c6b7204819e8778e13604a961fdefe3",
+          "appThemeRawValue": "Pine"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/08-sync-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 37436,
+          "sha256": "2ec04a9bee890bc11ced915fad2478929c5d05a378eb5d870ad41dd815d47251"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/08-sync-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 98578,
+          "sha256": "940e49ef68661981bf2b73d1fa4ba206b8d73b944dd309ce95c0d6a6b6c04947"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "themes",
+      "slug": "09-themes",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/09-themes.png",
+        "sha256": "df3c460ddcc15fa7d31d64fb4011332b1b7301f52258cc4f512db5169e0c7a52",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1027348
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/themes.png",
+          "sha256": "b617563eb51a38a209105c9e1340762805a5eb467111d6f4cb90e74b49ff3cf7",
+          "appThemeRawValue": "Aurora"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/09-themes-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 37032,
+          "sha256": "8f7989b1f36e0c711e6c2d3dbb1af72f414f22c8176287eacdc0337fe8ee4123"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/09-themes-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 95420,
+          "sha256": "7137be251bf4ad0045cbc3c90e2ddac9604471d95f7f55bcdb2a4559212e2151"
+        }
+      }
+    },
+    {
+      "platform": "ipad",
+      "locale": "en-US",
+      "scene": "tables",
+      "slug": "10-tables",
+      "source": {
+        "repository": "zebra",
+        "path": "AppStoreSubmission/refresh-2026-10-11/assets/ipad/en-US/10-tables.png",
+        "sha256": "563780104e4a91813e8c7a479b9557f4b1757c085179682928d69d64e73ae07d",
+        "width": 2752,
+        "height": 2064,
+        "bytes": 1027926
+      },
+      "captureSources": [
+        {
+          "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/tables.png",
+          "sha256": "f707bbb78c5a7cd1846738f3c0a2f00639cca819e8904221867eed349ee95b8e",
+          "appThemeRawValue": "Daybreak"
+        }
+      ],
+      "decorativeAssets": [
+        {
+          "id": "zebra-window-mascot",
+          "path": "AppStoreSubmission/refresh-2026-10-11/brand/zebra-window-mascot.png",
+          "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
+          "role": "decorative brand asset; not captured application UI"
+        }
+      ],
+      "variants": {
+        "small": {
+          "path": "assets/images/ipad/en-US/10-tables-small.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 38040,
+          "sha256": "26845c70de3a279e582b42fe328f35d3d69ab8da24d3aa16a0597844b370e818"
+        },
+        "large": {
+          "path": "assets/images/ipad/en-US/10-tables-large.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 100408,
+          "sha256": "1303043ebf86a801089663767c24a38b5784250521056e05d8a4a4b35390afd0"
         }
       }
     }
@@ -2168,7 +2790,7 @@
       "height": 256,
       "bytes": 74885,
       "sha256": "52e719dab3a7ac1e96b1b2b8a25fe7bac7b9919a53388e7da400894f7febe0c7",
-      "transformation": "Proportional resize of the original AppIcon to 256 pixels, lossless PNG encoding, source metadata stripped; original source hash retained."
+      "transformation": "Proportional resize of the original AppIcon to 256 pixels, lossless PNG encoding, source metadata stripped."
     },
     {
       "id": "mascot",
@@ -2182,18 +2804,17 @@
       "height": 1254,
       "bytes": 1191382,
       "sha256": "336013938243d30b091d74842b564c5910d1ea9c14c3b69d02836c3efe7b54e7",
-      "transformation": "Copied original PNG bytes unchanged."
+      "transformation": "Original PNG bytes copied unchanged."
     }
   ],
   "summary": {
-    "posterCount": 48,
-    "webpCount": 96,
+    "posterCount": 60,
+    "webpCount": 120,
     "brandPngCount": 2,
-    "originalPosterBytes": 34413443,
-    "smallWebpBytes": 1884234,
-    "largeWebpBytes": 4194360,
+    "originalPosterBytes": 45849540,
+    "smallWebpBytes": 2464498,
+    "largeWebpBytes": 5540968,
     "brandPngBytes": 1266267,
-    "totalImageBytes": 7344861
-  },
-  "lastOptimizedAt": "2026-10-11T14:38:46.282Z"
+    "totalImageBytes": 9271733
+  }
 }

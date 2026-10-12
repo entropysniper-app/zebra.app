@@ -40,7 +40,7 @@ for name in ['index.html','privacy.html','zh/index.html','zh/privacy.html']:
   if parser.faqs!=8:errors.append(f'{name}: expected 8 FAQs')
   data=json.loads(parser.gallery)
   for platform,cards in data['devices'].items():
-   if len(cards)!=8:errors.append(f'{name}: {platform} expected 8 cards')
+   if len(cards)!=10:errors.append(f'{name}: {platform} expected 10 cards')
    for card in cards:
     for kind in ['small','large']:
      if not (p.parent/card[kind]).is_file():errors.append(f'{name}: missing {card[kind]}')
@@ -65,13 +65,13 @@ for p in list((ROOT/'content').glob('*.json'))+list((ROOT/'assets').glob('*.js')
  for marker in ['/Users/phil/','/tmp/zebra-store','OPERATOR_NAME','SUPPORT_EMAIL','createdRecord']:
   if marker in text:errors.append(f'{p.relative_to(ROOT)}: private/placeholder marker {marker}')
 images=list((ROOT/'assets/images').rglob('*.webp'))
-if len(images)!=96:errors.append(f'Expected 96 WebP derivatives, found {len(images)}')
+if len(images)!=120:errors.append(f'Expected 120 WebP derivatives, found {len(images)}')
 manifest=ROOT/'asset-manifest.json'
 if not manifest.exists():errors.append('Missing image provenance manifest')
 else:
  try:
   metadata=json.loads(manifest.read_text()); posters=metadata['posters']; seen=set(); identities=set()
-  if len(posters)!=48:errors.append('Image manifest must describe 48 source posters')
+  if len(posters)!=60:errors.append('Image manifest must describe 60 source posters')
   for poster in posters:
    identity=(poster['platform'],poster['locale'],poster['scene'])
    if identity in identities:errors.append(f'Duplicate poster identity: {identity}')
@@ -90,6 +90,6 @@ else:
   actual={p.resolve() for p in (ROOT/'assets/images').rglob('*') if p.is_file()}
   if seen!=actual:errors.append('Image manifest does not exactly cover all image files')
  except (ValueError,KeyError,TypeError) as exc:errors.append(f'Invalid image manifest: {exc}')
-result={'pages':len(pages),'localizedFeatureCards':48,'webImages':len(images),'localLinksChecked':sum(len(p.refs) for p in pages.values()),'errors':errors}
+result={'pages':len(pages),'localizedFeatureCards':60,'webImages':len(images),'localLinksChecked':sum(len(p.refs) for p in pages.values()),'errors':errors}
 print(json.dumps(result,indent=2))
 sys.exit(bool(errors))

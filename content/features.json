@@ -87,6 +87,28 @@
           "连网后同步"
         ],
         "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      },
+      {
+        "id": "themes",
+        "headline": "让配色，也属于你",
+        "subheadline": "自定义、导入与导出主题，把喜欢的配色分享出去。",
+        "benefits": [
+          "自定义配色",
+          "导入与导出",
+          "分享主题"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "tables",
+        "headline": "表格，直接动手改",
+        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "benefits": [
+          "单元格编辑",
+          "增删行列",
+          "列对齐"
+        ],
+        "footnote": ""
       }
     ],
     "en-US": [
@@ -176,6 +198,28 @@
           "Sync when connected"
         ],
         "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      },
+      {
+        "id": "themes",
+        "headline": "Make themes your own",
+        "subheadline": "Customize, import, and export themes, then share the colors you love.",
+        "benefits": [
+          "Custom colors",
+          "Import & export",
+          "Share themes"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "tables",
+        "headline": "Edit tables, cell by cell",
+        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "benefits": [
+          "Edit cells",
+          "Add rows & columns",
+          "Column alignment"
+        ],
+        "footnote": ""
       }
     ]
   },
@@ -266,6 +310,28 @@
           "连网后同步"
         ],
         "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      },
+      {
+        "id": "themes",
+        "headline": "换个主题，换种心情",
+        "subheadline": "挑选喜欢的主题，让文字、代码与表格一起换个样子。",
+        "benefits": [
+          "主题选择",
+          "浅色与深色",
+          "统一的配色"
+        ],
+        "footnote": "自定义与主题文件导入、导出在 Mac 版提供。"
+      },
+      {
+        "id": "tables",
+        "headline": "表格，直接动手改",
+        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "benefits": [
+          "单元格编辑",
+          "增删行列",
+          "列对齐"
+        ],
+        "footnote": ""
       }
     ],
     "en-US": [
@@ -354,6 +420,28 @@
           "Sync when connected"
         ],
         "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      },
+      {
+        "id": "themes",
+        "headline": "A theme for your ideas",
+        "subheadline": "Choose a theme for your notes, code, and tables.",
+        "benefits": [
+          "Theme choices",
+          "Light & dark",
+          "Coordinated colors"
+        ],
+        "footnote": "Customize, import, and export themes on Mac."
+      },
+      {
+        "id": "tables",
+        "headline": "Edit tables, cell by cell",
+        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "benefits": [
+          "Edit cells",
+          "Add rows & columns",
+          "Column alignment"
+        ],
+        "footnote": ""
       }
     ]
   },
@@ -444,6 +532,28 @@
           "连网后同步"
         ],
         "footnote": "需开启 iCloud 同步；加密笔记保留版本供恢复。"
+      },
+      {
+        "id": "themes",
+        "headline": "换个主题，换种心情",
+        "subheadline": "挑选喜欢的主题，让文字、代码与表格一起换个样子。",
+        "benefits": [
+          "主题选择",
+          "浅色与深色",
+          "统一的配色"
+        ],
+        "footnote": "自定义与主题文件导入、导出在 Mac 版提供。"
+      },
+      {
+        "id": "tables",
+        "headline": "表格，直接动手改",
+        "subheadline": "点进单元格就能编辑，按内容调整行列与对齐。",
+        "benefits": [
+          "单元格编辑",
+          "增删行列",
+          "列对齐"
+        ],
+        "footnote": ""
       }
     ],
     "en-US": [
@@ -532,6 +642,28 @@
           "Sync when connected"
         ],
         "footnote": "iCloud sync is optional. Encrypted notes keep versions for recovery."
+      },
+      {
+        "id": "themes",
+        "headline": "A theme for your ideas",
+        "subheadline": "Choose a theme for your notes, code, and tables.",
+        "benefits": [
+          "Theme choices",
+          "Light & dark",
+          "Coordinated colors"
+        ],
+        "footnote": "Customize, import, and export themes on Mac."
+      },
+      {
+        "id": "tables",
+        "headline": "Edit tables, cell by cell",
+        "subheadline": "Edit cells directly, then adjust rows, columns, and alignment.",
+        "benefits": [
+          "Edit cells",
+          "Add rows & columns",
+          "Column alignment"
+        ],
+        "footnote": ""
       }
     ]
   }
