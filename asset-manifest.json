@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T01:17:09.221Z",
+  "generatedAt": "2026-10-12T01:46:48.418Z",
   "description": "Web derivatives of the final 60 Zebra App Store posters: 10 scenes across 3 device groups and 2 languages. Only proportional resizing and WebP encoding were applied to the frozen posters.",
   "generator": {
     "name": "sharp",
@@ -15,7 +15,7 @@
   "sourceRenderManifest": {
     "repository": "zebra",
     "path": "AppStoreSubmission/refresh-2026-10-11/render-manifest.json",
-    "sha256": "921aedc3efba4a31f81406e555c354eb41ca6bdf4964ad2c18f9d16d93bf9931"
+    "sha256": "a79c6445faecf65536a7a98dd855d83d6c7a36efbff209d5854cab65749104c5"
   },
   "posters": [
     {
@@ -26,15 +26,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/01-write.png",
-        "sha256": "de5a140d0427b48f893d93f5f0b93fb955693dd68ddbb1af3bf0524161e6a679",
+        "sha256": "d67384f313c1fc9273b94b873b53a0bced4ec01501fee8dd3eacde4209de42a8",
         "width": 2880,
         "height": 1800,
-        "bytes": 808634
+        "bytes": 802868
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/write.png",
-          "sha256": "9dabdc6488da6bd57f21e384f0affa9668c8a894c0e96cd6c9b1412ad67094d9",
+          "sha256": "126e7c5efd813fd19ddb58e1d2794437f1d99f9c4879473f236b44edb1817cd0",
           "appThemeRawValue": "Parchment"
         }
       ],
@@ -51,15 +51,15 @@
           "path": "assets/images/macos/zh-Hans/01-write-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32120,
-          "sha256": "5e31e125afa134eaa7a18bcb0fc2b951596c0b1e1c95968a33041aa63d0c4f3b"
+          "bytes": 31868,
+          "sha256": "752d6c8e84bc2402e75e962706f17912675a3cc52874bc72f243464d30cb090b"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/01-write-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 83536,
-          "sha256": "304e9965a086e58390c2cb4500f0b5a26302427356fc7088695827f1aa0c8e34"
+          "bytes": 83004,
+          "sha256": "3a0442e4b52afbf5a9a13710686b7ec2d6285b82a1f5d8b2da8df101f252b38a"
         }
       }
     },
@@ -71,20 +71,20 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/02-diagrams.png",
-        "sha256": "d3e7f9ecd7a1194f509a9649d10e2edd18d0a04cfd826ae93134bd36455edb5c",
+        "sha256": "2a0930284e97cd61897a744186ce7e3213c42361140b3b843513427d3f873c5d",
         "width": 2880,
         "height": 1800,
-        "bytes": 756302
+        "bytes": 748274
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/diagrams.png",
-          "sha256": "676cac4a4746a42501608905a8e04d0bafb5fb6f17c4620b076d7b20cb94ea01",
+          "sha256": "212ad275fbe5c909f7dd3af8a9b6441a18fddf13e81e74225f01ef90ec50ab8e",
           "appThemeRawValue": "Glacier"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/diagrams.png",
-          "sha256": "676cac4a4746a42501608905a8e04d0bafb5fb6f17c4620b076d7b20cb94ea01",
+          "sha256": "212ad275fbe5c909f7dd3af8a9b6441a18fddf13e81e74225f01ef90ec50ab8e",
           "appThemeRawValue": "Glacier"
         }
       ],
@@ -101,15 +101,15 @@
           "path": "assets/images/macos/zh-Hans/02-diagrams-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 23192,
-          "sha256": "e184ad22cbee831a2a7c4aeffdfea044e243abf50e9569e2d409945156bb23d5"
+          "bytes": 23046,
+          "sha256": "b5a2fc2dc62f125153ff6f8264ed74fbe73d49eebaffd0eab937e4abc6964e37"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/02-diagrams-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 61126,
-          "sha256": "25a273aa0bf623f1dec137a27094cd340e5a34f4220bd3b5a72741c6270d4917"
+          "bytes": 60630,
+          "sha256": "9ffb6fbba44316b3e4444ba761304ef2ca78a84fa33829329d7c909a99ff6540"
         }
       }
     },
@@ -121,15 +121,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/03-math.png",
-        "sha256": "8febb6e20d012ac6d774a9c3818f48bbb5ffb0cf8caff9336a5b9193fd0df629",
+        "sha256": "ce5df9f5ed0c584cb6409f1b6037221dc2a3933de9238cca9723ab5a12b1a45f",
         "width": 2880,
         "height": 1800,
-        "bytes": 733120
+        "bytes": 730326
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/math.png",
-          "sha256": "0ce1f9e3c1033eeede94d2fe3c50000bc86b03ea76f8c59e209a0ba60e87290c",
+          "sha256": "3fcebc0ee15535a9f3083e02bf1178b9345aa0add305811e0aa139a720888ff5",
           "appThemeRawValue": "Blossom"
         }
       ],
@@ -146,15 +146,15 @@
           "path": "assets/images/macos/zh-Hans/03-math-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28238,
-          "sha256": "6d11cf8a7746244791f1f0b6758e9791ea240ffaad3bf7bb38806d1031ee4786"
+          "bytes": 27922,
+          "sha256": "da42c7b2f864f09404fd1d2fc42aef25d77c0f78a559bdf9b180e0650200fd36"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/03-math-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 71308,
-          "sha256": "adde657d5e77d40c264a8506e2fffe74f998c4e6be0d1ac9768dddd0ecfd644a"
+          "bytes": 71056,
+          "sha256": "7fc3dc29f2773dd1cca1153aba29661b3e377bfd0da078f8ed91a337b982d6ff"
         }
       }
     },
@@ -166,15 +166,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/04-code.png",
-        "sha256": "12e89bbe099b60ef5be1408c3c1473915d0d6a60bba10af70a8b9e82de4ed70f",
+        "sha256": "b9bda0c4fafe6977eb8d3585ef6f8fa7126e51204e073f9c88e490ba2481cc1f",
         "width": 2880,
         "height": 1800,
-        "bytes": 763077
+        "bytes": 758607
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/code.png",
-          "sha256": "88e9ce6c07a66e3f1259d2a98b5eb9f59590afc8719987100cd1235607901828",
+          "sha256": "01cf2537228acb67847b431d2e5a2f3f933aaf731927888d22d8e93ca8ae7bb0",
           "appThemeRawValue": "Night Circuit"
         }
       ],
@@ -191,15 +191,15 @@
           "path": "assets/images/macos/zh-Hans/04-code-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32208,
-          "sha256": "0e6af09f99572a383c182ed7b4d47b7907d31d81005e86bceb4f19fe1225820a"
+          "bytes": 32000,
+          "sha256": "fca1e91d644c2c8f6c27424bebebfa02094aa729e7ae6d00c2d25cdb20df151a"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/04-code-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 83182,
-          "sha256": "a8a9c742f7290dd11aff9ff407593cc1df6db694744307c00b30d6edd51bc60e"
+          "bytes": 83050,
+          "sha256": "adfaf75aaa2bbafe671bb7a39c8c95e1e02acbad5cc48672eadd5ba85d347012"
         }
       }
     },
@@ -211,15 +211,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/05-organize.png",
-        "sha256": "e2f5c90ca29b92c4b4d7dd2e778295014f03893d569c4549ebb971bcac410718",
+        "sha256": "4b143f895604aef85f2925f46877aa764d1f9f3d90a2c016383c0ac148fe5482",
         "width": 2880,
         "height": 1800,
-        "bytes": 823804
+        "bytes": 818343
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/organize.png",
-          "sha256": "1affc2469a8dd260692d62e6041ebb4e6e1ee95fd46cc1e6fee07dce8ed8f5a4",
+          "sha256": "ef93bf51fa6251ac7d6fa2404fbc75cc0272ff62dff547e09ea7c93cd8df8941",
           "appThemeRawValue": "Sage"
         }
       ],
@@ -236,15 +236,15 @@
           "path": "assets/images/macos/zh-Hans/05-organize-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 31848,
-          "sha256": "17d777bc94e32db76e38006e07470a9d88f63402051aed14e40bcad63b1a96ae"
+          "bytes": 31558,
+          "sha256": "6c093475a039ef7c1bed612372e1c6c81fd6794774d290454f8033ff92520d55"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/05-organize-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 84656,
-          "sha256": "ee82185055f2dd746ba1105ae993110d74081fa51fc4fad502345d942a9687e5"
+          "bytes": 84294,
+          "sha256": "d47f804c121947ff201a013c1d63f9254832dc36e54b1b451d281b009fbe58b8"
         }
       }
     },
@@ -256,15 +256,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/06-search.png",
-        "sha256": "3eca1c8174aabfc4d2a7f4bd5ef378fd3ec6b9cc5035e8b572d7914cc6a9b557",
+        "sha256": "59a012457b6fe658929248f811a5af9287b11911a8c861fd232be90537b20f41",
         "width": 2880,
         "height": 1800,
-        "bytes": 914164
+        "bytes": 909461
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/search-context.png",
-          "sha256": "07cfc3e798366b62fa362d27f312ef69ff151fb364aa4ec4f7a11c8cc387bd24",
+          "sha256": "23c4fd43b43339493fcf7c8ccef6e8c909d29d37fd0dde8df650f016a534426d",
           "appThemeRawValue": "Hologram"
         },
         {
@@ -286,15 +286,15 @@
           "path": "assets/images/macos/zh-Hans/06-search-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28494,
-          "sha256": "c571b20846ae25857752aa0ea91c8470719452030fbef1220cbc6f7809ee5fe6"
+          "bytes": 28372,
+          "sha256": "44b7cf69ba0c420cceaf67762d8889575cfc15d87e47de0ed9ad42bf8f12706d"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/06-search-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 74302,
-          "sha256": "ac03ff0a91fcaae5ee5332bf96c1e356247a6a24b5a88b0d7484034a9f7fd0f5"
+          "bytes": 73920,
+          "sha256": "794c17c83755cd4118449c2fe1a5c0cdb38d9389877526dceb70af5305998765"
         }
       }
     },
@@ -306,15 +306,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/07-import-export.png",
-        "sha256": "8975adce3b62324783c673b586e4af9c4d0ec685e175a2637a7eaf727735ad10",
+        "sha256": "41c094a23960ca8fd89683559ac0058bf2b976e8b4e4480dd42add4200e9d1aa",
         "width": 2880,
         "height": 1800,
-        "bytes": 869984
+        "bytes": 864613
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/import-export-context.png",
-          "sha256": "b3179e3edab430b9bb9908c96aaf7729169826a4235b43496581d173516d0323",
+          "sha256": "f656ea3f50c493fb0423f5c89072bca9b03d733936dd97afdf765f89ccdd57f7",
           "appThemeRawValue": "Espresso"
         },
         {
@@ -336,15 +336,15 @@
           "path": "assets/images/macos/zh-Hans/07-import-export-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 29788,
-          "sha256": "b4bf646009d9dcb6163485c8c57dc7c10449b4fa1445a20eaa4413ad24f851ef"
+          "bytes": 29444,
+          "sha256": "1d0a577d19052ce035529837714e6dfccc86ca5801d3772821170b090dac166f"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/07-import-export-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 78592,
-          "sha256": "80c510829f565ba0322a1032a6c60e7e926596db02e255da8531af981e2a93e1"
+          "bytes": 77984,
+          "sha256": "d7995b01fec96823b198a981506e073bf70e236ebf1dfa3a291bfb74a9f50e5b"
         }
       }
     },
@@ -356,15 +356,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/08-sync.png",
-        "sha256": "3187ad4e6fca2369139fa0b230456440af250f7c33476245b024afafdcd7ad51",
+        "sha256": "68e140c0de96b429c72078ddd47926ad20f13448186c2fcdd6c7542c2634809b",
         "width": 2880,
         "height": 1800,
-        "bytes": 660888
+        "bytes": 656136
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/sync.png",
-          "sha256": "28bdc77f48b58cd3adc0b12c9667c23979323f2331312cfbb1f6e162865ff845",
+          "sha256": "21320df48444e6d85519a06d319e74adda1855c67d8ed684653faa247b2b3ea1",
           "appThemeRawValue": "Pine"
         }
       ],
@@ -381,15 +381,15 @@
           "path": "assets/images/macos/zh-Hans/08-sync-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 28176,
-          "sha256": "0a32c811a31daf41813e848022e9c6cf0557a704a1528d8d4c0ed902dd85f231"
+          "bytes": 27986,
+          "sha256": "1ce7d0755653a8d32c7523df1dedde60bcd727ec38910ca7a655dbdfb98df98e"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/08-sync-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 72898,
-          "sha256": "98ec7e458b07bbd60c203ec71eb01c877df4a13e885ac733f865233c87a02bbc"
+          "bytes": 72394,
+          "sha256": "a3aa45818eb971a559685f2b8f8843206388ff626ef71bdc0a647ccdab6fab7c"
         }
       }
     },
@@ -401,22 +401,22 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/09-themes.png",
-        "sha256": "86d4e7cd6cad40b7286dcaf7ec82f7955646bb29b751e75172e2047bab3f4b78",
+        "sha256": "9ed462c4ea0cff8707c768817c75f090843087f4ab1371db17fb1c914a8719f0",
         "width": 2880,
         "height": 1800,
-        "bytes": 926380
+        "bytes": 931927
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/themes-library.png",
-          "sha256": "ff59ddae6d6a7ef791cf368df5592816b19d9dcdbe0c25ceb69ee02241379323",
+          "sha256": "948a6de2f62bf35ecb0a5681cce74553bd6832173ea273684fb3d3806ebf9a9e",
           "appThemeRawValue": "Aurora",
           "baseThemeRawValue": "Aurora",
           "customThemeName": "极光工作室"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/themes.png",
-          "sha256": "c871a388acbacc731a558cd768aa576f08b51d642b948ffe56610e73e1edce06",
+          "sha256": "999ee20e3599e9900a2e87df277af230714884b836d28183a31b5f05393f58f3",
           "appThemeRawValue": "Aurora",
           "baseThemeRawValue": "Aurora",
           "customThemeName": "极光工作室"
@@ -435,15 +435,15 @@
           "path": "assets/images/macos/zh-Hans/09-themes-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 31538,
-          "sha256": "6edee7c54fe472377e378758c7b28b13c1f6f5bff7339b9d6e2cedca97a05b75"
+          "bytes": 31386,
+          "sha256": "dfe780816490b1be68ee9527c2e2b9932d4351ca3d2fe36b3323bb25edc14dbe"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/09-themes-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 83088,
-          "sha256": "7fd3a6dff61cf5dd332311b61ddf9c6606937e553473a297059e0643291f3ef2"
+          "bytes": 82766,
+          "sha256": "b18a02028b64a3bd3ab0de986ad16ad9a8b56b7d809d1ea36cf497281954380d"
         }
       }
     },
@@ -455,15 +455,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/zh-Hans/10-tables.png",
-        "sha256": "9ab1ce14b68bbee1a5a7954263944a3c2a16d2d219825468aac3cde871949ccf",
+        "sha256": "4e3dcd47d84b15c792a470d8a11cde9acb3b0abe262c91e786facb65bf2f823c",
         "width": 2880,
         "height": 1800,
-        "bytes": 1107091
+        "bytes": 1109108
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/tables.png",
-          "sha256": "fcac01c1c54258f4cec2dcf5d0fc4a3ca4d7aed2efd0a2556114dd98ee3a94ac",
+          "sha256": "a307ad1ba5265016092da44bcf195e2cf302936cd9b31b9f0f31482aae6494fb",
           "appThemeRawValue": "Daybreak"
         },
         {
@@ -485,15 +485,15 @@
           "path": "assets/images/macos/zh-Hans/10-tables-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 30800,
-          "sha256": "ac9aea8c69fa5e85a0b53adbd63e9605aa5bc25612e32f6ac6d08228f43ab6f7"
+          "bytes": 30700,
+          "sha256": "9298bd7ffd854f4f5e7f6b1d17c66ce79798d214afea399468ea569100991f88"
         },
         "large": {
           "path": "assets/images/macos/zh-Hans/10-tables-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 83912,
-          "sha256": "50a98866064d42687b18dc7713d569ff9ae1754ff8e0ada910e06a77ef5dbdd6"
+          "bytes": 83684,
+          "sha256": "42806ffbc7a5cd3cef3561ce095e5bb0dacf8e514d0a2a4384b193203dbf1830"
         }
       }
     },
@@ -505,15 +505,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/01-write.png",
-        "sha256": "919b5edb7b26ec5cbae778244cf64b480ecbb6e503786dfccabfae6813e8bf77",
+        "sha256": "e0f92b9020bd16d03b99abee13b676e991266fc792e08662520a623634d4fb96",
         "width": 2880,
         "height": 1800,
-        "bytes": 843623
+        "bytes": 830879
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/write.png",
-          "sha256": "247a731c7525883470b7f9753bd33cb4be423601eebd6f06a2cb609265cb5978",
+          "sha256": "a471166a34d78bf8668f246fe82f6e80619160ee90379f77690cdc23f328d79e",
           "appThemeRawValue": "Parchment"
         }
       ],
@@ -530,15 +530,15 @@
           "path": "assets/images/macos/en-US/01-write-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 38828,
-          "sha256": "50e32fc8483760572563f1a0cc500d2d985e1ee06958e88b4a8af4f27e0af119"
+          "bytes": 37374,
+          "sha256": "f9bf03327bd3776cab42646a41857d0697d131fd2993ddd45c5b52620ac353ed"
         },
         "large": {
           "path": "assets/images/macos/en-US/01-write-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 96626,
-          "sha256": "0cb2d9be67198a8db1df95be6f460660621b0306d4b6f375e8744835489dafb3"
+          "bytes": 92444,
+          "sha256": "9286ab7384636dd0f92eee12516c178afbbd8d5a06eceb193f8bdb4e15999bf2"
         }
       }
     },
@@ -550,20 +550,20 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/02-diagrams.png",
-        "sha256": "cc1e1292c521093161792d2877680d213582fe575110fe25c1b4f5e3a2a7142b",
+        "sha256": "890d6239eae1c8a8109ff6293c6f9374b7ae2f0e38944663ac7b1fa99dfed535",
         "width": 2880,
         "height": 1800,
-        "bytes": 793526
+        "bytes": 771248
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/diagrams.png",
-          "sha256": "a6d1c2e283e34a811299e0f78ed9eb6552bba4618a0fb39fec93ad6631570ff8",
+          "sha256": "18f53d44b242956e1cb8163f74de79b922d3aeeb164ccc9e3daf3b9b316851a4",
           "appThemeRawValue": "Glacier"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/diagrams.png",
-          "sha256": "a6d1c2e283e34a811299e0f78ed9eb6552bba4618a0fb39fec93ad6631570ff8",
+          "sha256": "18f53d44b242956e1cb8163f74de79b922d3aeeb164ccc9e3daf3b9b316851a4",
           "appThemeRawValue": "Glacier"
         }
       ],
@@ -580,15 +580,15 @@
           "path": "assets/images/macos/en-US/02-diagrams-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 26214,
-          "sha256": "fab2ba58e277792d9d97d9a6ad42efa94ed06bca091ef732492749ca7dd2a2fd"
+          "bytes": 25604,
+          "sha256": "67e7b7b77db9483ce2499f21f4464087d88514a57d3d8847f4974f18217d54b2"
         },
         "large": {
           "path": "assets/images/macos/en-US/02-diagrams-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 68590,
-          "sha256": "c5da1f4556d8735b7a4f152e0161d66bc742ec66118b9b500b6cd2b339c0fe44"
+          "bytes": 66324,
+          "sha256": "4a870cbef49055dcce7670094dc8b3e73b65c77bbd2e6e6ebec9c153521f853b"
         }
       }
     },
@@ -600,15 +600,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/03-math.png",
-        "sha256": "9a2ff1b5014c606309bad424713c488f09068d23b4b193e94fe6722b21c12c30",
+        "sha256": "157da78ebee057aeabcdefcaf98655907818c7d88037353a8321d8ff30562af9",
         "width": 2880,
         "height": 1800,
-        "bytes": 766365
+        "bytes": 732510
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/math.png",
-          "sha256": "7de3c4ddc2c93ce03166d302215b0625b73102107228fadc7e3ba8397dc18b8e",
+          "sha256": "0c321129198b2d08de0ec6f4c7ab950e7580dab40db7992c9e6789db98398745",
           "appThemeRawValue": "Blossom"
         }
       ],
@@ -625,15 +625,15 @@
           "path": "assets/images/macos/en-US/03-math-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 32096,
-          "sha256": "604c71de2a1fd4fc1c32dfd952cd826f253fc356951a5f8e9c20bbb38ca8041e"
+          "bytes": 30576,
+          "sha256": "d8a4a8fed7ec13ec0c230db6f7452170116934aee1626bcd159525f1885704a0"
         },
         "large": {
           "path": "assets/images/macos/en-US/03-math-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 79292,
-          "sha256": "c51d30073bdc640791b08011d863628fd3749790ad1360023cb301229daf2b09"
+          "bytes": 74866,
+          "sha256": "1d940619da475eee90662448e6f079581398b80e01cfc6300ee099f5e9b1c449"
         }
       }
     },
@@ -645,15 +645,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/04-code.png",
-        "sha256": "f13e5e54ee037775236e4d95fd26bcefb136673ccdde44c82c5d1eccc82c41f4",
+        "sha256": "9558823747bbcf7c51e57c09dbf47e21bf85c9e5013aada6e6dd52705490d39d",
         "width": 2880,
         "height": 1800,
-        "bytes": 766424
+        "bytes": 745954
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/code.png",
-          "sha256": "24412f0960f30d775ef9670305de1cc21dd7219e48301043f58710265ca05a66",
+          "sha256": "cca1b5bfbe20cb84c98715c1324b3348f4c913472fb6fdef6c2a746cadd78b79",
           "appThemeRawValue": "Night Circuit"
         }
       ],
@@ -670,15 +670,15 @@
           "path": "assets/images/macos/en-US/04-code-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 35254,
-          "sha256": "293e57e514abbe71a786e6362c6258c6a0807b207b9e867162d9ebccf95213f8"
+          "bytes": 34728,
+          "sha256": "a25030ef7512f72cb1f650ad29157e1c2afc720255766267196073f3cf564cb3"
         },
         "large": {
           "path": "assets/images/macos/en-US/04-code-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 88372,
-          "sha256": "fbd1522da173122f234276c3b7e169ad6aa7f4d68a061081b39cb594ce601029"
+          "bytes": 87574,
+          "sha256": "fbbcdf9bf15db91665947c96867e24a18f04ab38472e64f4ed9b5038111f24e2"
         }
       }
     },
@@ -690,15 +690,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/05-organize.png",
-        "sha256": "0dd2db76232cae7e9c64bb32b58582df590aa4f9a23b46289bf4b997ca1fa08e",
+        "sha256": "1b01e41ef05251bd9ac8c8e6611c2c42b69418eb179c1f2b9b023e00f7c656d4",
         "width": 2880,
         "height": 1800,
-        "bytes": 731840
+        "bytes": 726134
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/organize.png",
-          "sha256": "448c3a776e9e4b6374065ed044ad6275816e1eed23f8633a9d5f532cf61ce5a8",
+          "sha256": "b291b4c28a9531bfc46e527cb327b5e15401c52955b3df56ad5fc5577cf026fa",
           "appThemeRawValue": "Sage"
         }
       ],
@@ -715,15 +715,15 @@
           "path": "assets/images/macos/en-US/05-organize-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 30640,
-          "sha256": "ff580b9b67a4883388326fa5cd40c4367738d729b9a9d2d5bdb465758d24375d"
+          "bytes": 30538,
+          "sha256": "4873114fac4dc19bde4b2551d7c3b6dea62f792f224b9e82b330718cea169403"
         },
         "large": {
           "path": "assets/images/macos/en-US/05-organize-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 75404,
-          "sha256": "8e6521c46245ef007da23df6a07ae0ff1a6c532b2e5c1e12d6bbc73328bb9576"
+          "bytes": 75784,
+          "sha256": "1718eac190cbe78ce6bba746e122c09cd47fe6e9af57b3242b548459626b0e8e"
         }
       }
     },
@@ -735,15 +735,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/06-search.png",
-        "sha256": "dc4e1342eb38d0602c8c0ef52c86d667bd9b238adb3eccf99b6c53dbdfd9c98f",
+        "sha256": "90173faa6cc7bdf9863e789bb6ad842b0c8ebc2f818b4efe2fed07ff01d13cf8",
         "width": 2880,
         "height": 1800,
-        "bytes": 903548
+        "bytes": 892526
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/search-context.png",
-          "sha256": "88bd982b84b201c8b9ea8fec153214e993adc160f1b45851f3e93f8ced924e9f",
+          "sha256": "9441da1b416335d7fe6cd6808b763dad893a9c7d4548dbb923db880fd3e40c26",
           "appThemeRawValue": "Hologram"
         },
         {
@@ -765,15 +765,15 @@
           "path": "assets/images/macos/en-US/06-search-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 34174,
-          "sha256": "511ae481568d278a15a8aa6f66cfc97ad6b65526ace700392b6264e31c058bea"
+          "bytes": 33644,
+          "sha256": "fdfb71ecb634981449429e2361a8b8ac95fc9c932b8f96c6cd8ea54515e23a04"
         },
         "large": {
           "path": "assets/images/macos/en-US/06-search-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 87704,
-          "sha256": "148e46d38689911e42e61d189cd0c9175cf6a6f534e7162aa4b8dfcff4a9f9f9"
+          "bytes": 86382,
+          "sha256": "6f1c2da56e2d4d1f1c585f0b463873d9e6d92ba70ad529feec50477b723c06ff"
         }
       }
     },
@@ -785,15 +785,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/07-import-export.png",
-        "sha256": "2da5ed6131e9db6f63f0788aeb6896fcd8c338bd3cdc182c8e30fac873e55d68",
+        "sha256": "73ed18ee563fa07853f53f9afa67ac461e313277e6901944fc339fcd93cbaf9f",
         "width": 2880,
         "height": 1800,
-        "bytes": 917467
+        "bytes": 906502
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/import-export-context.png",
-          "sha256": "017e95b87fa0c66771f907b81932364ea8640d40dd7be459282b419df52090d5",
+          "sha256": "4942d845dd9052685b0e2ffc44cd1c2f6cc41880309c6d8ea5631a697fb94fca",
           "appThemeRawValue": "Espresso"
         },
         {
@@ -815,15 +815,15 @@
           "path": "assets/images/macos/en-US/07-import-export-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 34952,
-          "sha256": "6d59f4e22744d5935d588f11b2dc59c5ce35a1673aab1068ab5d9a2dccd92db9"
+          "bytes": 34546,
+          "sha256": "b92214303f4de11d2829dac593f19ded81795c91be99545642e4981285708d02"
         },
         "large": {
           "path": "assets/images/macos/en-US/07-import-export-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 90750,
-          "sha256": "95fdca6481edfc78ec8a8b0fafb65415aeb519685496182364dba802101d65ba"
+          "bytes": 89202,
+          "sha256": "e84eb28ce7cb15ed721efae89e1b94d444216b0463f6ac2143ee2aabd3447e10"
         }
       }
     },
@@ -835,15 +835,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/08-sync.png",
-        "sha256": "1c4772f575ca2b8c854188ccf65f5af19a0aae7c0762905163bd20a564ac0024",
+        "sha256": "81f91f6f02138ec658939daa22e0b46dc6fae4f52b49a511ac20cce37955f042",
         "width": 2880,
         "height": 1800,
-        "bytes": 696123
+        "bytes": 692119
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/sync.png",
-          "sha256": "498611b28c841a92aa170aab17a988b969fe283786897e22cf6975770be6aefa",
+          "sha256": "5ffb4f9900684c27d91c249ccf7ff405800c8f73d919ddf9a1353a7baab07fe3",
           "appThemeRawValue": "Pine"
         }
       ],
@@ -860,15 +860,15 @@
           "path": "assets/images/macos/en-US/08-sync-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 34698,
-          "sha256": "952953a36907f4fbbb973c6de0021c675a238b7f6d977cb8f54bb2a64a341539"
+          "bytes": 34266,
+          "sha256": "9cc494fe9e93d06e96fea39c933611c48263a824cf77b8074df98970449e4d52"
         },
         "large": {
           "path": "assets/images/macos/en-US/08-sync-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 85474,
-          "sha256": "622d137e13450acde3a6d4e0a8c45e38991642fa8589af1263ceeb88093766ee"
+          "bytes": 85030,
+          "sha256": "1dcf103285c1adc49e81740ce4d93d726a548650e56ae3a7bd3461595341d078"
         }
       }
     },
@@ -880,22 +880,22 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/09-themes.png",
-        "sha256": "30714edbc53a79f504bfd15631f082ae52a5c3a624142df35e190a3e7651895a",
+        "sha256": "b6645b48e7bab3214b4d59fc5db13913adc287acee013b703f5b5ad57e3cb740",
         "width": 2880,
         "height": 1800,
-        "bytes": 955455
+        "bytes": 964222
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/themes-library.png",
-          "sha256": "3e38197eb09eac5e6856406f2c650442a0f6cbb5c527ae383a3b333cf28d0f5a",
+          "sha256": "60871dfb16962eec9733f2790c7045faaa1e7edff473de1375acab98785f1c06",
           "appThemeRawValue": "Aurora",
           "baseThemeRawValue": "Aurora",
           "customThemeName": "Aurora Studio"
         },
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/themes.png",
-          "sha256": "b8e4268376eea31a6d335ad0c0f9b4aabaf7a821b4762f8c2b09ae6bdee53fef",
+          "sha256": "ff19076e5e3d849b11a7884c3e1558b6f6bde862f7c8d37fd808c88aee66d70c",
           "appThemeRawValue": "Aurora",
           "baseThemeRawValue": "Aurora",
           "customThemeName": "Aurora Studio"
@@ -914,15 +914,15 @@
           "path": "assets/images/macos/en-US/09-themes-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 35412,
-          "sha256": "4aad5fc3a8ae7c45f4b02d45ebbf9f8957994e8d6d588a6e12cec3a14e48b56f"
+          "bytes": 35296,
+          "sha256": "5c49f7760795103d2ad71d52d02c218d19bc2e8c2d43fca4045fefb1722f3ba4"
         },
         "large": {
           "path": "assets/images/macos/en-US/09-themes-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 92590,
-          "sha256": "df266683f5cd15fc36a02972216157d6eb49f240a64cddee992b3e8f72503d25"
+          "bytes": 92360,
+          "sha256": "f316ee83c77d6e25389039a083079fa20926c5f0ba006be06249f662875d4301"
         }
       }
     },
@@ -934,15 +934,15 @@
       "source": {
         "repository": "zebra",
         "path": "AppStoreSubmission/refresh-2026-10-11/assets/macos/en-US/10-tables.png",
-        "sha256": "81ed58bb6fcc9f70e0fa50676a09811b7887573ced4928f6aafc5c66fc5daabb",
+        "sha256": "f3e17037698b579264da565f7de86422556fc279704201c71c609b1d7d5639dc",
         "width": 2880,
         "height": 1800,
-        "bytes": 1148467
+        "bytes": 1136877
       },
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/tables.png",
-          "sha256": "d8e1ab18d43032fd2cc68dbddd2fabc3b8616e64eb3c91f93dc8e656c3ff016b",
+          "sha256": "c6510d4f812ff2483f80da3677421e39673c4ff5c1bfd5113849de28010d8d27",
           "appThemeRawValue": "Daybreak"
         },
         {
@@ -964,15 +964,15 @@
           "path": "assets/images/macos/en-US/10-tables-small.webp",
           "width": 720,
           "height": 450,
-          "bytes": 34456,
-          "sha256": "89180979e375bc7d29cdff5c97dac7a236f5a835ba4510b322d636ed3ccd21ee"
+          "bytes": 34238,
+          "sha256": "76fc081cf028a736b52cd2c79fc21f72f43e545ca916f1b9b51a3264c3f3155a"
         },
         "large": {
           "path": "assets/images/macos/en-US/10-tables-large.webp",
           "width": 1440,
           "height": 900,
-          "bytes": 90602,
-          "sha256": "41e8bca59b363f18fff3ce7e22ea0aefe767fad62b879f7d2afcdc5aa232c7df"
+          "bytes": 89588,
+          "sha256": "5a69844f25206ba118134781cb7546384ba84b646c7224f0c872bc656188d338"
         }
       }
     },
@@ -2811,10 +2811,10 @@
     "posterCount": 60,
     "webpCount": 120,
     "brandPngCount": 2,
-    "originalPosterBytes": 45849540,
-    "smallWebpBytes": 2464498,
-    "largeWebpBytes": 5540968,
+    "originalPosterBytes": 45691892,
+    "smallWebpBytes": 2456464,
+    "largeWebpBytes": 5521300,
     "brandPngBytes": 1266267,
-    "totalImageBytes": 9271733
+    "totalImageBytes": 9244031
   }
 }

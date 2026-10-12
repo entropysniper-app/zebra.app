@@ -2,7 +2,7 @@
 """Check local pages, links, bilingual galleries, image hashes and public hygiene."""
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlsplit, unquote
+from urllib.parse import urlsplit, unquote, parse_qs
 import hashlib
 import json
 import re
@@ -25,6 +25,7 @@ class Page(HTMLParser):
    if 'alt' not in a:errors.append(f'{self.path}: image without alt')
   if tag in ['a','link']:self.refs.append(a.get('href',''))
   if tag in ['img','script']:self.refs.append(a.get('src',''))
+  if 'data-large' in a:self.refs.append(a['data-large'])
   if 'srcset' in a:self.refs.extend(x.strip().split()[0] for x in a['srcset'].split(','))
   self.in_data=tag=='script' and a.get('id')=='gallery-data'
  def handle_endtag(self,tag):
@@ -43,7 +44,8 @@ for name in ['index.html','privacy.html','zh/index.html','zh/privacy.html']:
    if len(cards)!=10:errors.append(f'{name}: {platform} expected 10 cards')
    for card in cards:
     for kind in ['small','large']:
-     if not (p.parent/card[kind]).is_file():errors.append(f'{name}: missing {card[kind]}')
+     if not (p.parent/unquote(urlsplit(card[kind]).path)).is_file():errors.append(f'{name}: missing {card[kind]}')
+     parser.refs.append(card[kind])
  for bad in ['SUPPORT_EMAIL','OPERATOR_NAME','PRIVACY_EFFECTIVE_DATE','/Users/phil','/tmp/zebra','sourceSidecar','createdRecord','javascript:']:
   if bad in p.read_text():errors.append(f'{name}: private or placeholder marker {bad}')
 for p,parser in pages.items():
@@ -79,6 +81,15 @@ else:
    if not any(a.get('id')=='zebra-window-mascot' for a in poster['decorativeAssets']):errors.append(f'Missing mascot provenance: {identity}')
    if set(poster['variants'])!={'small','large'}:errors.append(f'Wrong variants for {identity}')
   assets=[a for poster in posters for a in poster['variants'].values()]+metadata['branding']
+  poster_versions={(ROOT/asset['path']).resolve():asset['sha256'][:12]
+                   for poster in posters for asset in poster['variants'].values()}
+  for page_path,parser in pages.items():
+   for ref in parser.refs:
+    u=urlsplit(ref)
+    if u.scheme or u.netloc:continue
+    target=(page_path.parent/unquote(u.path)).resolve()
+    if target in poster_versions and parse_qs(u.query).get('v')!=[poster_versions[target]]:
+     errors.append(f'{parser.path}: missing or stale poster version {ref}')
   for asset in assets:
    p=(ROOT/asset['path']).resolve()
    if not p.is_relative_to(ROOT/'assets/images'):errors.append(f'Image path leaves assets: {asset["path"]}');continue
