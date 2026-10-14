@@ -1,4 +1,46 @@
 'use strict';
+// The promo film plays muted while it is on screen, never for readers who
+// prefer reduced motion, and can always be paused (WCAG 2.2.2).
+(() => {
+  const video = document.getElementById('promo-video');
+  const toggle = document.querySelector('.film-toggle');
+  if (!video || !toggle) return;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let pausedByReader = reduced.matches;
+  let visible = false;
+  function render() {
+    const paused = video.paused;
+    toggle.dataset.state = paused ? 'paused' : 'playing';
+    toggle.setAttribute('aria-label', paused ? toggle.dataset.playLabel : toggle.dataset.pauseLabel);
+  }
+  function update() {
+    if (visible && !pausedByReader) {
+      video.preload = 'auto';
+      video.play().catch(() => { pausedByReader = true; render(); });
+    } else if (!video.paused) {
+      video.pause();
+    }
+  }
+  video.removeAttribute('controls');
+  toggle.hidden = false;
+  toggle.addEventListener('click', () => {
+    pausedByReader = !video.paused;
+    if (!pausedByReader) { video.preload = 'auto'; video.play().catch(() => {}); } else { video.pause(); }
+  });
+  video.addEventListener('play', render);
+  video.addEventListener('pause', render);
+  reduced.addEventListener('change', () => { if (reduced.matches) { pausedByReader = true; update(); } });
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(entries => {
+      visible = entries.some(entry => entry.isIntersecting);
+      update();
+    }, { threshold: 0.35 }).observe(video);
+  } else {
+    visible = true;
+    update();
+  }
+  render();
+})();
 (() => {
   const dataElement = document.getElementById('gallery-data');
   if (!dataElement) return;

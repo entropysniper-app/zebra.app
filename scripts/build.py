@@ -8,10 +8,16 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://entropysniper-app.github.io/zebra.app/'
 FEATURES = json.loads((ROOT / 'content/features.json').read_text())
 SUPPORT = json.loads((ROOT / 'content/support.json').read_text())
+MANIFEST = json.loads((ROOT / 'asset-manifest.json').read_text())
 POSTER_ASSETS = {
  asset['path']: asset
- for poster in json.loads((ROOT / 'asset-manifest.json').read_text())['posters']
+ for poster in MANIFEST['posters']
  for asset in poster['variants'].values()
+}
+VIDEOS = {video['locale']: video for video in MANIFEST.get('videos', [])}
+FILM = {
+ 'en-US': {'eyebrow':'Zebra in 14 seconds','title':'Watch an idea take shape.','caption':'Every app screen in this film is a real Zebra capture; the moving type is added for the film.','play':'Play video','pause':'Pause video','label':'Zebra promo film'},
+ 'zh-Hans': {'eyebrow':'14 秒认识 Zebra','title':'看一个想法慢慢成形。','caption':'片中 App 画面均为 Zebra 真实截图，动态文字为短片另加。','play':'播放视频','pause':'暂停视频','label':'Zebra 宣传短片'},
 }
 E = html.escape
 UI = {
@@ -71,6 +77,18 @@ def paragraphs(text):
 def poster_url(path, prefix=''):
  return f"{prefix}{path}?v={POSTER_ASSETS[path]['sha256'][:12]}"
 
+def film(locale, prefix):
+ """The promo film starts paused with native controls; site.js plays it
+ muted while it is on screen unless the reader prefers reduced motion."""
+ video=VIDEOS.get(locale)
+ if not video:return ''
+ f=FILM[locale]
+ src=f"{prefix}{video['path']}?v={video['sha256'][:12]}"; poster=f"{prefix}{video['poster']['path']}?v={video['poster']['sha256'][:12]}"
+ return (f'<section class="film" id="film" aria-labelledby="film-title"><p class="eyebrow">{E(f["eyebrow"])}</p><h2 id="film-title">{E(f["title"])}</h2>'
+  f'<div class="film-frame"><video id="promo-video" controls muted loop playsinline preload="none" poster="{poster}" width="{video["width"]}" height="{video["height"]}" aria-label="{E(f["label"])}" aria-describedby="film-caption"><source src="{src}" type="video/mp4"></video>'
+  f'<button class="film-toggle" type="button" hidden data-play-label="{E(f["play"])}" data-pause-label="{E(f["pause"])}" aria-label="{E(f["play"])}"><span aria-hidden="true"></span></button></div>'
+  f'<p class="film-caption" id="film-caption">{E(f["caption"])}</p></section>')
+
 def page(locale, privacy=False):
  u=UI[locale]; zh=locale=='zh-Hans'; pre='../' if zh else ''; home='index.html'; filename='privacy.html' if privacy else 'index.html'; path=('zh/' if zh else '')+filename
  other=('../'+filename) if zh else ('zh/'+filename); canonical=BASE+path
@@ -103,6 +121,7 @@ def page(locale, privacy=False):
  table='<thead><tr>'+''.join(f'<th scope="col">{E(t)}</th>' for t in u['platformHeads'])+'</tr></thead><tbody>'+''.join('<tr><th scope="row">'+E(r[0])+'</th>'+''.join(f'<td>{E(t)}</td>' for t in r[1:])+'</tr>' for r in u['platformRows'])+'</tbody>'
  body=f'''<main id="main"><section class="hero"><div><p class="eyebrow">{u['eyebrow']}</p><h1>{E(u['hero']).replace(chr(10),'<br>')}</h1><p class="lead">{u['lead']}</p><div class="actions"><a class="button" href="#explore">{u['explore']} <span aria-hidden="true">↓</span></a><a class="button secondary" href="#support">{u['help']}</a></div></div><div><a class="hero-image-link" href="#explore" aria-label="{u['explore']}"><div class="poster"><img src="{hero['large']}" srcset="{hero['small']} 720w, {hero['large']} 1440w" sizes="(max-width: 700px) 94vw, 55vw" width="2880" height="1800" alt="{E(hero['alt'])}" fetchpriority="high"></div></a><p class="hero-caption">{u['caption']}</p></div></section>
 <div class="principles">{''.join('<span>'+E(p)+'</span>' for p in u['principles'])}</div>
+{film(locale,pre)}
 <section id="explore"><div class="section-heading"><div><p class="eyebrow">{u['galleryEyebrow']}</p><h2>{u['galleryTitle']}</h2><p>{u['galleryIntro']}</p></div><div class="device-switch" role="group" aria-label="{'选择设备' if zh else 'Choose a device'}"><button type="button" data-device-button="macos" aria-pressed="true">Mac</button><button type="button" data-device-button="iphone" aria-pressed="false">iPhone</button><button type="button" data-device-button="ipad" aria-pressed="false">iPad</button></div></div><p id="gallery-status" class="eyebrow" aria-live="polite">Mac · {u['status']}</p><noscript><p class="no-script">{u['noScript']}</p></noscript><div id="gallery" class="gallery" data-device="macos">{cards_html}</div><p class="gallery-note">{u['galleryNote']}</p></section>
 <section id="sync" class="sync-section"><div><p class="eyebrow">{u['syncEyebrow']}</p><h2>{E(u['syncTitle']).replace(chr(10),'<br>')}</h2><p>{u['syncIntro']}</p><span class="sync-mark">{u['syncMark']}</span></div><div><div class="sync-card"><h3>{u['ordinaryTitle']}</h3><p>{u['ordinaryBody']}</p></div><div class="sync-card"><h3>{u['encryptedTitle']}</h3><p>{u['encryptedBody']}</p></div></div></section>
 <section class="platforms"><h2>{u['platformTitle']}</h2><table class="platform-table"><caption>{u['platformCaption']}</caption>{table}</table></section>

@@ -92,7 +92,7 @@
       {
         "id": "themes",
         "headline": "自定义主题，分享你的配色",
-        "subheadline": "挑选 22 套主题，自己调色；主题文件可导入、导出与分享。",
+        "subheadline": "22 套主题全新调色，还能自己调；主题文件可导入、导出与分享。",
         "benefits": [
           "22 套内置主题",
           "调色与实时预览",
@@ -204,7 +204,7 @@
       {
         "id": "themes",
         "headline": "Custom themes, ready to share",
-        "subheadline": "Choose from 22 themes, customize colors, and import or export theme files.",
+        "subheadline": "22 freshly tuned themes. Customize colors, and import or export theme files.",
         "benefits": [
           "22 built-in themes",
           "Colors & live preview",
@@ -326,7 +326,7 @@
       {
         "id": "themes",
         "headline": "22 套主题，随心切换",
-        "subheadline": "浅色或深色，让文字、代码和表格一起换成你喜欢的配色。",
+        "subheadline": "全新调色的浅色与深色主题，文字、代码和表格一起换装。",
         "benefits": [
           "22 套主题",
           "浅色与深色",
@@ -338,10 +338,10 @@
       {
         "id": "tables",
         "headline": "表格直接改，行列随手调",
-        "subheadline": "点进单元格直接写，增删移动行列，让表格跟着计划调整。",
+        "subheadline": "点进单元格直接写，按住手柄拖动行列，让表格跟着计划调整。",
         "benefits": [
           "直接编辑单元格",
-          "增删移动行列",
+          "拖动调整行列",
           "列对齐"
         ],
         "footnote": "",
@@ -448,7 +448,7 @@
       {
         "id": "themes",
         "headline": "22 themes for your notes",
-        "subheadline": "Pick a light or dark theme for your notes, code, and tables.",
+        "subheadline": "Freshly tuned light and dark themes restyle your notes, code, and tables together.",
         "benefits": [
           "22 built-in themes",
           "Light & dark",
@@ -460,10 +460,10 @@
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Type into cells. Add or move rows and columns as your plans change.",
+        "subheadline": "Type into cells. Hold a handle to drag rows and columns into place.",
         "benefits": [
           "Edit cells directly",
-          "Add or move rows",
+          "Drag rows & columns",
           "Column alignment"
         ],
         "footnote": "",
@@ -564,7 +564,7 @@
       {
         "id": "themes",
         "headline": "22 套主题，随心切换",
-        "subheadline": "浅色或深色，让文字、代码和表格一起换成你喜欢的配色。",
+        "subheadline": "全新调色的浅色与深色主题，文字、代码和表格一起换装。",
         "benefits": [
           "22 套主题",
           "浅色与深色",
@@ -575,10 +575,10 @@
       {
         "id": "tables",
         "headline": "表格直接改，行列随手调",
-        "subheadline": "点进单元格直接写，增删移动行列，让表格跟着计划调整。",
+        "subheadline": "点进单元格直接写，按住手柄拖动行列，让表格跟着计划调整。",
         "benefits": [
           "直接编辑单元格",
-          "增删移动行列",
+          "拖动调整行列",
           "列对齐"
         ],
         "footnote": ""
@@ -676,7 +676,7 @@
       {
         "id": "themes",
         "headline": "22 themes for your notes",
-        "subheadline": "Pick a light or dark theme for your notes, code, and tables.",
+        "subheadline": "Freshly tuned light and dark themes restyle your notes, code, and tables together.",
         "benefits": [
           "22 built-in themes",
           "Light & dark",
@@ -687,10 +687,10 @@
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Type into cells. Add or move rows and columns as your plans change.",
+        "subheadline": "Type into cells. Hold a handle to drag rows and columns into place.",
         "benefits": [
           "Edit cells directly",
-          "Add or move rows",
+          "Drag rows & columns",
           "Column alignment"
         ],
         "footnote": ""

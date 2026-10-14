@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[1]
 errors=[]
 class Page(HTMLParser):
  def __init__(self, path):
-  super().__init__(); self.path=path; self.ids=set(); self.refs=[]; self.gallery=''; self.in_data=False; self.h1s=0; self.images=0; self.faqs=0
+  super().__init__(); self.path=path; self.ids=set(); self.refs=[]; self.gallery=''; self.in_data=False; self.h1s=0; self.images=0; self.faqs=0; self.videos=0
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if 'id' in a:
@@ -24,7 +24,11 @@ class Page(HTMLParser):
    self.images+=1
    if 'alt' not in a:errors.append(f'{self.path}: image without alt')
   if tag in ['a','link']:self.refs.append(a.get('href',''))
-  if tag in ['img','script']:self.refs.append(a.get('src',''))
+  if tag in ['img','script','source']:self.refs.append(a.get('src',''))
+  if tag=='video':
+   self.videos+=1;self.refs.append(a.get('poster',''))
+   if 'autoplay' in a:errors.append(f'{self.path}: the film must not autoplay before reduced-motion is checked')
+   if 'muted' not in a or 'playsinline' not in a:errors.append(f'{self.path}: the film must be muted and inline')
   if 'data-large' in a:self.refs.append(a['data-large'])
   if 'srcset' in a:self.refs.extend(x.strip().split()[0] for x in a['srcset'].split(','))
   self.in_data=tag=='script' and a.get('id')=='gallery-data'
@@ -39,6 +43,7 @@ for name in ['index.html','privacy.html','zh/index.html','zh/privacy.html']:
  if parser.h1s!=1:errors.append(f'{name}: expected one h1')
  if name.endswith('index.html'):
   if parser.faqs!=8:errors.append(f'{name}: expected 8 FAQs')
+  if parser.videos!=1:errors.append(f'{name}: expected one promo film')
   data=json.loads(parser.gallery)
   for platform,cards in data['devices'].items():
    if len(cards)!=10:errors.append(f'{name}: {platform} expected 10 cards')
@@ -83,6 +88,8 @@ else:
   assets=[a for poster in posters for a in poster['variants'].values()]+metadata['branding']
   poster_versions={(ROOT/asset['path']).resolve():asset['sha256'][:12]
                    for poster in posters for asset in poster['variants'].values()}
+  poster_versions.update({(ROOT/item['path']).resolve():item['sha256'][:12]
+                          for video in metadata.get('videos',[]) for item in (video,video['poster'])})
   for page_path,parser in pages.items():
    for ref in parser.refs:
     u=urlsplit(ref)
@@ -100,7 +107,16 @@ else:
    if len(data)!=asset['bytes'] or hashlib.sha256(data).hexdigest()!=asset['sha256']:errors.append(f'Image hash or size mismatch: {asset["path"]}')
   actual={p.resolve() for p in (ROOT/'assets/images').rglob('*') if p.is_file()}
   if seen!=actual:errors.append('Image manifest does not exactly cover all image files')
+  videos=metadata.get('videos',[]); covered=set()
+  if {v['locale'] for v in videos}!={'en-US','zh-Hans'}:errors.append('Video manifest must describe one film per language')
+  for video in videos:
+   for item in (video,video['poster']):
+    p=(ROOT/item['path']).resolve(); covered.add(p)
+    if not p.is_file():errors.append(f'Missing manifest video file: {item["path"]}');continue
+    data=p.read_bytes()
+    if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:errors.append(f'Video hash or size mismatch: {item["path"]}')
+  if covered!={p.resolve() for p in (ROOT/'assets/video').rglob('*') if p.is_file()}:errors.append('Video manifest does not exactly cover all video files')
  except (ValueError,KeyError,TypeError) as exc:errors.append(f'Invalid image manifest: {exc}')
-result={'pages':len(pages),'localizedFeatureCards':60,'webImages':len(images),'localLinksChecked':sum(len(p.refs) for p in pages.values()),'errors':errors}
+result={'pages':len(pages),'localizedFeatureCards':60,'webImages':len(images),'films':sum(p.videos for p in pages.values()),'localLinksChecked':sum(len(p.refs) for p in pages.values()),'errors':errors}
 print(json.dumps(result,indent=2))
 sys.exit(bool(errors))
