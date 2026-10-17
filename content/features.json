@@ -223,6 +223,230 @@
         ],
         "footnote": ""
       }
+    ],
+    "ja": [
+      {
+        "id": "write",
+        "headline": "Markdownを、そのまま書く",
+        "subheadline": "Markdownをそのまま入力。見出しもリストもコードも、書くそばから整う。",
+        "benefits": [
+          "記法を直接入力",
+          "ネイティブ編集",
+          "書式ツールバー"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "テキストで、図を描く",
+        "subheadline": "Mermaidで流れや関係を図に。文字を直せば、図も変わる。",
+        "benefits": [
+          "Mermaidで作図",
+          "ソースを直接編集",
+          "オフライン描画"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "数式と導出を、並べて書く",
+        "subheadline": "インライン数式も、長い導出も。LaTeXと文章で、わかりやすく。",
+        "benefits": [
+          "LaTeX数式",
+          "文中・ブロック両対応",
+          "オフライン描画"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "コードと解説を、すぐ隣に",
+        "subheadline": "ハイライトしたコードの隣に解説を。次に読み返すときも迷わない。",
+        "benefits": [
+          "構文ハイライト",
+          "編集できるコード",
+          "コードの横に説明"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "フォルダで整理、タグでつなぐ",
+        "subheadline": "プロジェクトはフォルダに。関連するアイデアは、階層タグとリンクで結ぶ。",
+        "benefits": [
+          "フォルダ",
+          "階層タグ",
+          "Wikiリンク"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "キーワードで、すぐ見つかる",
+        "subheadline": "⌘Oのクイックオープンで、ノートもタグもコマンドもまとめて。検索はMacの中で完結。",
+        "benefits": [
+          "キーワード検索",
+          "ノート・タグ・コマンド",
+          "ローカルで処理"
+        ],
+        "footnote": "意味検索は現在、中国語と英語のノートに対応しています。"
+      },
+      {
+        "id": "import-export",
+        "headline": "書類を取り込み、成果を書き出す",
+        "subheadline": "PDFやWordを編集できるノートに。MarkdownやPDFでも書き出せる。",
+        "benefits": [
+          "書類をノートに変換",
+          "元ファイルを保持",
+          "多彩な書き出し形式"
+        ],
+        "footnote": "テキストを含むPDFとOffice書類に対応。複雑なレイアウトは変わる場合があります。"
+      },
+      {
+        "id": "sync",
+        "headline": "同時に編集しても、自動で統合",
+        "subheadline": "iPhoneでひらめきを、Macで計画を。通常のノート本文は自動でひとつに。",
+        "benefits": [
+          "オフラインでも書ける",
+          "本文を自動統合",
+          "競合コピーを減らす"
+        ],
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。"
+      },
+      {
+        "id": "themes",
+        "headline": "テーマを作って、共有しよう",
+        "subheadline": "22種のテーマを新しく調色。色の調整も、テーマファイルの読み込み・書き出しも。",
+        "benefits": [
+          "内蔵テーマ22種",
+          "色をライブプレビュー",
+          "テーマの入出力"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "tables",
+        "headline": "セルは直接、行と列は自在に",
+        "subheadline": "セルに直接入力。行と列の追加や移動で、表も予定に合わせて。",
+        "benefits": [
+          "セルを直接編集",
+          "行と列の追加・移動",
+          "列の配置"
+        ],
+        "footnote": ""
+      }
+    ],
+    "fr-FR": [
+      {
+        "id": "write",
+        "headline": "Le Markdown, tout simplement",
+        "subheadline": "Tapez du Markdown. Titres, listes, gras et code prennent forme aussitôt.",
+        "benefits": [
+          "Syntaxe Markdown",
+          "Édition native",
+          "Barre de mise en forme"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "Du texte au diagramme",
+        "subheadline": "Décrivez un processus en Mermaid. Modifiez le texte, le diagramme suit.",
+        "benefits": [
+          "Diagrammes Mermaid",
+          "Source modifiable",
+          "Rendu hors ligne"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "Les maths, avec la réflexion",
+        "subheadline": "Placez vos formules LaTeX à côté du raisonnement qui leur donne du sens.",
+        "benefits": [
+          "Formules LaTeX",
+          "Intégrées ou en bloc",
+          "Rendu hors ligne"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "Le code et son contexte",
+        "subheadline": "Gardez le code coloré à côté de vos explications, prêt pour la prochaine fois.",
+        "benefits": [
+          "Coloration syntaxique",
+          "Blocs modifiables",
+          "Explications à côté"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "Projets classés, idées reliées",
+        "subheadline": "Rangez vos projets dans des dossiers, puis reliez vos idées par tags et liens.",
+        "benefits": [
+          "Dossiers",
+          "Tags imbriqués",
+          "Liens Wiki"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "Retrouvez vos notes d’un mot",
+        "subheadline": "Ouverture rapide (⌘O) réunit notes, tags et commandes. La recherche reste sur votre Mac.",
+        "benefits": [
+          "Par mots-clés",
+          "Notes, tags, commandes",
+          "Recherche locale"
+        ],
+        "footnote": "La recherche sémantique couvre pour l’instant les notes en chinois et en anglais."
+      },
+      {
+        "id": "import-export",
+        "headline": "Importez, convertissez, exportez",
+        "subheadline": "PDF et Word deviennent des notes modifiables ; exportez en Markdown, PDF et plus.",
+        "benefits": [
+          "Documents en notes",
+          "Originaux conservés",
+          "Export multiformat"
+        ],
+        "footnote": "Compatible avec les PDF contenant du texte et les documents Office. Les mises en page complexes peuvent changer."
+      },
+      {
+        "id": "sync",
+        "headline": "Vos modifications fusionnent",
+        "subheadline": "Éditez simultanément sur vos appareils : le texte des notes ordinaires fusionne tout seul.",
+        "benefits": [
+          "Écriture hors ligne",
+          "Fusion du texte",
+          "Moins de doublons"
+        ],
+        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes."
+      },
+      {
+        "id": "themes",
+        "headline": "Vos thèmes, prêts à partager",
+        "subheadline": "22 thèmes repensés. Ajustez les couleurs, importez ou exportez vos fichiers de thème.",
+        "benefits": [
+          "22 thèmes intégrés",
+          "Couleurs et aperçu",
+          "Import et export"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "tables",
+        "headline": "Tableaux, cellule par cellule",
+        "subheadline": "Écrivez dans les cellules, ajoutez ou déplacez lignes et colonnes selon vos plans.",
+        "benefits": [
+          "Cellules éditables",
+          "Lignes et colonnes",
+          "Alignement des colonnes"
+        ],
+        "footnote": ""
+      }
     ]
   },
   "iphone": {
@@ -469,6 +693,250 @@
         "footnote": "",
         "phoneHeadline": "Edit tables,\ncell by cell"
       }
+    ],
+    "ja": [
+      {
+        "id": "write",
+        "headline": "Markdownを、そのまま書く",
+        "subheadline": "Markdownをそのまま入力。見出しもリストもコードも、書くそばから整う。",
+        "benefits": [
+          "記法を直接入力",
+          "ネイティブ編集",
+          "書式ツールバー"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Markdownを、\nそのまま書く"
+      },
+      {
+        "id": "diagrams",
+        "headline": "テキストで、図を描く",
+        "subheadline": "Mermaidで流れや関係を図に。文字を直せば、図も変わる。",
+        "benefits": [
+          "Mermaidで作図",
+          "ソースを直接編集",
+          "オフライン描画"
+        ],
+        "footnote": "",
+        "phoneHeadline": "テキストで、\n図を描く"
+      },
+      {
+        "id": "math",
+        "headline": "数式と導出を、並べて書く",
+        "subheadline": "インライン数式も、長い導出も。LaTeXと文章で、わかりやすく。",
+        "benefits": [
+          "LaTeX数式",
+          "文中・ブロック両対応",
+          "オフライン描画"
+        ],
+        "footnote": "",
+        "phoneHeadline": "数式と導出を、\n並べて書く"
+      },
+      {
+        "id": "code",
+        "headline": "コードと解説を、すぐ隣に",
+        "subheadline": "ハイライトしたコードの隣に解説を。次に読み返すときも迷わない。",
+        "benefits": [
+          "構文ハイライト",
+          "編集できるコード",
+          "コードの横に説明"
+        ],
+        "footnote": "",
+        "phoneHeadline": "コードと解説を、\nすぐ隣に"
+      },
+      {
+        "id": "organize",
+        "headline": "フォルダで整理、タグでつなぐ",
+        "subheadline": "プロジェクトはフォルダに。関連するアイデアは、階層タグとリンクで結ぶ。",
+        "benefits": [
+          "フォルダ",
+          "階層タグ",
+          "Wikiリンク"
+        ],
+        "footnote": "",
+        "phoneHeadline": "フォルダで整理、\nタグでつなぐ"
+      },
+      {
+        "id": "search",
+        "headline": "キーワードで、あの一文へ",
+        "subheadline": "まずライブラリを検索。ノート内の検索でハイライトし、必要な箇所へ。",
+        "benefits": [
+          "ライブラリ検索",
+          "ノート内を検索",
+          "一致箇所をハイライト"
+        ],
+        "footnote": "",
+        "phoneHeadline": "キーワードで、\nあの一文へ"
+      },
+      {
+        "id": "import-export",
+        "headline": "ファイルを添付、ノートを書き出す",
+        "subheadline": "写真やファイルを添付に。Markdownでも、添付ごとでも書き出せる。",
+        "benefits": [
+          "写真・ファイル添付",
+          "Markdownで書き出し",
+          "添付ごと書き出し"
+        ],
+        "footnote": "書類の変換やその他の書き出し形式は、Mac版で利用できます。",
+        "phoneHeadline": "ファイルを添付、\nノートを書き出す"
+      },
+      {
+        "id": "sync",
+        "headline": "同時に編集しても、自動で統合",
+        "subheadline": "iPhoneでひらめきを、Macで計画を。通常のノート本文は自動でひとつに。",
+        "benefits": [
+          "オフラインでも書ける",
+          "本文を自動統合",
+          "競合コピーを減らす"
+        ],
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。",
+        "phoneHeadline": "同時に編集しても、\n自動で統合"
+      },
+      {
+        "id": "themes",
+        "headline": "22種のテーマで、ノートを彩る",
+        "subheadline": "新しく調色したライトとダークのテーマ。文字もコードも表も、まとめて着せ替え。",
+        "benefits": [
+          "22種のテーマ",
+          "ライトとダーク",
+          "統一された配色"
+        ],
+        "footnote": "カスタマイズとテーマファイルの読み込み・書き出しは、Mac版で利用できます。",
+        "phoneHeadline": "22種のテーマで、\nノートを彩る"
+      },
+      {
+        "id": "tables",
+        "headline": "セルは直接、行と列は自在に",
+        "subheadline": "セルに直接入力。ハンドルを長押しして、行も列も好きな位置へ。",
+        "benefits": [
+          "セルを直接編集",
+          "行と列をドラッグ",
+          "列の配置"
+        ],
+        "footnote": "",
+        "phoneHeadline": "セルは直接、\n行と列は自在に"
+      }
+    ],
+    "fr-FR": [
+      {
+        "id": "write",
+        "headline": "Le Markdown, tout simplement",
+        "subheadline": "Tapez du Markdown. Titres, listes, gras et code prennent forme aussitôt.",
+        "benefits": [
+          "Syntaxe Markdown",
+          "Édition native",
+          "Barre de mise en forme"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Le Markdown,\ntout simplement"
+      },
+      {
+        "id": "diagrams",
+        "headline": "Du texte au diagramme",
+        "subheadline": "Décrivez un processus en Mermaid. Modifiez le texte, le diagramme suit.",
+        "benefits": [
+          "Diagrammes Mermaid",
+          "Source modifiable",
+          "Rendu hors ligne"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Du texte\nau diagramme"
+      },
+      {
+        "id": "math",
+        "headline": "Les maths, avec la réflexion",
+        "subheadline": "Placez vos formules LaTeX à côté du raisonnement qui leur donne du sens.",
+        "benefits": [
+          "Formules LaTeX",
+          "Intégrées ou en bloc",
+          "Rendu hors ligne"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Les maths,\navec la réflexion"
+      },
+      {
+        "id": "code",
+        "headline": "Le code et son contexte",
+        "subheadline": "Gardez le code coloré à côté de vos explications, prêt pour la prochaine fois.",
+        "benefits": [
+          "Coloration syntaxique",
+          "Blocs modifiables",
+          "Explications à côté"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Le code\net son contexte"
+      },
+      {
+        "id": "organize",
+        "headline": "Projets classés, idées reliées",
+        "subheadline": "Rangez vos projets dans des dossiers, puis reliez vos idées par tags et liens.",
+        "benefits": [
+          "Dossiers",
+          "Tags imbriqués",
+          "Liens Wiki"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Projets classés,\nidées reliées"
+      },
+      {
+        "id": "search",
+        "headline": "Droit à la bonne ligne",
+        "subheadline": "Cherchez par mot-clé, puis repérez le passage surligné dans la note.",
+        "benefits": [
+          "Recherche globale",
+          "Recherche dans la note",
+          "Résultats surlignés"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Droit à la\nbonne ligne"
+      },
+      {
+        "id": "import-export",
+        "headline": "Fichiers joints, notes exportées",
+        "subheadline": "Joignez photos et fichiers. Exportez en Markdown, ou la note et ses pièces jointes.",
+        "benefits": [
+          "Pièces jointes",
+          "Export Markdown",
+          "Note et pièces jointes"
+        ],
+        "footnote": "La conversion de documents et les autres formats d’export sont disponibles sur Mac.",
+        "phoneHeadline": "Fichiers joints,\nnotes exportées"
+      },
+      {
+        "id": "sync",
+        "headline": "Vos modifications fusionnent",
+        "subheadline": "Éditez simultanément sur vos appareils : le texte des notes ordinaires fusionne tout seul.",
+        "benefits": [
+          "Écriture hors ligne",
+          "Fusion du texte",
+          "Moins de doublons"
+        ],
+        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes.",
+        "phoneHeadline": "Vos modifications\nfusionnent"
+      },
+      {
+        "id": "themes",
+        "headline": "22 thèmes pour vos notes",
+        "subheadline": "Des thèmes clairs et sombres repensés habillent ensemble texte, code et tableaux.",
+        "benefits": [
+          "22 thèmes intégrés",
+          "Clair et sombre",
+          "Couleurs harmonisées"
+        ],
+        "footnote": "Personnalisation, import et export des thèmes sur Mac.",
+        "phoneHeadline": "22 thèmes\npour vos notes"
+      },
+      {
+        "id": "tables",
+        "headline": "Tableaux, cellule par cellule",
+        "subheadline": "Écrivez dans les cellules. Maintenez une poignée pour déplacer lignes et colonnes.",
+        "benefits": [
+          "Cellules éditables",
+          "Glisser-déposer",
+          "Alignement des colonnes"
+        ],
+        "footnote": "",
+        "phoneHeadline": "Tableaux,\ncellule par cellule"
+      }
     ]
   },
   "ipad": {
@@ -692,6 +1160,230 @@
           "Edit cells directly",
           "Drag rows & columns",
           "Column alignment"
+        ],
+        "footnote": ""
+      }
+    ],
+    "ja": [
+      {
+        "id": "write",
+        "headline": "Markdownを、そのまま書く",
+        "subheadline": "Markdownをそのまま入力。見出しもリストもコードも、書くそばから整う。",
+        "benefits": [
+          "記法を直接入力",
+          "ネイティブ編集",
+          "書式ツールバー"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "テキストで、図を描く",
+        "subheadline": "Mermaidで流れや関係を図に。文字を直せば、図も変わる。",
+        "benefits": [
+          "Mermaidで作図",
+          "ソースを直接編集",
+          "オフライン描画"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "数式と導出を、並べて書く",
+        "subheadline": "インライン数式も、長い導出も。LaTeXと文章で、わかりやすく。",
+        "benefits": [
+          "LaTeX数式",
+          "文中・ブロック両対応",
+          "オフライン描画"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "コードと解説を、すぐ隣に",
+        "subheadline": "ハイライトしたコードの隣に解説を。次に読み返すときも迷わない。",
+        "benefits": [
+          "構文ハイライト",
+          "編集できるコード",
+          "コードの横に説明"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "フォルダで整理、タグでつなぐ",
+        "subheadline": "プロジェクトはフォルダに。関連するアイデアは、階層タグとリンクで結ぶ。",
+        "benefits": [
+          "フォルダ",
+          "階層タグ",
+          "Wikiリンク"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "キーワードで、あの一文へ",
+        "subheadline": "まずライブラリを検索。ノート内の検索でハイライトし、必要な箇所へ。",
+        "benefits": [
+          "ライブラリ検索",
+          "ノート内を検索",
+          "一致箇所をハイライト"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "ファイルを添付、ノートを書き出す",
+        "subheadline": "写真やファイルを添付に。Markdownでも、添付ごとでも書き出せる。",
+        "benefits": [
+          "写真・ファイル添付",
+          "Markdownで書き出し",
+          "添付ごと書き出し"
+        ],
+        "footnote": "書類の変換やその他の書き出し形式は、Mac版で利用できます。"
+      },
+      {
+        "id": "sync",
+        "headline": "同時に編集しても、自動で統合",
+        "subheadline": "iPhoneでひらめきを、Macで計画を。通常のノート本文は自動でひとつに。",
+        "benefits": [
+          "オフラインでも書ける",
+          "本文を自動統合",
+          "競合コピーを減らす"
+        ],
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。"
+      },
+      {
+        "id": "themes",
+        "headline": "22種のテーマで、ノートを彩る",
+        "subheadline": "新しく調色したライトとダークのテーマ。文字もコードも表も、まとめて着せ替え。",
+        "benefits": [
+          "22種のテーマ",
+          "ライトとダーク",
+          "統一された配色"
+        ],
+        "footnote": "カスタマイズとテーマファイルの読み込み・書き出しは、Mac版で利用できます。"
+      },
+      {
+        "id": "tables",
+        "headline": "セルは直接、行と列は自在に",
+        "subheadline": "セルに直接入力。ハンドルを長押しして、行も列も好きな位置へ。",
+        "benefits": [
+          "セルを直接編集",
+          "行と列をドラッグ",
+          "列の配置"
+        ],
+        "footnote": ""
+      }
+    ],
+    "fr-FR": [
+      {
+        "id": "write",
+        "headline": "Le Markdown, tout simplement",
+        "subheadline": "Tapez du Markdown. Titres, listes, gras et code prennent forme aussitôt.",
+        "benefits": [
+          "Syntaxe Markdown",
+          "Édition native",
+          "Barre de mise en forme"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "diagrams",
+        "headline": "Du texte au diagramme",
+        "subheadline": "Décrivez un processus en Mermaid. Modifiez le texte, le diagramme suit.",
+        "benefits": [
+          "Diagrammes Mermaid",
+          "Source modifiable",
+          "Rendu hors ligne"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "math",
+        "headline": "Les maths, avec la réflexion",
+        "subheadline": "Placez vos formules LaTeX à côté du raisonnement qui leur donne du sens.",
+        "benefits": [
+          "Formules LaTeX",
+          "Intégrées ou en bloc",
+          "Rendu hors ligne"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "code",
+        "headline": "Le code et son contexte",
+        "subheadline": "Gardez le code coloré à côté de vos explications, prêt pour la prochaine fois.",
+        "benefits": [
+          "Coloration syntaxique",
+          "Blocs modifiables",
+          "Explications à côté"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "organize",
+        "headline": "Projets classés, idées reliées",
+        "subheadline": "Rangez vos projets dans des dossiers, puis reliez vos idées par tags et liens.",
+        "benefits": [
+          "Dossiers",
+          "Tags imbriqués",
+          "Liens Wiki"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "search",
+        "headline": "Droit à la bonne ligne",
+        "subheadline": "Cherchez par mot-clé, puis repérez le passage surligné dans la note.",
+        "benefits": [
+          "Recherche globale",
+          "Recherche dans la note",
+          "Résultats surlignés"
+        ],
+        "footnote": ""
+      },
+      {
+        "id": "import-export",
+        "headline": "Fichiers joints, notes exportées",
+        "subheadline": "Joignez photos et fichiers. Exportez en Markdown, ou la note et ses pièces jointes.",
+        "benefits": [
+          "Pièces jointes",
+          "Export Markdown",
+          "Note et pièces jointes"
+        ],
+        "footnote": "La conversion de documents et les autres formats d’export sont disponibles sur Mac."
+      },
+      {
+        "id": "sync",
+        "headline": "Vos modifications fusionnent",
+        "subheadline": "Éditez simultanément sur vos appareils : le texte des notes ordinaires fusionne tout seul.",
+        "benefits": [
+          "Écriture hors ligne",
+          "Fusion du texte",
+          "Moins de doublons"
+        ],
+        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes."
+      },
+      {
+        "id": "themes",
+        "headline": "22 thèmes pour vos notes",
+        "subheadline": "Des thèmes clairs et sombres repensés habillent ensemble texte, code et tableaux.",
+        "benefits": [
+          "22 thèmes intégrés",
+          "Clair et sombre",
+          "Couleurs harmonisées"
+        ],
+        "footnote": "Personnalisation, import et export des thèmes sur Mac."
+      },
+      {
+        "id": "tables",
+        "headline": "Tableaux, cellule par cellule",
+        "subheadline": "Écrivez dans les cellules. Maintenez une poignée pour déplacer lignes et colonnes.",
+        "benefits": [
+          "Cellules éditables",
+          "Glisser-déposer",
+          "Alignement des colonnes"
         ],
         "footnote": ""
       }

@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-10-14T03:39:52.573Z",
-  "description": "Web derivatives of the final 60 Zebra App Store posters: 10 scenes across 3 device groups and 2 languages. Only proportional resizing and WebP encoding were applied to the frozen posters.",
+  "schemaVersion": 3,
+  "generatedAt": "2026-10-16T14:42:17.395Z",
+  "description": "Web derivatives of 60 final Zebra App Store posters across 3 device groups and 2 languages (zh-Hans, en-US). Only proportional resizing and WebP encoding were applied to the frozen posters. iPhone Duo uses the inner-display posters.",
   "generator": {
     "name": "sharp",
     "version": "0.35.5",
@@ -11,11 +11,6 @@
     "smartSubsample": true,
     "enlargementAllowed": false,
     "metadataPolicy": "Strip source metadata; convert pixels to sRGB."
-  },
-  "sourceRenderManifest": {
-    "repository": "zebra",
-    "path": "AppStoreSubmission/refresh-2026-10-11/render-manifest.json",
-    "sha256": "cc574e630db3ff124765fc345e0bf307f4520451250ac00af67a67dd76d800c8"
   },
   "posters": [
     {
@@ -31,6 +26,7 @@
         "height": 1800,
         "bytes": 2389393
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/write.png",
@@ -77,6 +73,7 @@
         "height": 1800,
         "bytes": 823744
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/diagrams.png",
@@ -128,6 +125,7 @@
         "height": 1800,
         "bytes": 890222
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/math.png",
@@ -174,6 +172,7 @@
         "height": 1800,
         "bytes": 921604
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/code.png",
@@ -220,6 +219,7 @@
         "height": 1800,
         "bytes": 990324
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/organize.png",
@@ -266,6 +266,7 @@
         "height": 1800,
         "bytes": 897827
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/search-context.png",
@@ -317,6 +318,7 @@
         "height": 1800,
         "bytes": 1500027
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/import-export-context.png",
@@ -368,6 +370,7 @@
         "height": 1800,
         "bytes": 1489947
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/sync.png",
@@ -414,6 +417,7 @@
         "height": 1800,
         "bytes": 932542
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/themes-library.png",
@@ -465,6 +469,7 @@
         "height": 1800,
         "bytes": 1236866
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/zh-Hans/tables.png",
@@ -516,6 +521,7 @@
         "height": 1800,
         "bytes": 2326661
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/write.png",
@@ -562,6 +568,7 @@
         "height": 1800,
         "bytes": 848457
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/diagrams.png",
@@ -613,6 +620,7 @@
         "height": 1800,
         "bytes": 1059691
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/math.png",
@@ -659,6 +667,7 @@
         "height": 1800,
         "bytes": 935883
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/code.png",
@@ -705,6 +714,7 @@
         "height": 1800,
         "bytes": 1038421
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/organize.png",
@@ -751,6 +761,7 @@
         "height": 1800,
         "bytes": 1005157
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/search-context.png",
@@ -802,6 +813,7 @@
         "height": 1800,
         "bytes": 1546389
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/import-export-context.png",
@@ -853,6 +865,7 @@
         "height": 1800,
         "bytes": 1485714
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/sync.png",
@@ -899,6 +912,7 @@
         "height": 1800,
         "bytes": 942542
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/themes-library.png",
@@ -950,6 +964,7 @@
         "height": 1800,
         "bytes": 1260667
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/macos/en-US/tables.png",
@@ -1001,6 +1016,7 @@
         "height": 2622,
         "bytes": 1334654
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/write.png",
@@ -1047,6 +1063,7 @@
         "height": 2622,
         "bytes": 388213
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/diagrams.png",
@@ -1093,6 +1110,7 @@
         "height": 2622,
         "bytes": 421542
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/math.png",
@@ -1139,6 +1157,7 @@
         "height": 2622,
         "bytes": 462458
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/code.png",
@@ -1185,6 +1204,7 @@
         "height": 2622,
         "bytes": 344335
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/organize.png",
@@ -1231,6 +1251,7 @@
         "height": 2622,
         "bytes": 487179
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/search.png",
@@ -1277,6 +1298,7 @@
         "height": 2622,
         "bytes": 1085606
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/import-export.png",
@@ -1323,6 +1345,7 @@
         "height": 2622,
         "bytes": 1157790
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/sync.png",
@@ -1369,6 +1392,7 @@
         "height": 2622,
         "bytes": 572796
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/themes.png",
@@ -1415,6 +1439,7 @@
         "height": 2622,
         "bytes": 483493
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/zh-Hans/tables.png",
@@ -1461,6 +1486,7 @@
         "height": 2622,
         "bytes": 1378438
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/write.png",
@@ -1507,6 +1533,7 @@
         "height": 2622,
         "bytes": 411348
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/diagrams.png",
@@ -1553,6 +1580,7 @@
         "height": 2622,
         "bytes": 431123
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/math.png",
@@ -1599,6 +1627,7 @@
         "height": 2622,
         "bytes": 488968
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/code.png",
@@ -1645,6 +1674,7 @@
         "height": 2622,
         "bytes": 333840
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/organize.png",
@@ -1691,6 +1721,7 @@
         "height": 2622,
         "bytes": 504585
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/search.png",
@@ -1737,6 +1768,7 @@
         "height": 2622,
         "bytes": 1001401
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/import-export.png",
@@ -1783,6 +1815,7 @@
         "height": 2622,
         "bytes": 1171071
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/sync.png",
@@ -1829,6 +1862,7 @@
         "height": 2622,
         "bytes": 551810
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/themes.png",
@@ -1875,6 +1909,7 @@
         "height": 2622,
         "bytes": 480805
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/iphone/en-US/tables.png",
@@ -1921,6 +1956,7 @@
         "height": 2064,
         "bytes": 2765527
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/write.png",
@@ -1967,6 +2003,7 @@
         "height": 2064,
         "bytes": 899761
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/diagrams.png",
@@ -2013,6 +2050,7 @@
         "height": 2064,
         "bytes": 940454
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/math.png",
@@ -2059,6 +2097,7 @@
         "height": 2064,
         "bytes": 921216
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/code.png",
@@ -2105,6 +2144,7 @@
         "height": 2064,
         "bytes": 956491
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/organize.png",
@@ -2151,6 +2191,7 @@
         "height": 2064,
         "bytes": 858708
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/search.png",
@@ -2197,6 +2238,7 @@
         "height": 2064,
         "bytes": 2386918
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/import-export.png",
@@ -2243,6 +2285,7 @@
         "height": 2064,
         "bytes": 2277334
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/sync.png",
@@ -2289,6 +2332,7 @@
         "height": 2064,
         "bytes": 1616078
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/themes.png",
@@ -2335,6 +2379,7 @@
         "height": 2064,
         "bytes": 1032729
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/zh-Hans/tables.png",
@@ -2381,6 +2426,7 @@
         "height": 2064,
         "bytes": 2764480
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/write.png",
@@ -2427,6 +2473,7 @@
         "height": 2064,
         "bytes": 890927
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/diagrams.png",
@@ -2473,6 +2520,7 @@
         "height": 2064,
         "bytes": 922428
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/math.png",
@@ -2519,6 +2567,7 @@
         "height": 2064,
         "bytes": 909377
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/code.png",
@@ -2565,6 +2614,7 @@
         "height": 2064,
         "bytes": 944996
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/organize.png",
@@ -2611,6 +2661,7 @@
         "height": 2064,
         "bytes": 852053
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/search.png",
@@ -2657,6 +2708,7 @@
         "height": 2064,
         "bytes": 2379894
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/import-export.png",
@@ -2703,6 +2755,7 @@
         "height": 2064,
         "bytes": 2253615
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/sync.png",
@@ -2749,6 +2802,7 @@
         "height": 2064,
         "bytes": 1582783
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/themes.png",
@@ -2795,6 +2849,7 @@
         "height": 2064,
         "bytes": 1011339
       },
+      "copySHA256": "6cda449e068069fdbc1bfeb15e6beb1c29df3e3687b8063856ecb709f1d81944",
       "captureSources": [
         {
           "path": "AppStoreSubmission/refresh-2026-10-11/raw/ipad/en-US/tables.png",
@@ -2859,17 +2914,46 @@
       "bytes": 691797,
       "sha256": "2d89542211a00b19e41859bb16dfc52f73fe8cb3a929af6dbaebe2cdc93e4037",
       "transformation": "Original A-curious-peek PNG bytes copied unchanged, including the alpha channel."
+    },
+    {
+      "id": "apple-touch-icon",
+      "source": {
+        "repository": "zebra",
+        "path": "ZebraMobile/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "sha256": "4926d43b417825eb34be53c464b4c7dd97b7af265c956505315788401a4f8bd8"
+      },
+      "path": "assets/images/apple-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "hasAlpha": false,
+      "bytes": 48518,
+      "sha256": "6135f4857b19fcc2a195a327d342eef6b2a831ba3272c66b6d44dea40b687591",
+      "transformation": "Proportional Lanczos resize of the opaque, full-bleed 1024-pixel iOS AppIcon to 180 pixels; alpha channel removed; lossless PNG; source metadata stripped."
     }
   ],
   "summary": {
     "posterCount": 60,
     "webpCount": 120,
-    "brandPngCount": 2,
+    "brandPngCount": 3,
     "originalPosterBytes": 67180641,
     "smallWebpBytes": 2789110,
     "largeWebpBytes": 6329126,
-    "brandPngBytes": 766682,
-    "totalImageBytes": 9884918
+    "brandPngBytes": 815200,
+    "totalImageBytes": 9933436,
+    "postersByDeviceAndLanguage": {
+      "macos": {
+        "zh-Hans": 10,
+        "en-US": 10
+      },
+      "iphone": {
+        "zh-Hans": 10,
+        "en-US": 10
+      },
+      "ipad": {
+        "zh-Hans": 10,
+        "en-US": 10
+      }
+    }
   },
   "videos": [
     {
@@ -2880,7 +2964,7 @@
       "width": 1920,
       "height": 1080,
       "fps": 60,
-      "durationSeconds": 14.0,
+      "durationSeconds": 14,
       "encoding": "H.264 High, yuv420p, BT.709, CRF 20, +faststart, no audio",
       "poster": {
         "path": "assets/video/zebra-promo-en.jpg",
@@ -2983,7 +3067,7 @@
       "width": 1920,
       "height": 1080,
       "fps": 60,
-      "durationSeconds": 14.0,
+      "durationSeconds": 14,
       "encoding": "H.264 High, yuv420p, BT.709, CRF 20, +faststart, no audio",
       "poster": {
         "path": "assets/video/zebra-promo-zh.jpg",
@@ -3077,6 +3161,14 @@
           "sha256": "52e719dab3a7ac1e96b1b2b8a25fe7bac7b9919a53388e7da400894f7febe0c7"
         }
       ]
+    }
+  ],
+  "sourceRenderManifests": [
+    {
+      "repository": "zebra",
+      "path": "AppStoreSubmission/refresh-2026-10-11/render-manifest.json",
+      "sha256": "cc574e630db3ff124765fc345e0bf307f4520451250ac00af67a67dd76d800c8",
+      "complete": true
     }
   ]
 }

@@ -10,7 +10,9 @@
       "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
       "label": {
         "zh-Hans": "GitHub 隐私声明",
-        "en-US": "GitHub Privacy Statement"
+        "en-US": "GitHub Privacy Statement",
+        "ja": "GitHubプライバシーステートメント",
+        "fr-FR": "Déclaration de confidentialité de GitHub"
       },
       "verifiedAt": "2026-10-11"
     }
@@ -263,6 +265,256 @@
         "publicIssueLabel": "Report a public issue",
         "publicIssueNotice": "GitHub issues and attachments are public. Do not post passwords, private notes, a complete library, recovery keys, or access tokens. If you need to discuss an issue privately, email entropysniper@gmail.com and share only what is needed to investigate.",
         "repositoryLabel": "View the project and updates",
+        "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+      }
+    },
+    "ja": {
+      "faqs": [
+        {
+          "id": "platforms",
+          "question": "Zebraはどのデバイスで使えますか？機能に違いはありますか？",
+          "answer": "MacではmacOS 14以降、iPhoneとiPadではiOS 17以降が必要です。どのデバイスでも、Markdown、表、数式、Mermaidの図、コードのハイライト、フォルダ、階層タグを利用できます。Macではさらに、ローカルの意味検索、書類の変換、より多くの書き出し形式を利用できます。iPhoneとiPadでは、キーワード検索、ノート内検索、写真やファイルの添付に加え、Markdownまたは添付ファイルを含むノートパッケージとして共有できます。すべてのデバイスに22種類の内蔵テーマがあります。Macではカスタムテーマを作成し、.zebrathemeファイルの読み込み・書き出しで共有することもできます。"
+        },
+        {
+          "id": "offline",
+          "question": "アカウントやインターネット接続は必要ですか？",
+          "answer": "Zebraのアカウントは必要ありません。ノートは標準でデバイスに保存され、書く・整理するといった主な機能はオフラインで使えます。変更はデバイス上に自動で保存されます。iCloud同期にはAppleアカウントとネットワーク接続が必要です。Webクリップ、リンクプレビュー、リモートの添付ファイルは、それぞれのWebサイトに接続します。"
+        },
+        {
+          "id": "sync-setup",
+          "question": "自分のデバイス間で同期するには？",
+          "answer": "各デバイスで同じAppleアカウントにサインインし、iCloudが利用できることを確認します。そのうえで、各デバイスのZebraの設定でiCloud同期をオンにします。新規インストールでは同期はオフになっており、既存の設定はそのまま保持されます。最初の同期には時間がかかることがあるため、Zebraを開いたまま、ネットワークに接続しておいてください。変更が届かない場合は、アプリ内の同期状況、ネットワーク接続、iCloudへのサインイン状態を確認してください。1台のデバイスで同期をオフにしても、ほかのデバイスの同期はオフにならず、クラウド上のコピーも消去されません。"
+        },
+        {
+          "id": "concurrent-edits",
+          "question": "2台のデバイスで同時に編集するとどうなりますか？",
+          "answer": "通常のノートの本文はCRDTによる同期で、デバイス間の同時編集を統合します。オフラインで行った編集も、再接続したときにそれらの変更と統合できます。暗号化ノートの仕組みは異なります。順番に行った編集はそのまま反映され、同時に行った編集は別々の暗号化バージョンとして保持されます。確認が必要なバージョンがある場合は、「暗号化ノートのバージョン」を開き、該当するパスワードで内容を確認してから、使用するバージョンを選んでください。同期でつながるのは自分のデバイスどうしで、チームで共有するワークスペースではありません。"
+        },
+        {
+          "id": "search",
+          "question": "正確な言葉を覚えていなくても、ノートを見つけられますか？",
+          "answer": "Macでは⌘Oを押してZebra Actionsを開き、覚えている内容を自分の言葉で入力します。ローカルの意味検索は、中国語と英語のテキストの意味とキーワードを組み合わせて探します。モデルを別途ダウンロードする必要はなく、システムの意味検索機能を利用できない場合でもキーワード検索は使えます。暗号化ノートは、ロックを解除していても意味検索のインデックスには含まれません。iPhoneとiPadでは現在、キーワード検索とノート内検索を利用できます。"
+        },
+        {
+          "id": "import-export",
+          "question": "手持ちの資料を取り込んだり、ノートを持ち出したりするには？",
+          "answer": "Macでは、Markdown、HTML、TextBundleなどの対応形式を読み込めます。テキストを含むPDF、DOCX、XLSX/XLS、PPTXなどの対応書類は、元のファイルを残したまま、Mac上で編集できるノートに変換できます。変換は文字と構造が中心のため、複雑なレイアウトは変わる場合があります。Macからは、Markdown、PDF、HTML、DOCX、ePubなどの形式で書き出せます。iPhoneとiPadでは写真やファイルを添付し、ノートのメニューからMarkdownで共有したり、ノートと添付ファイルをひとまとめにして共有したりできます。"
+        },
+        {
+          "id": "backup-delete",
+          "question": "同期はバックアップになりますか？削除するとどうなりますか？",
+          "answer": "同期はデバイス間で変更を伝えるもので、唯一のバックアップにすべきではありません。Macでは「ファイル」メニューからバックアップを書き出すと、ノートと添付ファイルを含む.zebrabk形式のライブラリバックアップを保存できます。復元する前に、その影響を確認できます。同期をオフにしたりアプリを削除したりしても、ほかのデバイス上のコピー、書き出したファイル、バックアップ、既存のクラウド上のコピーは消去されません。削除した暗号化ノートの同期履歴は、復旧のために保持されます。現在、クラウド上の履歴をすべて消去するボタンはありません。大切な内容を削除または復元する前に、別のコピーを残しておいてください。"
+        },
+        {
+          "id": "encryption",
+          "question": "暗号化ノートのパスワードを忘れたら？",
+          "answer": "開発者は、アクセスを回復できるパスワードや復旧キーを保管していません。パスワードは大切に保管してください。バックアップ内の暗号化された内容にも、パスワードが必要です。ノートごとの暗号化で保護されるのは本文と暗号化された添付ファイルで、タイトルと一部の外側の情報は表示されたままです。通常のノートを暗号化しても、以前に同期、書き出し、バックアップされた平文のコピーを取り消すことはできません。"
+        }
+      ],
+      "privacy": {
+        "eyebrow": "Zebra · プライバシーとデータ",
+        "title": "コンテンツはどこに保存され、いつデバイスの外へ出るのか。",
+        "intro": "このページでは、現在のZebraアプリがデータをどのように扱うか、そしてWebサイトの閲覧、メールでのサポートへのお問い合わせ、公開の問題報告の際に知っておいていただきたいことを説明します。",
+        "documentType": "製品のデータ取り扱いに関する説明",
+        "lastReviewedLabel": "情報確認日：2026年10月11日",
+        "sections": [
+          {
+            "id": "local",
+            "title": "標準ではデバイス内に保存",
+            "paragraphs": [
+              "ノート、タグ、添付ファイル、設定、そこから作られる検索インデックスは、デバイス上のZebraライブラリに保存されます。書き出したファイルやバックアップは、選択した場所に保存されます。Zebraアプリにはアカウントの仕組みがなく、ノートのテキストを開発者のサーバに送信することはありません。",
+              "現在のアプリには、広告、行動トラッキング、製品分析、サードパーティのクラッシュレポートサービスは含まれていません。これはZebraアプリ自体についての説明であり、Webサイトのホスティング事業者、Apple、またはご自身で選んで利用するサードパーティのサービスによる取り扱いを説明するものではありません。"
+            ]
+          },
+          {
+            "id": "local-processing",
+            "title": "ローカルでの検索と変換",
+            "paragraphs": [
+              "Macの意味検索は、システムが提供する中国語と英語の言語機能を使い、ノートと検索語をデバイス上で処理します。Zebraはこの機能のためにモデルをダウンロードしたり、ノートのテキストをモデルサービスに送信したりしません。暗号化ノートは、保存される意味検索インデックスには含まれません。システムの意味検索機能を利用できない場合も、キーワード検索は使えます。",
+              "Macでの書類の変換はローカルで実行されます。読み込みを確定すると、変換されたノートと保持された元のファイルがライブラリに追加されます。その後に同期や共有が行われるかどうかは、設定と操作によって決まります。この書類の変換と意味検索は、iPhoneとiPadでは利用できません。"
+            ]
+          },
+          {
+            "id": "icloud",
+            "title": "iCloud同期（オプション）",
+            "paragraphs": [
+              "新規インストールではiCloud同期はオフになっており、既存の設定はそのまま保持されます。オンにすると、通常のノートの本文、関連するメタデータ、参照されている添付ファイルが、ご自身のAppleアカウントのプライベートなCloudKitデータベースに保存されます。暗号化ノートは、暗号化されたバージョン、暗号化された添付ファイル、バージョン履歴として同期されます。タイトルと一部の外側の情報は表示されたままです。この同期経路で、ノートのパスワードや復号キーがアップロードされることはありません。",
+              "iCloudはAppleが提供しており、サービスのデータはAppleの利用規約とプライバシーポリシーに従って取り扱われます。同期をオフにすると、そのデバイスでの同期が止まるだけで、クラウドやほかのデバイス上のコピーが自動的に消去されることはありません。"
+            ]
+          },
+          {
+            "id": "encryption",
+            "title": "ノートごとの暗号化",
+            "paragraphs": [
+              "パスワードによる保護は、選択したノートの本文と暗号化された添付ファイルに適用されます。ライブラリ全体が標準で暗号化されるわけではなく、外側の情報がすべて隠されるわけでもありません。対応するデバイスでは、システムの生体認証を使ってロックを解除できます。Zebraが指紋などの生体認証テンプレートを受け取ることはありません。",
+              "開発者は、暗号化ノートを復元できるパスワードやキーを持っていません。通常のノートを暗号化しても、それ以前にクラウド、ほかのデバイス、書き出したファイル、バックアップに渡った平文のコピーを取り消すことはできません。"
+            ]
+          },
+          {
+            "id": "web-and-sharing",
+            "title": "Webコンテンツと共有",
+            "paragraphs": [
+              "Webページのクリップ、URLからのノート作成、リンクカードの表示、リモートの添付ファイルのダウンロードでは、該当するWebサイトに直接リクエストすることがあります。Webサイトには、リクエストしたURLやIPアドレスなど、通常の接続に必要な情報が送られます。SafariのWebクリップ機能拡張は、クリップを実行したときに表示中のページを読み取り、選択した内容をZebraに渡します。",
+              "共有、書き出し、ショートカットなど、ご自身が許可した操作によって、選択した内容がほかのアプリや保存先に渡されることがあります。受け取った側は、その設定とポリシーに従って内容を取り扱います。"
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "保持と削除",
+            "paragraphs": [
+              "Zebraでは、ノートの削除やゴミ箱の管理ができます。アプリを削除したり同期をオフにしたりしても、書き出したファイル、バックアップ、ほかのデバイスやクラウドにすでにある内容が自動的に削除されることはありません。",
+              "暗号化ノートを削除しても、以前のバージョンとそれが参照する添付ファイルは、復旧のために同期履歴に残る場合があります。現在、クラウド上の履歴をすべて消去するボタンはありません。大切な内容を削除または復元する前に、別のバックアップを残しておいてください。"
+            ]
+          },
+          {
+            "id": "website-support",
+            "title": "このWebサイトと問題の報告",
+            "paragraphs": [
+              "このWebサイトはGitHub Pagesでホストされており、広告や製品分析のスクリプトは読み込みません。ただし、サイトの配信に必要なネットワークリクエストはGitHubが処理し、そこにはIPアドレス、リクエストされたパス、日時、ブラウザの情報が含まれる場合があります。これらの情報の取り扱いについては、GitHubのプライバシーステートメントをご覧ください。アプリがデータをローカルに保存していても、Webサイトの閲覧でネットワーク上の記録が残らないわけではありません。",
+              "GitHubで公開の問題を報告すると、送信したアカウント情報、テキスト、添付ファイルはGitHubによって取り扱われ、ほかの人も見ることができます。私たちはこれらの情報を、返信と調査のために使用します。必要な情報だけを共有し、個人的なノート、パスワード、ライブラリ全体、キーはアップロードしないでください。",
+              "メールでお問い合わせいただいた場合、私たちとメールサービスのGmailは、返信と調査のために、メールアドレス、メッセージ、送信された添付ファイルを処理します。必要な情報だけを送り、パスワードや復旧キーは送らないでください。"
+            ]
+          }
+        ]
+      },
+      "report": {
+        "title": "問題を報告",
+        "intro": "行った操作、期待した結果、実際に起きたことを教えてください。問題を確実に再現できる小さな例があると、特に助かります。",
+        "include": [
+          "デバイスのモデル、システムのバージョン、Zebraのバージョンとビルド番号。",
+          "アプリを開くところから始まる手順と、問題が毎回起きるかどうか。",
+          "同期の問題では、関係するデバイス、最初に編集したデバイス、オフラインだったデバイスがあるかどうか。",
+          "読み込みの問題では、元のアプリとファイル形式。編集の問題では、個人的な内容を含まない小さなMarkdownの例。",
+          "必要に応じて、個人情報を隠し、エラーメッセージは見える状態にしたスクリーンショット。"
+        ],
+        "publicIssueLabel": "公開の問題を報告",
+        "publicIssueNotice": "GitHubの問題と添付ファイルは公開されます。パスワード、個人的なノート、ライブラリ全体、復旧キー、アクセストークンは投稿しないでください。非公開でご相談いただく場合は、entropysniper@gmail.com までメールで、調査に必要な情報だけをお送りください。",
+        "repositoryLabel": "プロジェクトと最新情報を見る",
+        "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
+      }
+    },
+    "fr-FR": {
+      "faqs": [
+        {
+          "id": "platforms",
+          "question": "Sur quels appareils Zebra fonctionne-t-il ? Les fonctions sont-elles les mêmes ?",
+          "answer": "Zebra nécessite macOS 14 ou version ultérieure sur Mac, et iOS 17 ou version ultérieure sur iPhone et iPad. Toutes les plateformes prennent en charge le Markdown, les tableaux, les formules, les diagrammes Mermaid, la coloration du code, les dossiers et les tags imbriqués. Le Mac propose en plus la recherche sémantique locale, la conversion de documents et davantage de formats d’export. Sur iPhone et iPad, vous disposez de la recherche par mots-clés, de la recherche dans la note, des photos et fichiers joints, et du partage en Markdown ou d’une note avec ses pièces jointes. Tous les appareils offrent 22 thèmes intégrés. Sur Mac, vous pouvez aussi créer des thèmes personnalisés et les partager en important ou en exportant des fichiers .zebratheme."
+        },
+        {
+          "id": "offline",
+          "question": "Faut-il un compte ou une connexion Internet ?",
+          "answer": "Aucun compte Zebra n’est nécessaire. Par défaut, vos notes sont stockées sur votre appareil, et l’écriture comme l’organisation fonctionnent hors ligne. Les modifications sont enregistrées automatiquement sur l’appareil. La synchronisation iCloud nécessite un compte Apple et une connexion. La capture web, les aperçus de liens et les pièces jointes distantes se connectent aux sites concernés."
+        },
+        {
+          "id": "sync-setup",
+          "question": "Comment synchroniser mes propres appareils ?",
+          "answer": "Connectez-vous au même compte Apple sur chaque appareil et vérifiez qu’iCloud est disponible. Activez ensuite la synchronisation iCloud dans les réglages de Zebra sur chaque appareil. La synchronisation est désactivée par défaut sur une nouvelle installation ; les choix existants sont conservés. La première synchronisation peut prendre du temps : gardez Zebra ouvert et une connexion réseau disponible. Si des modifications n’arrivent pas, vérifiez l’état de la synchronisation dans l’app, votre réseau et votre session iCloud. Désactiver la synchronisation sur un appareil ne la désactive pas ailleurs et n’efface pas les copies déjà présentes dans iCloud."
+        },
+        {
+          "id": "concurrent-edits",
+          "question": "Que se passe-t-il si je modifie une note sur deux appareils à la fois ?",
+          "answer": "Le texte des notes ordinaires est synchronisé par CRDT, qui fusionne les modifications simultanées entre appareils. Les modifications faites hors ligne peuvent rejoindre les autres à la reconnexion. Les notes chiffrées fonctionnent autrement : les modifications successives s’enchaînent, tandis que les modifications simultanées sont conservées comme versions chiffrées distinctes. S’il reste des versions à départager, ouvrez Versions des notes chiffrées, saisissez le mot de passe correspondant pour les consulter, puis choisissez la version à garder. La synchronisation relie vos propres appareils ; ce n’est pas un espace de travail partagé en équipe."
+        },
+        {
+          "id": "search",
+          "question": "Puis-je retrouver une note sans me souvenir des mots exacts ?",
+          "answer": "Sur Mac, appuyez sur ⌘O pour ouvrir Zebra Actions et décrivez ce dont vous vous souvenez. La recherche sémantique locale combine le sens des textes en chinois et en anglais avec les mots-clés. Aucun modèle n’est à télécharger, et la recherche par mots-clés reste disponible si les capacités sémantiques du système ne le sont pas. Les notes chiffrées sont exclues de l’index sémantique, même déverrouillées. Sur iPhone et iPad, Zebra propose pour l’instant la recherche par mots-clés et la recherche dans la note."
+        },
+        {
+          "id": "import-export",
+          "question": "Comment importer mon travail existant et emporter mes notes ?",
+          "answer": "Sur Mac, importez du Markdown, du HTML, des TextBundle et d’autres formats pris en charge. Les PDF contenant du texte, les fichiers DOCX, XLSX/XLS, PPTX et d’autres documents pris en charge peuvent être convertis localement en notes modifiables, en conservant les originaux. La conversion privilégie le texte et la structure ; les mises en page complexes peuvent changer. Le Mac exporte notamment en Markdown, PDF, HTML, DOCX et ePub. Sur iPhone et iPad, joignez des photos ou des fichiers, puis utilisez le menu de la note pour la partager en Markdown ou l’envoyer avec ses pièces jointes."
+        },
+        {
+          "id": "backup-delete",
+          "question": "La synchronisation est-elle une sauvegarde ? Que se passe-t-il quand je supprime quelque chose ?",
+          "answer": "La synchronisation transporte les modifications entre appareils ; elle ne doit pas être votre seule sauvegarde. Sur Mac, exportez depuis le menu Fichier une sauvegarde de bibliothèque .zebrabk avec vos notes et pièces jointes. Vous pouvez examiner l’effet d’une restauration avant de la lancer. Désactiver la synchronisation ou supprimer l’app n’efface ni les copies sur d’autres appareils, ni les fichiers exportés, ni les sauvegardes, ni les copies déjà présentes dans iCloud. Les notes chiffrées supprimées conservent leur historique de synchronisation pour permettre leur récupération. Il n’existe pour l’instant aucun bouton pour effacer tout l’historique dans iCloud. Gardez une copie indépendante avant de supprimer ou de restaurer un travail important."
+        },
+        {
+          "id": "encryption",
+          "question": "Que faire si j’oublie le mot de passe d’une note chiffrée ?",
+          "answer": "Le développeur ne conserve aucun mot de passe ni aucune clé de récupération permettant de rétablir l’accès. Conservez votre mot de passe en lieu sûr : le contenu chiffré d’une sauvegarde en a toujours besoin. Le chiffrement d’une note protège son texte et ses pièces jointes chiffrées ; les titres et certaines informations externes restent visibles. Chiffrer une note ordinaire ne peut pas retirer les copies en clair déjà synchronisées, exportées ou sauvegardées."
+        }
+      ],
+      "privacy": {
+        "eyebrow": "Zebra · Confidentialité et données",
+        "title": "Où restent vos contenus, et quand ils quittent votre appareil.",
+        "intro": "Cette page explique comment l’app Zebra actuelle traite les données, et ce qu’il faut savoir lorsque vous visitez le site web, contactez l’assistance par e-mail ou signalez un problème public.",
+        "documentType": "Informations sur le traitement des données du produit",
+        "lastReviewedLabel": "Informations vérifiées le 11 octobre 2026",
+        "sections": [
+          {
+            "id": "local",
+            "title": "Local par défaut",
+            "paragraphs": [
+              "Les notes, tags, pièces jointes, réglages et index de recherche dérivés sont stockés dans la bibliothèque Zebra de votre appareil. Les exports et sauvegardes sont enregistrés à l’emplacement de votre choix. L’app Zebra n’a pas de système de comptes et n’envoie pas le texte de vos notes à un serveur du développeur.",
+              "L’app actuelle ne contient ni publicité, ni suivi comportemental, ni analyse du produit, ni service tiers de rapports de plantage. Cela décrit l’app Zebra elle-même, et non les pratiques propres à un hébergeur de site web, à Apple ou à un service tiers que vous choisissez d’utiliser."
+            ]
+          },
+          {
+            "id": "local-processing",
+            "title": "Recherche et conversion locales",
+            "paragraphs": [
+              "Sur Mac, la recherche sémantique s’appuie sur les capacités linguistiques du système pour le chinois et l’anglais afin de traiter notes et requêtes sur l’appareil. Zebra ne télécharge aucun modèle pour cette fonction et n’envoie pas le texte des notes à un service de modèles. Les notes chiffrées sont exclues des index sémantiques persistants. La recherche par mots-clés reste disponible lorsque les capacités sémantiques du système ne le sont pas.",
+              "Sur Mac, la conversion de documents s’exécute localement. Une fois l’import confirmé, la note convertie et l’original conservé rejoignent votre bibliothèque. Leur synchronisation ou leur partage ultérieurs dépendent de vos réglages et de vos actions. Cette conversion de documents et la recherche sémantique ne sont pas disponibles sur iPhone ni sur iPad."
+            ]
+          },
+          {
+            "id": "icloud",
+            "title": "Synchronisation iCloud facultative",
+            "paragraphs": [
+              "La synchronisation iCloud est désactivée par défaut sur une nouvelle installation ; les choix existants sont conservés. Une fois qu’elle est activée, le texte des notes ordinaires, les métadonnées associées et les pièces jointes référencées rejoignent la base de données CloudKit privée de votre compte Apple. Les notes chiffrées se synchronisent sous forme de versions chiffrées, de pièces jointes chiffrées et d’historique des versions. Les titres et certaines informations externes restent visibles. Ce canal de synchronisation n’envoie ni les mots de passe des notes ni les clés de déchiffrement.",
+              "iCloud est fourni par Apple, qui traite les données du service selon ses propres conditions et sa politique de confidentialité. Désactiver la synchronisation n’arrête que l’appareil concerné ; les copies dans iCloud ou sur d’autres appareils ne sont pas effacées automatiquement."
+            ]
+          },
+          {
+            "id": "encryption",
+            "title": "Chiffrement note par note",
+            "paragraphs": [
+              "La protection par mot de passe s’applique au texte de la note sélectionnée et à ses pièces jointes chiffrées. Elle ne signifie pas que toute la bibliothèque est chiffrée par défaut et ne masque pas toutes les informations externes. Sur les appareils compatibles, l’authentification biométrique du système peut faciliter le déverrouillage. Zebra ne reçoit ni empreintes digitales ni autres modèles biométriques.",
+              "Le développeur ne dispose d’aucun mot de passe ni d’aucune clé permettant de récupérer vos notes chiffrées. Chiffrer une note ordinaire ne peut pas retirer les copies en clair déjà reçues par iCloud, d’autres appareils, des fichiers exportés ou des sauvegardes."
+            ]
+          },
+          {
+            "id": "web-and-sharing",
+            "title": "Contenu web et partage",
+            "paragraphs": [
+              "Capturer une page, créer une note à partir d’une URL, afficher une carte de lien ou télécharger une pièce jointe distante peut interroger directement le site concerné. Celui-ci reçoit les informations de connexion habituelles, comme l’URL demandée et l’adresse IP. L’extension de capture pour Safari lit la page en cours lorsque vous lancez une capture et transmet le contenu sélectionné à Zebra.",
+              "Le partage, les exports, Raccourcis et les autres actions que vous autorisez peuvent transmettre le contenu sélectionné à une autre app ou destination. Le destinataire traite ce contenu selon ses propres réglages et règles."
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "Conservation et suppression",
+            "paragraphs": [
+              "Vous pouvez supprimer des notes et gérer la Corbeille dans Zebra. Supprimer l’app ou désactiver la synchronisation ne supprime pas automatiquement les exports, les sauvegardes, ni le contenu déjà présent sur d’autres appareils ou dans iCloud.",
+              "Lorsqu’une note chiffrée est supprimée, ses versions antérieures et les pièces jointes qu’elles référencent peuvent rester dans l’historique de synchronisation pour permettre une récupération. Il n’existe pour l’instant aucun bouton pour effacer tout l’historique dans iCloud. Gardez une sauvegarde indépendante avant de supprimer ou de restaurer un travail important."
+            ]
+          },
+          {
+            "id": "website-support",
+            "title": "Ce site et les signalements",
+            "paragraphs": [
+              "Ce site est hébergé par GitHub Pages et ne charge aucun script publicitaire ni d’analyse du produit. GitHub traite néanmoins les requêtes réseau nécessaires pour servir le site, qui peuvent inclure l’adresse IP, le chemin demandé, l’heure et des informations sur le navigateur. La déclaration de confidentialité de GitHub décrit le traitement de ces informations. Le stockage local de l’app ne signifie pas que la visite du site ne laisse aucune trace réseau.",
+              "Lorsque vous signalez un problème public sur GitHub, GitHub traite les informations de compte, le texte et les pièces jointes que vous envoyez, et d’autres personnes peuvent les voir. Nous utilisons ces informations pour répondre et enquêter. Ne partagez que le nécessaire. N’envoyez ni notes privées, ni mots de passe, ni bibliothèque complète, ni clés.",
+              "Lorsque vous nous écrivez, nous-mêmes et notre fournisseur de messagerie, Gmail, traitons votre adresse e-mail, votre message et les pièces jointes que vous choisissez d’envoyer, afin de vous répondre et d’examiner le problème. Ne partagez que le nécessaire et n’envoyez ni mot de passe ni clé de récupération."
+            ]
+          }
+        ]
+      },
+      "report": {
+        "title": "Signaler un problème",
+        "intro": "Dites-nous ce que vous avez fait, ce que vous attendiez et ce qui s’est passé à la place. Un petit exemple qui reproduit le problème à coup sûr est particulièrement utile.",
+        "include": [
+          "Le modèle de votre appareil, la version du système, ainsi que la version et le numéro de build de Zebra.",
+          "Les étapes depuis l’ouverture de l’app, et si le problème se produit à chaque fois.",
+          "Pour un problème de synchronisation : les appareils concernés, celui sur lequel vous avez modifié en premier, et si un appareil était hors ligne.",
+          "Pour un problème d’import : l’app d’origine et le format du fichier. Pour un problème d’édition : un petit exemple Markdown sans contenu privé.",
+          "Si c’est utile, une capture d’écran où les informations privées sont masquées et le message d’erreur reste visible."
+        ],
+        "publicIssueLabel": "Signaler un problème public",
+        "publicIssueNotice": "Les tickets GitHub et leurs pièces jointes sont publics. N’y publiez ni mots de passe, ni notes privées, ni bibliothèque complète, ni clés de récupération, ni jetons d’accès. Pour parler d’un problème en privé, écrivez à entropysniper@gmail.com et ne partagez que ce qui est nécessaire à l’enquête.",
+        "repositoryLabel": "Voir le projet et les nouveautés",
         "publicIssueURL": "https://github.com/entropysniper-app/zebra.app/issues/new"
       }
     }

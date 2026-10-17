@@ -52,6 +52,8 @@
   const dialogImage = document.getElementById('dialog-image');
   const dialogTitle = document.getElementById('dialog-title');
   const dialogClose = document.getElementById('dialog-close');
+  // Shown while a device group uses the English screenshots on a translated page.
+  const fallbackNote = document.getElementById('gallery-fallback');
   let sourceButton = null;
   function openPoster(button) {
     sourceButton = button;
@@ -99,8 +101,25 @@
     gallery.replaceChildren(fragment); gallery.dataset.device = device;
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.deviceButton === device)));
     status.textContent = data.deviceLabels[device] + ' · ' + data.statusText;
+    if (fallbackNote) fallbackNote.hidden = data.imageLocales[device] === data.locale;
     bindPosters();
   }
   buttons.forEach(button => button.addEventListener('click', () => selectDevice(button.dataset.deviceButton)));
   bindPosters();
+})();
+// The language menu is a native <details> disclosure and works without JavaScript;
+// this only adds the expected dismissal: Escape, a click outside, or tabbing away.
+(() => {
+  document.querySelectorAll('.language-menu').forEach(menu => {
+    const summary = menu.querySelector('summary');
+    menu.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menu.open) { menu.open = false; summary.focus(); }
+    });
+    menu.addEventListener('focusout', event => {
+      if (menu.open && event.relatedTarget && !menu.contains(event.relatedTarget)) menu.open = false;
+    });
+    document.addEventListener('click', event => {
+      if (menu.open && !menu.contains(event.target)) menu.open = false;
+    });
+  });
 })();
