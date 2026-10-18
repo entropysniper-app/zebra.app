@@ -57,10 +57,10 @@ UI = {
   'principles':['Native Markdown writing','Your notes, local by default','Optional iCloud sync'],
   'galleryEyebrow':'A little note. A bigger picture.','galleryTitle':'More ways to make yourself clear.','galleryIntro':'Start with a sentence. Add the details that make it yours. Choose a device to see what Zebra can do there.',
   'view':'View screenshot:','status':'10 features','imageFallback':'Screenshots in this language are on their way; the English screenshots are shown for this device.','galleryNote':'Real app screens with sample notes. The zebra is our illustrated window companion. The sync diagram explains the strategy; it is not a live sync recording.',
-  'syncEyebrow':'Concurrent editing · Private iCloud sync','syncTitle':'Your edits merge\nautomatically.','syncIntro':'Add a task on iPhone while revising a plan on Mac. Concurrent edits to ordinary note text merge when you sync, reducing the work of choosing between conflict copies.',
+  'syncEyebrow':'Concurrent editing · Private iCloud sync','syncTitle':'Your edits merge\nautomatically.','syncIntro':'Add a task on iPhone while revising a plan on Mac. Concurrent edits to note text merge when you sync, reducing the work of choosing between conflict copies.',
   'syncMark':'Your devices · Same Apple Account · Your choice',
-  'ordinaryTitle':'Ordinary notes: edits come together.','ordinaryBody':'Enable iCloud sync on devices signed in to the same Apple Account. Concurrent changes to note text merge automatically. Write offline and sync when you reconnect. Sync is off by default on new installations.',
-  'encryptedTitle':'Encrypted notes: keep the versions.','encryptedBody':'Concurrent encrypted edits remain as separate versions. Unlock, review, and restore what you need; titles and some outer metadata remain visible.',
+  'ordinaryTitle':'Your notes: edits come together.','ordinaryBody':'Enable iCloud sync on devices signed in to the same Apple Account. Concurrent changes to note text merge automatically. Write offline and sync when you reconnect. Sync is off by default on new installations.',
+  'passwordTitle':'Notes with a password: synced the same way.','passwordBody':'A note password hides the note in Zebra until you enter it. It is not encryption: the content syncs and merges like any other note. Only a password check and an optional hint sync with it, never the password itself.',
   'platformTitle':'At home on each device.','platformCaption':'The same writing essentials, with extra tools on Mac.','platformHeads':['Capability','Mac','iPhone & iPad'],
   'platformRows':[
    ['Write & organize','Markdown, tables, diagrams, math, code, folders and nested tags','Markdown, tables, diagrams, math, code, folders and nested tags'],
@@ -82,10 +82,10 @@ UI = {
   'principles':['原生 Markdown 写作','笔记默认留在本机','按需开启 iCloud 同步'],
   'galleryEyebrow':'从一句话，到一套想法','galleryTitle':'让表达，多几种可能。','galleryIntro':'从文字开始，慢慢补全细节。选择你的设备，看看 Zebra 如何承载不同的想法。',
   'view':'查看截图：','status':'10 个使用场景','imageFallback':'该设备的简体中文截图正在准备中，暂以英文截图展示。','galleryNote':'画面来自真实 App，笔记为演示内容。趴窗斑马是独立插画；同步图用于解释机制，并非实时同步录像。',
-  'syncEyebrow':'多端并发编辑 · 私有 iCloud 同步','syncTitle':'多端同时改，\n正文自动合并。','syncIntro':'手机补一条待办，Mac 改一段计划。即使同时编辑，普通笔记的正文改动也会在同步后汇合，减少来回挑选冲突副本的麻烦。',
+  'syncEyebrow':'多端并发编辑 · 私有 iCloud 同步','syncTitle':'多端同时改，\n正文自动合并。','syncIntro':'手机补一条待办，Mac 改一段计划。即使同时编辑，笔记的正文改动也会在同步后汇合，减少来回挑选冲突副本的麻烦。',
   'syncMark':'自己的设备 · 同一 Apple 账户 · 按需开启',
-  'ordinaryTitle':'普通笔记，改动自动合到一起。','ordinaryBody':'在登录同一 Apple 账户的设备上开启 iCloud 同步，正文的并发改动会自动合并。没网也能先写，重新连网后继续同步。新安装默认关闭同步。',
-  'encryptedTitle':'加密笔记，不同版本都留好。','encryptedBody':'加密笔记的并发改动保留为独立密文版本。解锁后查看、选择和恢复所需内容；标题及部分外层信息仍可见。',
+  'ordinaryTitle':'你的笔记，改动自动合到一起。','ordinaryBody':'在登录同一 Apple 账户的设备上开启 iCloud 同步，正文的并发改动会自动合并。没网也能先写，重新连网后继续同步。新安装默认关闭同步。',
+  'passwordTitle':'设有密码的笔记，也同样同步。','passwordBody':'笔记密码让 Zebra 在你输入密码前不显示这篇笔记，但它不是加密：内容与其他笔记一样同步、合并。随笔记同步的只有密码校验值和可选提示，不包括密码本身。',
   'platformTitle':'每台设备，各有所长。','platformCaption':'三端共享写作基础，Mac 另有更完整的资料处理工具。','platformHeads':['能力','Mac','iPhone 与 iPad'],
   'platformRows':[
    ['写作与整理','Markdown、表格、图表、公式、代码、文件夹与层级标签','Markdown、表格、图表、公式、代码、文件夹与层级标签'],
@@ -107,10 +107,10 @@ UI = {
   'principles':['ネイティブなMarkdown執筆','ノートは標準でデバイス内に','iCloud同期は必要なときに'],
   'galleryEyebrow':'小さなノートから、大きな全体像へ','galleryTitle':'伝えたいことを、もっと明快に。','galleryIntro':'ひとつの文から始めて、自分らしい細部を加えていく。デバイスを選んで、Zebraでできることをご覧ください。',
   'view':'スクリーンショットを表示：','status':'10のシーン','imageFallback':'このデバイスの日本語版スクリーンショットは準備中のため、英語版を表示しています。','galleryNote':'画面は実際のアプリで、ノートはサンプルです。窓辺のシマウマはイラストのキャラクターです。同期の図は仕組みを説明するもので、実際の同期を記録したものではありません。',
-  'syncEyebrow':'同時編集 · プライベートなiCloud同期','syncTitle':'同時に編集しても、\n本文は自動で統合。','syncIntro':'iPhoneでタスクを書き足しながら、Macで計画を見直す。通常のノートの本文への同時編集は同期するときに統合されるので、競合コピーを見比べて選ぶ手間が減ります。',
+  'syncEyebrow':'同時編集 · プライベートなiCloud同期','syncTitle':'同時に編集しても、\n本文は自動で統合。','syncIntro':'iPhoneでタスクを書き足しながら、Macで計画を見直す。ノート本文への同時編集は同期するときに統合されるので、競合コピーを見比べて選ぶ手間が減ります。',
   'syncMark':'自分のデバイス · 同じAppleアカウント · オンにするかは自由',
-  'ordinaryTitle':'通常のノート：変更はひとつに。','ordinaryBody':'同じAppleアカウントでサインインしたデバイスでiCloud同期をオンにすると、ノート本文への同時の変更は自動で統合されます。オフラインでも書けて、再接続すると同期されます。新規インストールでは、同期はオフになっています。',
-  'encryptedTitle':'暗号化ノート：各バージョンを保持。','encryptedBody':'暗号化ノートへの同時編集は、別々のバージョンとして残ります。ロックを解除して確認し、必要なものを復元できます。タイトルと一部の外側のメタデータは表示されたままです。',
+  'ordinaryTitle':'ノートの変更は、ひとつに。','ordinaryBody':'同じAppleアカウントでサインインしたデバイスでiCloud同期をオンにすると、ノート本文への同時の変更は自動で統合されます。オフラインでも書けて、再接続すると同期されます。新規インストールでは、同期はオフになっています。',
+  'passwordTitle':'パスワード付きのノートも、同じように同期。','passwordBody':'ノートのパスワードは、入力するまでZebraでノートを表示しないためのもので、暗号化ではありません。内容はほかのノートと同じように同期・統合されます。一緒に同期されるのはパスワード照合値と任意のヒントだけで、パスワードそのものは同期されません。',
   'platformTitle':'どのデバイスでも、しっくりと。','platformCaption':'書くための基本はどのデバイスでも同じ。Macにはさらにツールがそろっています。','platformHeads':['機能','Mac','iPhone・iPad'],
   'platformRows':[
    ['書く・整理する','Markdown、表、図、数式、コード、フォルダ、階層タグ','Markdown、表、図、数式、コード、フォルダ、階層タグ'],
@@ -132,10 +132,10 @@ UI = {
   'principles':['Écriture Markdown native','Vos notes, en local par défaut','Synchronisation iCloud facultative'],
   'galleryEyebrow':'D’une petite note à une vue d’ensemble','galleryTitle':'Plus de façons de vous exprimer clairement.','galleryIntro':'Commencez par une phrase, puis ajoutez les détails qui la rendent vôtre. Choisissez un appareil pour voir ce que Zebra y permet.',
   'view':'Voir la capture :','status':'10 fonctionnalités','imageFallback':'Les captures en français pour cet appareil arrivent bientôt ; les captures en anglais sont affichées en attendant.','galleryNote':'Écrans réels de l’app avec des notes d’exemple. Le zèbre est notre compagnon illustré. Le schéma de synchronisation explique le principe ; ce n’est pas l’enregistrement d’une synchronisation réelle.',
-  'syncEyebrow':'Édition simultanée · Synchronisation iCloud privée','syncTitle':'Vos modifications\nfusionnent automatiquement.','syncIntro':'Ajoutez une tâche sur l’iPhone pendant que vous révisez un plan sur le Mac. Les modifications simultanées du texte des notes ordinaires fusionnent à la synchronisation, et vous avez moins de copies en conflit à départager.',
+  'syncEyebrow':'Édition simultanée · Synchronisation iCloud privée','syncTitle':'Vos modifications\nfusionnent automatiquement.','syncIntro':'Ajoutez une tâche sur l’iPhone pendant que vous révisez un plan sur le Mac. Les modifications simultanées du texte des notes fusionnent à la synchronisation, et vous avez moins de copies en conflit à départager.',
   'syncMark':'Vos appareils · Même compte Apple · À votre choix',
-  'ordinaryTitle':'Notes ordinaires : les modifications se rejoignent.','ordinaryBody':'Activez la synchronisation iCloud sur les appareils connectés au même compte Apple. Les modifications simultanées du texte des notes fusionnent automatiquement. Écrivez hors ligne, la synchronisation reprend à la reconnexion. La synchronisation est désactivée par défaut sur une nouvelle installation.',
-  'encryptedTitle':'Notes chiffrées : les versions sont conservées.','encryptedBody':'Les modifications simultanées d’une note chiffrée restent des versions distinctes. Déverrouillez, examinez et restaurez ce dont vous avez besoin ; les titres et certaines métadonnées externes restent visibles.',
+  'ordinaryTitle':'Vos notes : les modifications se rejoignent.','ordinaryBody':'Activez la synchronisation iCloud sur les appareils connectés au même compte Apple. Les modifications simultanées du texte des notes fusionnent automatiquement. Écrivez hors ligne, la synchronisation reprend à la reconnexion. La synchronisation est désactivée par défaut sur une nouvelle installation.',
+  'passwordTitle':'Notes protégées par mot de passe : même synchronisation.','passwordBody':'Le mot de passe d’une note la masque dans Zebra jusqu’à ce que vous le saisissiez. Ce n’est pas un chiffrement : le contenu se synchronise et fusionne comme celui de toute autre note. Seuls une vérification du mot de passe et un indice facultatif l’accompagnent, jamais le mot de passe lui-même.',
   'platformTitle':'À l’aise sur chaque appareil.','platformCaption':'Les mêmes bases d’écriture partout, avec des outils en plus sur Mac.','platformHeads':['Fonction','Mac','iPhone et iPad'],
   'platformRows':[
    ['Écrire et classer','Markdown, tableaux, diagrammes, formules, code, dossiers et tags imbriqués','Markdown, tableaux, diagrammes, formules, code, dossiers et tags imbriqués'],
@@ -330,7 +330,7 @@ def page(locale, filename):
 <div class="principles">{''.join('<span>'+E(p)+'</span>' for p in u['principles'])}</div>
 {film(locale, pre)}
 <section id="explore"><div class="section-heading"><div><p class="eyebrow">{E(u['galleryEyebrow'])}</p><h2>{E(u['galleryTitle'])}</h2><p>{E(u['galleryIntro'])}</p></div><div class="device-switch" role="group" aria-label="{E(u['chooseDevice'])}">{buttons}</div></div><p id="gallery-status" class="eyebrow" aria-live="polite">Mac · {E(u['status'])}</p>{fallback_note}<noscript><p class="no-script">{E(u['noScript'])}</p></noscript><div id="gallery" class="gallery" data-device="macos">{cards_html}</div><p class="gallery-note">{E(u['galleryNote'])}</p></section>
-<section id="sync" class="sync-section"><div><p class="eyebrow">{E(u['syncEyebrow'])}</p><h2>{E(u['syncTitle']).replace(chr(10),'<br>')}</h2><p>{E(u['syncIntro'])}</p><span class="sync-mark">{E(u['syncMark'])}</span></div><div><div class="sync-card"><h3>{E(u['ordinaryTitle'])}</h3><p>{E(u['ordinaryBody'])}</p></div><div class="sync-card"><h3>{E(u['encryptedTitle'])}</h3><p>{E(u['encryptedBody'])}</p></div></div></section>
+<section id="sync" class="sync-section"><div><p class="eyebrow">{E(u['syncEyebrow'])}</p><h2>{E(u['syncTitle']).replace(chr(10),'<br>')}</h2><p>{E(u['syncIntro'])}</p><span class="sync-mark">{E(u['syncMark'])}</span></div><div><div class="sync-card"><h3>{E(u['ordinaryTitle'])}</h3><p>{E(u['ordinaryBody'])}</p></div><div class="sync-card"><h3>{E(u['passwordTitle'])}</h3><p>{E(u['passwordBody'])}</p></div></div></section>
 <section class="platforms"><h2>{E(u['platformTitle'])}</h2><table class="platform-table"><caption>{E(u['platformCaption'])}</caption>{table}</table></section>
 <section class="support" id="support"><div class="intro"><p class="eyebrow">{E(u['supportEyebrow'])}</p><h2>{E(u['supportTitle'])}</h2><p>{E(u['supportIntro'])}</p><a href="privacy.html">{E(u['privacy'])} ↗</a></div><div class="faq">{faq}</div></section>
 <section class="contact" id="contact"><div><h2>{E(u['contactTitle'])}</h2><p>{E(u['contactBody'])}</p><p class="contact-email">{email_link}</p></div><div class="contact-options"><a class="button" href="mailto:{email}">{E(u['emailAction'])}</a><a class="button secondary" href="{SUPPORT['contact']['publicIssueURL']}">{E(u['contactAction'])}</a></div></section></main>

@@ -86,7 +86,7 @@ Drop `--require-complete` while some sets are still on their way. `derive_images
 
 ## Content scope
 
-Facts are the same in every language. Semantic search and rich document conversion/export are Mac capabilities, and semantic search currently understands Chinese and English text. Mobile copy describes keyword search, find within notes, attachments and Markdown/package sharing. Ordinary note text merges concurrent edits; encrypted notes retain concurrent encrypted versions. Sync connects personal devices on the same Apple Account, with iCloud sync off by default for new installations. Other note apps are not named.
+Facts are the same in every language. Semantic search and rich document conversion/export are Mac capabilities, and semantic search currently understands Chinese and English text. Mobile copy describes keyword search, find within notes, attachments and Markdown/package sharing. Note text merges concurrent edits, including notes with a password. A note password is not encryption: password-protected notes are stored and synced as plain text like other notes, and the site must not describe them as encrypted. Sync connects personal devices on the same Apple Account, with iCloud sync off by default for new installations. Other note apps are not named.
 
 All note content in the images is fictional. The synchronization illustration explains the mechanism and is not a recorded sync test. Original App Store poster images were exported separately at their full submission dimensions; the images in this repository are smaller website derivatives. Their provenance and hashes are in `asset-manifest.json`.
 

@@ -65,7 +65,7 @@
           "本地处理",
           "无需配置模型"
         ],
-        "footnote": "支持中英文；加密笔记不参与语义索引。"
+        "footnote": "支持中英文；设有密码的笔记不参与语义索引。"
       },
       {
         "id": "import-export",
@@ -87,7 +87,7 @@
           "正文自动合并",
           "少管冲突副本"
         ],
-        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。"
+        "footnote": "同一 Apple 账户开启 iCloud 同步。"
       },
       {
         "id": "themes",
@@ -177,7 +177,7 @@
           "On-device search",
           "No model setup"
         ],
-        "footnote": "Chinese and English supported. Encrypted notes are excluded from semantic indexing."
+        "footnote": "Chinese and English supported. Password-protected notes are excluded from semantic indexing."
       },
       {
         "id": "import-export",
@@ -199,7 +199,7 @@
           "Edits merge",
           "Less version juggling"
         ],
-        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions."
+        "footnote": "Same Apple Account; enable iCloud sync."
       },
       {
         "id": "themes",
@@ -311,7 +311,7 @@
           "本文を自動統合",
           "競合コピーを減らす"
         ],
-        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。"
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。"
       },
       {
         "id": "themes",
@@ -423,7 +423,7 @@
           "Fusion du texte",
           "Moins de doublons"
         ],
-        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes."
+        "footnote": "Même compte Apple, synchronisation iCloud activée."
       },
       {
         "id": "themes",
@@ -544,7 +544,7 @@
           "正文自动合并",
           "少管冲突副本"
         ],
-        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。",
+        "footnote": "同一 Apple 账户开启 iCloud 同步。",
         "phoneHeadline": "多端同时改，\n正文自动合并"
       },
       {
@@ -562,10 +562,10 @@
       {
         "id": "tables",
         "headline": "表格直接改，行列随手调",
-        "subheadline": "点进单元格直接写，按住手柄拖动行列，让表格跟着计划调整。",
+        "subheadline": "点一下单元格就能写，⋮ 菜单增删移动行列、调整对齐。",
         "benefits": [
-          "直接编辑单元格",
-          "拖动调整行列",
+          "点按即编辑",
+          "增删移动行列",
           "列对齐"
         ],
         "footnote": "",
@@ -666,7 +666,7 @@
           "Edits merge",
           "Less version juggling"
         ],
-        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions.",
+        "footnote": "Same Apple Account; enable iCloud sync.",
         "phoneHeadline": "Your edits merge\nautomatically"
       },
       {
@@ -684,10 +684,10 @@
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Type into cells. Hold a handle to drag rows and columns into place.",
+        "subheadline": "Tap to type. The ⋮ menu adds, moves, and aligns rows and columns.",
         "benefits": [
-          "Edit cells directly",
-          "Drag rows & columns",
+          "Tap to edit",
+          "Row & column menu",
           "Column alignment"
         ],
         "footnote": "",
@@ -788,7 +788,7 @@
           "本文を自動統合",
           "競合コピーを減らす"
         ],
-        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。",
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。",
         "phoneHeadline": "同時に編集しても、\n自動で統合"
       },
       {
@@ -806,10 +806,10 @@
       {
         "id": "tables",
         "headline": "セルは直接、行と列は自在に",
-        "subheadline": "セルに直接入力。ハンドルを長押しして、行も列も好きな位置へ。",
+        "subheadline": "セルをタップしてすぐ入力。⋮ メニューで行と列を追加・移動・配置。",
         "benefits": [
-          "セルを直接編集",
-          "行と列をドラッグ",
+          "タップで編集",
+          "行と列のメニュー",
           "列の配置"
         ],
         "footnote": "",
@@ -910,7 +910,7 @@
           "Fusion du texte",
           "Moins de doublons"
         ],
-        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes.",
+        "footnote": "Même compte Apple, synchronisation iCloud activée.",
         "phoneHeadline": "Vos modifications\nfusionnent"
       },
       {
@@ -928,10 +928,10 @@
       {
         "id": "tables",
         "headline": "Tableaux, cellule par cellule",
-        "subheadline": "Écrivez dans les cellules. Maintenez une poignée pour déplacer lignes et colonnes.",
+        "subheadline": "Touchez pour écrire. Le menu ⋮ ajoute, déplace et aligne lignes et colonnes.",
         "benefits": [
-          "Cellules éditables",
-          "Glisser-déposer",
+          "Toucher pour éditer",
+          "Lignes et colonnes",
           "Alignement des colonnes"
         ],
         "footnote": "",
@@ -1027,7 +1027,7 @@
           "正文自动合并",
           "少管冲突副本"
         ],
-        "footnote": "同一 Apple 账户开启 iCloud 同步；加密笔记保留并发版本。"
+        "footnote": "同一 Apple 账户开启 iCloud 同步。"
       },
       {
         "id": "themes",
@@ -1043,10 +1043,10 @@
       {
         "id": "tables",
         "headline": "表格直接改，行列随手调",
-        "subheadline": "点进单元格直接写，按住手柄拖动行列，让表格跟着计划调整。",
+        "subheadline": "点一下单元格就能写，⋮ 菜单增删移动行列、调整对齐。",
         "benefits": [
-          "直接编辑单元格",
-          "拖动调整行列",
+          "点按即编辑",
+          "增删移动行列",
           "列对齐"
         ],
         "footnote": ""
@@ -1139,7 +1139,7 @@
           "Edits merge",
           "Less version juggling"
         ],
-        "footnote": "Same Apple Account; enable iCloud sync. Encrypted notes retain concurrent versions."
+        "footnote": "Same Apple Account; enable iCloud sync."
       },
       {
         "id": "themes",
@@ -1155,10 +1155,10 @@
       {
         "id": "tables",
         "headline": "Edit tables, cell by cell",
-        "subheadline": "Type into cells. Hold a handle to drag rows and columns into place.",
+        "subheadline": "Tap to type. The ⋮ menu adds, moves, and aligns rows and columns.",
         "benefits": [
-          "Edit cells directly",
-          "Drag rows & columns",
+          "Tap to edit",
+          "Row & column menu",
           "Column alignment"
         ],
         "footnote": ""
@@ -1251,7 +1251,7 @@
           "本文を自動統合",
           "競合コピーを減らす"
         ],
-        "footnote": "同じAppleアカウントでiCloud同期をオンに。暗号化ノートは同時編集の各版を保持。"
+        "footnote": "同じAppleアカウントでiCloud同期をオンに。"
       },
       {
         "id": "themes",
@@ -1267,10 +1267,10 @@
       {
         "id": "tables",
         "headline": "セルは直接、行と列は自在に",
-        "subheadline": "セルに直接入力。ハンドルを長押しして、行も列も好きな位置へ。",
+        "subheadline": "セルをタップしてすぐ入力。⋮ メニューで行と列を追加・移動・配置。",
         "benefits": [
-          "セルを直接編集",
-          "行と列をドラッグ",
+          "タップで編集",
+          "行と列のメニュー",
           "列の配置"
         ],
         "footnote": ""
@@ -1363,7 +1363,7 @@
           "Fusion du texte",
           "Moins de doublons"
         ],
-        "footnote": "Même compte Apple, synchronisation iCloud activée. Les notes chiffrées gardent leurs versions concurrentes."
+        "footnote": "Même compte Apple, synchronisation iCloud activée."
       },
       {
         "id": "themes",
@@ -1379,10 +1379,10 @@
       {
         "id": "tables",
         "headline": "Tableaux, cellule par cellule",
-        "subheadline": "Écrivez dans les cellules. Maintenez une poignée pour déplacer lignes et colonnes.",
+        "subheadline": "Touchez pour écrire. Le menu ⋮ ajoute, déplace et aligne lignes et colonnes.",
         "benefits": [
-          "Cellules éditables",
-          "Glisser-déposer",
+          "Toucher pour éditer",
+          "Lignes et colonnes",
           "Alignement des colonnes"
         ],
         "footnote": ""
