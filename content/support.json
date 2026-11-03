@@ -21,6 +21,11 @@
     "zh-Hans": {
       "faqs": [
         {
+          "id": "knowledge-base",
+          "question": "Zebra 是什么？",
+          "answer": "Zebra 是个人本地智能知识库，以 Markdown 承载笔记、文档、图片和关联内容。在 Mac 可接入自选兼容 Agent，围绕资料进行智能问答、智能写作、Slide 创作与演示。"
+        },
+        {
           "id": "platforms",
           "question": "Zebra 支持哪些设备？各端有什么区别？",
           "answer": "Mac 需要 macOS 14 或更新版本；iPhone 和 iPad 需要 iOS 17 或更新版本。各端都支持 Markdown、表格、公式、Mermaid 图表、代码高亮、文件夹与层级标签。Mac 还提供本地语义搜索、文档转换和更多导出格式；iPhone 与 iPad 支持关键词搜索、文内查找、插入照片和文件，以及分享 Markdown 或笔记附件包。 三端均提供 22 套内置主题。Mac 还可创建自定义主题，并通过导入、导出 .zebratheme 文件分享配色。"
@@ -164,6 +169,11 @@
     },
     "en-US": {
       "faqs": [
+        {
+          "id": "knowledge-base",
+          "question": "What is Zebra?",
+          "answer": "Zebra is a personal, local-first knowledge base. Markdown carries notes and documents, with images, links and structured content. On Mac you can connect your own compatible agent to ask questions of your material, write, create slides and present them."
+        },
         {
           "id": "platforms",
           "question": "Which devices does Zebra support? Are the features the same?",
@@ -309,6 +319,11 @@
     "ja": {
       "faqs": [
         {
+          "id": "knowledge-base",
+          "question": "Zebraとは何ですか？",
+          "answer": "Zebraは、自分のためのローカル優先の知識ベースです。Markdownを内容の器として、ノート、文書、画像やリンクをまとめます。Macでは対応Agentを接続し、資料への質問、執筆、スライド作成と発表へ進めます。"
+        },
+        {
           "id": "platforms",
           "question": "Zebraはどのデバイスで使えますか？機能に違いはありますか？",
           "answer": "MacではmacOS 14以降、iPhoneとiPadではiOS 17以降が必要です。どのデバイスでも、Markdown、表、数式、Mermaidの図、コードのハイライト、フォルダ、階層タグを利用できます。Macではさらに、ローカルの意味検索、書類の変換、より多くの書き出し形式を利用できます。iPhoneとiPadでは、キーワード検索、ノート内検索、写真やファイルの添付に加え、Markdownまたは添付ファイルを含むノートパッケージとして共有できます。すべてのデバイスに22種類の内蔵テーマがあります。Macではカスタムテーマを作成し、.zebrathemeファイルの読み込み・書き出しで共有することもできます。"
@@ -452,6 +467,11 @@
     },
     "fr-FR": {
       "faqs": [
+        {
+          "id": "knowledge-base",
+          "question": "Qu’est-ce que Zebra ?",
+          "answer": "Zebra est une base de connaissances personnelle, locale par défaut. Markdown porte les notes, documents, images et liens. Sur Mac, connectez votre agent compatible pour questionner vos sources, écrire, créer des diapositives et les présenter."
+        },
         {
           "id": "platforms",
           "question": "Sur quels appareils Zebra fonctionne-t-il ? Les fonctions sont-elles les mêmes ?",

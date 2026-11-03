@@ -130,7 +130,7 @@ for locale, meta in build.LOCALES.items():
   if parser.touch_icon is None or resolve(p, parser.touch_icon) != (ROOT / TOUCH_ICON).resolve():
    errors.append(f'{name}: missing apple-touch-icon link to {TOUCH_ICON}')
 
-  # Copy hygiene: no competitor names; French spacing; the Japanese word for a note is ノート.
+  # Copy hygiene: use ノート for stored content; 発表者メモ is the correct slide term.
   body = ' '.join(parser.texts)
   for name_ in COMPETITORS:
    if re.search(rf'\b{re.escape(name_)}\b', body): errors.append(f'{name}: mentions {name_}')
@@ -140,10 +140,13 @@ for locale, meta in build.LOCALES.items():
     for m in re.finditer(r'(?<=[ \w])[:;!?»]|«(?=[ \w])', t):
      errors.append(f'{name}: French punctuation needs a no-break space: …{t[max(0, m.start() - 15):m.end() + 15]}…')
    if "'" in body: errors.append(f"{name}: straight apostrophe in French text")
-  if locale == 'ja' and re.search(r'メモ(?!リ)', body): errors.append(f'{name}: Japanese copy should call a note ノート, not メモ')
+  if locale == 'ja' and re.search(r'メモ(?!リ)', body.replace('発表者メモ', '')): errors.append(f'{name}: Japanese copy should call a note ノート, not メモ')
 
   if filename != 'index.html': continue
-  if parser.faqs != 8: errors.append(f'{name}: expected 8 FAQs, found {parser.faqs}')
+  if parser.faqs != 9: errors.append(f'{name}: expected 9 FAQs, found {parser.faqs}')
+  if 'faq-knowledge-base' not in parser.ids: errors.append(f'{name}: missing knowledge-base identity FAQ')
+  if 'intelligence' not in parser.ids: errors.append(f'{name}: missing connected-agent introduction')
+  if build.UI[locale]['intelligenceTitle'].split('\n')[0] not in body: errors.append(f'{name}: missing localized intelligence positioning')
   if parser.videos != 1: errors.append(f'{name}: expected one promo film')
   data = json.loads(parser.gallery)
   shown = [d['id'] for d in build.DEVICES if build.image_locale(d['id'], locale)]

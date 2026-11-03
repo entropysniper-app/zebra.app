@@ -1,0 +1,191 @@
+{
+  "category": "Personal local-first knowledge base",
+  "contentMedium": "Markdown",
+  "source": "User positioning decision, 2026-11-03; App Store master: Distribution/MacAppStore/product-page-2026-11-03/product-positioning.json",
+  "locales": {
+    "en-US": {
+      "title": "Zebra — Your personal, local-first knowledge base",
+      "description": "Keep knowledge locally, with Markdown as its medium. On Mac, connect your own agent for Q&A, writing, slide creation and presentations.",
+      "eyebrow": "Personal knowledge · Local-first · Your agent on Mac",
+      "hero": "Your knowledge.\nAnswers, writing, slides.",
+      "lead": "Bring your notes, documents, images and discoveries together. Markdown carries the content; your knowledge stays local by default. On Mac, connect an agent you choose to ask questions, write from your material, create slides and present them.",
+      "principles": [
+        "Personal knowledge, local-first",
+        "Markdown carries the content",
+        "Your agent, on Mac"
+      ],
+      "galleryEyebrow": "The tools behind your knowledge",
+      "galleryTitle": "Capture, connect and make ideas clear.",
+      "galleryIntro": "Build knowledge you can return to and keep creating from. Explore the native content tools and choose a device to see its capabilities.",
+      "platformCaption": "Knowledge across your devices, with connected-agent creation on Mac.",
+      "intelligenceEyebrow": "Your knowledge, connected to your agent",
+      "intelligenceTitle": "Ask it. Write from it.\nPresent what you know.",
+      "intelligenceIntro": "On Mac, your knowledge becomes working context for an agent you choose. Move from finding material to an answer, a draft or a presentation in the same workspace.",
+      "intelligenceCards": [
+        {
+          "title": "Ask your knowledge",
+          "body": "Work across your library or current material, reference notes with @ and follow source citations back to the original."
+        },
+        {
+          "title": "Write from your material",
+          "body": "Draft outlines, articles and summaries with your agent. Refine a selection with Smart Edit, compare suggestions and review proposed changes."
+        },
+        {
+          "title": "Create and present slides",
+          "body": "Ask your agent for a deck structure, slide content and speaker notes. Keep editing beside a live preview, then present full screen or with a separate speaker view."
+        }
+      ],
+      "intelligenceNotice": "Agent features are available on Mac and require a compatible tool you install and sign in to. Content is shared after permission and processed by the agent and its model service. Local knowledge storage does not mean all AI inference is on-device.",
+      "intelligencePlatformRows": [
+        [
+          "Agent Q&A & writing",
+          "Connect your own compatible agent; review edits and keep local conversations",
+          "Connected-agent features are currently available on Mac"
+        ],
+        [
+          "Slides",
+          "Agent-assisted creation, live preview, speaker view and PDF/PPTX/PPT export",
+          "Preview and present slide notes; agent creation is on Mac"
+        ]
+      ]
+    },
+    "zh-Hans": {
+      "title": "Zebra — 个人本地智能知识库",
+      "description": "以 Markdown 承载知识，默认本机保存。在 Mac 接入自选 Agent，基于资料智能问答、智能写作、创作 Slide 并演示，让积累持续为你所用。",
+      "eyebrow": "个人知识 · 本地优先 · Mac 上接入自选 Agent",
+      "hero": "你的知识，\n成为答案、作品和演示。",
+      "lead": "把笔记、文档、图片和日常积累汇集起来，以 Markdown 承载内容，默认保存在本机。在 Mac 接入自己选择的 Agent，在同一套知识中提问、写作，创作 Slide 并进行演示。",
+      "principles": [
+        "个人本地知识库",
+        "Markdown 是内容载体",
+        "Mac 上接入自选 Agent"
+      ],
+      "galleryEyebrow": "知识背后的内容工具",
+      "galleryTitle": "积累、关联，让知识表达清楚。",
+      "galleryIntro": "把资料变成可找回、可编辑、可持续创作的知识。这里展示承载内容的原生工具，可切换设备查看各端能力。",
+      "platformCaption": "知识在自己的设备间延续，Mac 上接入 Agent 进行智能创作。",
+      "intelligenceEyebrow": "你的知识，连接你的 Agent",
+      "intelligenceTitle": "向知识提问，基于资料写作，\n把想法创作成演示。",
+      "intelligenceIntro": "在 Mac 上，知识库成为你所选 Agent 的工作上下文。从查找资料，到获得回答、写出下一稿、完成一场演示，在同一个工作空间继续。",
+      "intelligenceCards": [
+        {
+          "title": "智能问答",
+          "body": "围绕整个知识库或当前内容对话，用 @ 引用具体笔记，通过来源引用回到原文核对。"
+        },
+        {
+          "title": "智能写作",
+          "body": "让 Agent 基于资料起草提纲、文章和总结。选中文字进行智能编辑，比较建议并审阅修改。"
+        },
+        {
+          "title": "智能 Slide 创作与演示",
+          "body": "让 Agent 组织结构、生成页面与讲稿，边编辑边预览，再进入全屏演示或独立的演讲者视图。"
+        }
+      ],
+      "intelligenceNotice": "Agent 功能目前在 Mac 提供，需要自行安装并登录兼容工具。内容经授权后交给所选 Agent 及其模型服务处理；本地保存知识，不代表 AI 推理全部在本机执行。",
+      "intelligencePlatformRows": [
+        [
+          "智能问答与写作",
+          "接入自选兼容 Agent，审阅修改并保留本机会话",
+          "接入 Agent 的能力目前在 Mac 提供"
+        ],
+        [
+          "Slide",
+          "Agent 辅助创作、实时预览、讲稿视图，以及 PDF/PPTX/PPT 导出",
+          "预览和演示 Slide；Agent 创作在 Mac 提供"
+        ]
+      ]
+    },
+    "ja": {
+      "title": "Zebra — 自分のためのローカル知識ベース",
+      "description": "Markdownを器に、知識をローカルに蓄積。Macで選んだAgentを接続し、資料への質問、執筆、スライド作成と発表へ進めます。",
+      "eyebrow": "自分の知識 · ローカル優先 · Macで選んだAgentと",
+      "hero": "あなたの知識から、\n答え、文章、プレゼンへ。",
+      "lead": "ノート、文書、画像、日々の気づきを一つに。Markdownを内容の器として使い、知識は標準でデバイス内に保存します。Macでは自分で選んだAgentを接続し、資料への質問、執筆、スライド作成と発表を同じ場所で続けられます。",
+      "principles": [
+        "パーソナルなローカル知識ベース",
+        "Markdownは内容の器",
+        "Macで自分のAgentを接続"
+      ],
+      "galleryEyebrow": "知識を支える、内容のための道具",
+      "galleryTitle": "蓄え、つなぎ、伝わるかたちに。",
+      "galleryIntro": "見つけ直せて、編集できて、次の創作につながる知識へ。デバイスを選び、内容を支えるネイティブ機能をご覧ください。",
+      "platformCaption": "自分のデバイスに知識をつなぎ、MacではAgentと創作できます。",
+      "intelligenceEyebrow": "自分の知識を、自分のAgentへ",
+      "intelligenceTitle": "聞いて、書いて、\n知識からプレゼンへ。",
+      "intelligenceIntro": "Macでは、知識ベースが選んだAgentの作業の文脈になります。資料を探すところから、答え、下書き、プレゼンテーションまで、同じ作業空間で続けられます。",
+      "intelligenceCards": [
+        {
+          "title": "知識に質問する",
+          "body": "ライブラリ全体や現在の内容を対象に対話。@でノートを指定し、出典から原文に戻って確かめられます。"
+        },
+        {
+          "title": "資料から書く",
+          "body": "Agentと構成案、記事、要約の下書きを作成。選択した文章をスマート編集し、提案や変更を見比べられます。"
+        },
+        {
+          "title": "スライドをつくって発表する",
+          "body": "知識から構成、本文、発表者メモをAgentと作成。ライブプレビューで編集を続け、全画面や発表者ビューで発表できます。"
+        }
+      ],
+      "intelligenceNotice": "Agent機能は現在Mac向けで、対応ツールのインストールとサインインが必要です。許可後、内容はAgentと接続先のモデルサービスで処理します。ローカル保存は、すべてのAI推論がデバイス内で行われることを意味しません。",
+      "intelligencePlatformRows": [
+        [
+          "Agentで質問・執筆",
+          "対応Agentを接続し、変更を確認。会話履歴はローカルに保存",
+          "Agent接続は現在Mac向けの機能です"
+        ],
+        [
+          "スライド",
+          "Agentによる作成、ライブプレビュー、発表者ビュー、PDF・PPTX・PPT書き出し",
+          "スライドのプレビューと発表。Agentでの作成はMac向けです"
+        ]
+      ]
+    },
+    "fr-FR": {
+      "title": "Zebra — Votre base de connaissances personnelle et locale",
+      "description": "Gardez vos connaissances en local, avec Markdown comme support. Sur Mac, connectez votre agent IA pour questionner, écrire, créer des slides et présenter.",
+      "eyebrow": "Savoir personnel · Local par défaut · Votre agent sur Mac",
+      "hero": "Votre savoir,\nen réponses, textes et présentations.",
+      "lead": "Rassemblez notes, documents, images et découvertes. Markdown porte le contenu, conservé en local par défaut. Sur Mac, connectez l’agent de votre choix pour interroger vos sources, écrire, créer des diapositives et les présenter dans le même espace.",
+      "principles": [
+        "Base de connaissances personnelle",
+        "Markdown porte le contenu",
+        "Votre propre agent sur Mac"
+      ],
+      "galleryEyebrow": "Les outils qui portent vos connaissances",
+      "galleryTitle": "Rassemblez, reliez, exprimez clairement.",
+      "galleryIntro": "Constituez un savoir que vous pouvez retrouver, modifier et réutiliser pour créer. Choisissez un appareil pour découvrir ses outils natifs.",
+      "platformCaption": "Vos connaissances sur vos appareils, avec la création assistée par un agent sur Mac.",
+      "intelligenceEyebrow": "Vos connaissances, votre agent",
+      "intelligenceTitle": "Questionnez. Écrivez.\nPrésentez ce que vous savez.",
+      "intelligenceIntro": "Sur Mac, votre base de connaissances devient le contexte de travail de l’agent que vous choisissez. Passez des sources à une réponse, un texte ou une présentation dans le même espace.",
+      "intelligenceCards": [
+        {
+          "title": "Interrogez vos connaissances",
+          "body": "Échangez sur votre bibliothèque ou le contenu actuel, citez des notes avec @ et consultez les sources pour revenir à l’original."
+        },
+        {
+          "title": "Écrivez à partir de vos sources",
+          "body": "Préparez plans, articles et synthèses avec votre agent. Retravaillez une sélection, comparez les propositions et examinez les modifications."
+        },
+        {
+          "title": "Créez et présentez des diapositives",
+          "body": "Demandez structure, contenu et notes de l’intervenant. Continuez l’édition avec aperçu en direct, puis présentez en plein écran ou avec une vue intervenant."
+        }
+      ],
+      "intelligenceNotice": "Les fonctions Agent sont actuellement proposées sur Mac et nécessitent un outil compatible installé et connecté par vos soins. Après autorisation, le contenu est traité par l’agent et son service de modèle. Le stockage local ne signifie pas que toute l’inférence IA s’exécute sur l’appareil.",
+      "intelligencePlatformRows": [
+        [
+          "Questions et écriture avec un agent",
+          "Connectez votre agent compatible, examinez les modifications et gardez l’historique local",
+          "La connexion à un agent est actuellement une fonction Mac"
+        ],
+        [
+          "Diapositives",
+          "Création avec l’agent, aperçu en direct, vue intervenant et export PDF/PPTX/PPT",
+          "Aperçu et présentation des diapositives ; création avec un agent sur Mac"
+        ]
+      ]
+    }
+  }
+}

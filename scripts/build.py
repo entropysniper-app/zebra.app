@@ -233,6 +233,11 @@ def complete_image_sets(manifest, scenes):
 def load():
  """Read and check the copy and image manifest that the page templates use."""
  global FEATURES, SUPPORT, MANIFEST, SCENES, VIDEOS, IMAGE_SETS
+ positioning = read_json(ROOT / 'content/positioning.json')['locales']
+ for locale in LOCALES:
+  overrides = positioning[locale]
+  UI[locale].update({key: value for key, value in overrides.items() if key != 'intelligencePlatformRows'})
+  UI[locale]['platformRows'] += overrides['intelligencePlatformRows']
  FEATURES = read_json(FEATURES_PATH)
  SUPPORT = read_json(ROOT / 'content/support.json')
  MANIFEST = read_json(ROOT / 'asset-manifest.json')
@@ -328,6 +333,7 @@ def page(locale, filename):
  table = '<thead><tr>' + ''.join(f'<th scope="col">{E(t)}</th>' for t in u['platformHeads']) + '</tr></thead><tbody>' + ''.join('<tr><th scope="row">' + E(r[0]) + '</th>' + ''.join(f'<td>{E(t)}</td>' for t in r[1:]) + '</tr>' for r in u['platformRows']) + '</tbody>'
  body = f'''<main id="main"><section class="hero"><div><p class="eyebrow">{E(u['eyebrow'])}</p><h1>{E(u['hero']).replace(chr(10),'<br>')}</h1><p class="lead">{E(u['lead'])}</p><div class="actions"><a class="button" href="#explore">{E(u['explore'])} <span aria-hidden="true">↓</span></a><a class="button secondary" href="#support">{E(u['help'])}</a></div></div><div><a class="hero-image-link" href="#explore" aria-label="{E(u['explore'])}"><div class="poster"><img src="{hero['large']}" srcset="{hero['small']} {hero['smallWidth']}w, {hero['large']} {hero['largeWidth']}w" sizes="(max-width: 700px) 94vw, 55vw" width="{hero['width']}" height="{hero['height']}" alt="{E(hero['alt'])}" fetchpriority="high"></div></a><p class="hero-caption">{E(caption)}</p></div></section>
 <div class="principles">{''.join('<span>'+E(p)+'</span>' for p in u['principles'])}</div>
+<section id="intelligence" class="sync-section"><div><p class="eyebrow">{E(u['intelligenceEyebrow'])}</p><h2>{E(u['intelligenceTitle']).replace(chr(10),'<br>')}</h2><p>{E(u['intelligenceIntro'])}</p><p class="notice">{E(u['intelligenceNotice'])}</p></div><div>{''.join('<div class="sync-card"><h3>'+E(card['title'])+'</h3><p>'+E(card['body'])+'</p></div>' for card in u['intelligenceCards'])}</div></section>
 {film(locale, pre)}
 <section id="explore"><div class="section-heading"><div><p class="eyebrow">{E(u['galleryEyebrow'])}</p><h2>{E(u['galleryTitle'])}</h2><p>{E(u['galleryIntro'])}</p></div><div class="device-switch" role="group" aria-label="{E(u['chooseDevice'])}">{buttons}</div></div><p id="gallery-status" class="eyebrow" aria-live="polite">Mac · {E(u['status'])}</p>{fallback_note}<noscript><p class="no-script">{E(u['noScript'])}</p></noscript><div id="gallery" class="gallery" data-device="macos">{cards_html}</div><p class="gallery-note">{E(u['galleryNote'])}</p></section>
 <section id="sync" class="sync-section"><div><p class="eyebrow">{E(u['syncEyebrow'])}</p><h2>{E(u['syncTitle']).replace(chr(10),'<br>')}</h2><p>{E(u['syncIntro'])}</p><span class="sync-mark">{E(u['syncMark'])}</span></div><div><div class="sync-card"><h3>{E(u['ordinaryTitle'])}</h3><p>{E(u['ordinaryBody'])}</p></div><div class="sync-card"><h3>{E(u['passwordTitle'])}</h3><p>{E(u['passwordBody'])}</p></div></div></section>

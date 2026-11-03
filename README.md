@@ -1,5 +1,7 @@
 # Zebra public website
 
+Zebra is positioned as a personal, local-first knowledge base. Markdown carries the content; on Mac, users can connect their own compatible agent for knowledge Q&A, writing, slide creation and presentation. `content/positioning.json` owns the localized category, hero, metadata and agent-capability introduction. Agent processing is described separately from local knowledge storage. The App Store master is `Distribution/MacAppStore/product-page-2026-11-03/product-positioning.json` in the parent Zebra checkout.
+
 Product and support website for Zebra in four languages, with real Mac, iPhone, iPad and iPhone Duo screenshots and four original comic-style zebra window mascots, assigned by feature.
 
 | Language | Home | Data handling | `hreflang` |
@@ -32,6 +34,7 @@ Official setup instructions: <https://docs.github.com/en/pages/getting-started-w
 
 - Feature cards: `content/features.json`, per platform (`macos`, `iphone`, `ipad`) and App Store locale (`zh-Hans`, `en-US`, `ja`, `fr-FR`). The source of truth is the App Store copy, `AppStoreSubmission/refresh-2026-10-11/copy.json` in the Zebra checkout. `python3 scripts/build.py --sync-copy` copies its cards into `features.json`, printing every changed field, then builds. A plain build only reports any drift from `copy.json` and never changes `features.json`.
 - Support FAQ and factual data-handling information: `content/support.json`, one entry per language.
+- Product category, search/social metadata, first-screen copy and the Mac agent introduction: `content/positioning.json`; all four languages are required. These override the older base chrome fields in the builder.
 - Page chrome (navigation, hero, sync, platform table, film strings), the language and device lists: `scripts/build.py`. Every language must define every string; the build stops and lists any missing key.
 - Presentation and behaviour: `assets/site.css` and `assets/site.js`.
 
