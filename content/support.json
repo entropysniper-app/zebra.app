@@ -66,13 +66,13 @@
         "title": "内容存在哪里，何时会离开设备。",
         "intro": "这份说明介绍 Zebra 当前应用的数据处理方式，以及使用网页、邮件支持和公开问题反馈时需要了解的边界。",
         "documentType": "产品数据处理说明",
-        "lastReviewedLabel": "说明核对日期：2026 年 10 月 17 日",
+        "lastReviewedLabel": "说明核对日期：2026 年 11 月 3 日",
         "sections": [
           {
             "id": "local",
             "title": "默认保存在本机",
             "paragraphs": [
-              "笔记、标签、附件、设置和派生搜索索引保存在设备上的 Zebra 资料库；导出和备份保存到你选择的位置。Zebra 应用没有账号系统，不将笔记正文发送到开发者服务器。",
+              "笔记、标签、附件、设置和派生搜索索引保存在设备上的 Zebra 资料库；导出和备份保存到你选择的位置。Zebra 应用没有账号系统，不将笔记正文发送到开发者服务器。只有在你使用可选的外部智能体时，你选择的内容才会交给该智能体处理，见下文。",
               "当前应用不包含广告、行为跟踪、产品分析或第三方崩溃上报服务。这一说明针对 Zebra 应用本身，不代替网站托管方、Apple 或你选择的第三方服务的数据说明。"
             ]
           },
@@ -107,6 +107,24 @@
             "paragraphs": [
               "剪藏网页、从网址创建笔记、展示链接卡片或下载远程附件时，Zebra 可能直接请求相关网站。网站会收到正常连接所需的信息，例如请求的网址和 IP 地址。Safari 剪藏扩展在你调用剪藏时读取当前页面，再把选定内容交给 Zebra。",
               "分享、导出、快捷指令或其他经你授权的操作，会把选择的内容交给相应应用或位置。接收方按照自己的设置和政策处理这些内容。"
+            ]
+          },
+          {
+            "id": "agents",
+            "title": "可选的外部智能体（Mac）",
+            "paragraphs": [
+              "Mac 版的智能编辑、问 Zebra 和随 App 提供的 zebracli ai 可以连接 ACP（Agent Client Protocol）智能体。这项功能可选：智能体是你自己安装并登录的程序，Zebra 只在你使用这些功能时在本机启动它，不提供模型服务，也不经过开发者服务器转发内容。",
+              "首次向某个智能体发送前，Zebra 会说明将发送的内容和去向，并请你明确同意；你可以拒绝，普通编辑不受影响。同意后，Zebra 会发送你的提问或指令、所选文字及其前后各最多约 2000 字符的上下文（短笔记相当于全文）、检索到或你引用的笔记，以及你附加的图片；开启“允许智能体浏览整个资料库”时，智能体还可以按需列出、搜索和读取其他允许访问的笔记与附件。继续已保存的对话时，如果智能体无法恢复原会话，Zebra 还会把这段对话中较早的问答和图片发给当前智能体，即使它们当初是发给另一个智能体的；依据现已排除笔记得出的回答不会重发。设有密码的笔记（即使已解锁）、废纸篓中的笔记和带排除标签的笔记不会发送，归档笔记默认不发送。在终端运行 zebracli ai 时，发送前同样会说明去向，并需要你在终端确认、已在 Zebra 设置中同意且范围覆盖本次发送（CLI 默认允许智能体通过只读 MCP 检索资料库），或显式传入 --allow-data-sharing。",
+              "智能体通常会把内容交给它连接的第三方模型服务处理。这些内容如何保存、使用和删除，适用该智能体和模型服务各自的条款与隐私政策；开发者不接收这些内容，也无法控制第三方的处理。智能体是以你的账户在 Mac 上运行的独立程序：Zebra 的规则只约束它通过 Zebra 取得的笔记，不能阻止它用自身工具访问其他文件或网络。",
+              "授权对象是启动命令及其连接的模型服务，按智能体及其启动命令分别记录：在同一智能体内切换模型或模型服务不会再次询问；更换智能体、启动命令或环境变量，或者发送范围扩大（例如开启资料库浏览）时会再次询问。你可以在“设置 › 智能体”中随时撤销：撤销会停止 Zebra 中的连接，并对之后运行的 zebracli ai 生效，已在终端运行的对话需要在终端退出；撤销授权、给笔记设置密码或删除笔记，都不能撤回已经发送给智能体或模型服务的内容。"
+            ]
+          },
+          {
+            "id": "agent-history",
+            "title": "智能体会话记录",
+            "paragraphs": [
+              "问 Zebra 的对话以明文保存在 Mac 上资料库旁的 AgentSessions.sqlite 文件中，包括消息、发送过的笔记内容快照、草稿、图片，以及待审修改和“还原”所需的附件副本。即使原笔记之后被删除或设置了密码，这些副本也会保留，直到你在会话历史中删除对应会话。",
+              "这个文件不进入 iCloud 同步，也不包含在 .zebrabk 资料库备份中；Time Machine 等整机备份可能会包含它。"
             ]
           },
           {
@@ -192,13 +210,13 @@
         "title": "Where your content stays, and when it leaves your device.",
         "intro": "This note explains how the current Zebra app handles data, and what to consider when visiting the website, contacting support by email, or reporting a public issue.",
         "documentType": "Product data-handling information",
-        "lastReviewedLabel": "Information reviewed October 17, 2026",
+        "lastReviewedLabel": "Information reviewed November 3, 2026",
         "sections": [
           {
             "id": "local",
             "title": "Local by default",
             "paragraphs": [
-              "Notes, tags, attachments, settings, and derived search indexes are stored in Zebra's library on your device. Exports and backups go to a location you choose. The Zebra app has no account system and does not send note text to a developer server.",
+              "Notes, tags, attachments, settings, and derived search indexes are stored in Zebra's library on your device. Exports and backups go to a location you choose. The Zebra app has no account system and does not send note text to a developer server. Content you choose goes to an external agent only when you use the optional agent features described below.",
               "The current app contains no advertising, behavioral tracking, product analytics, or third-party crash-reporting service. This describes the Zebra app itself, not the separate practices of a website host, Apple, or a third-party service you choose to use."
             ]
           },
@@ -233,6 +251,24 @@
             "paragraphs": [
               "Clipping a page, creating a note from a URL, displaying a link card, or downloading a remote attachment may request the relevant website directly. The site receives normal connection information, such as the requested URL and IP address. The Safari clipping extension reads the current page when you invoke clipping and passes the selected content to Zebra.",
               "Sharing, exports, Shortcuts, and other actions you authorize can provide selected content to another app or destination. That recipient handles the content under its own settings and policies."
+            ]
+          },
+          {
+            "id": "agents",
+            "title": "Optional external agents (Mac)",
+            "paragraphs": [
+              "On Mac, Smart Edit, Ask Zebra and the zebracli ai command included with the app can connect to ACP (Agent Client Protocol) agents. This is optional: an agent is a program you install and sign in to yourself. Zebra starts it on your Mac only when you use these features; Zebra provides no model service and does not relay content through a developer server.",
+              "Before the first send to an agent, Zebra explains what will be sent and where, and asks for your explicit consent. You can decline and keep editing as usual. Once you agree, Zebra sends your question or instruction, the selected text with up to about 2,000 characters of context on each side (the whole note if it is short), notes it retrieved or you referenced, and images you attached. With “Let agents browse the whole library” on, the agent can also list, search and read other permitted notes and attachments as needed. When you continue a saved conversation and the agent cannot restore its original session, Zebra also sends the conversation’s earlier questions, answers and images to the current agent, even if they were first sent to a different agent; answers derived from notes that are now excluded are not resent. Password-protected notes (even when unlocked), notes in the Trash and notes with excluded tags are never sent; archived notes are not sent by default. In Terminal, zebracli ai also says where content goes before sending and needs your confirmation on the terminal, consent already given in Zebra Settings that covers this send (by default the CLI lets the agent search the library through a read-only MCP server), or an explicit --allow-data-sharing.",
+              "Agents usually pass content to the third-party model service they connect to. How that content is stored, used and deleted is governed by the terms and privacy policies of that agent and service; the developer does not receive this content and cannot control how third parties handle it. An agent is a separate program running on your Mac under your account: Zebra’s rules cover only the notes it gets through Zebra and cannot stop it from using its own tools to access other files or the network.",
+              "Consent covers the launch command and the model service it connects to, and is recorded for each agent and launch command. Switching models or model services within the same agent does not ask again; a different agent, launch command or environment variables, or a wider scope of what is sent (such as turning on library browsing), asks again. You can revoke consent anytime in Settings › Agents: this stops Zebra’s connections and applies to later zebracli ai runs, and a conversation already running in Terminal has to be exited there. Revoking consent, adding a password to a note or deleting a note cannot recall content already sent to an agent or model service."
+            ]
+          },
+          {
+            "id": "agent-history",
+            "title": "Agent conversation history",
+            "paragraphs": [
+              "Ask Zebra conversations are stored in plain text on your Mac in the file AgentSessions.sqlite, next to your library. It includes messages, snapshots of note content that was sent, drafts, images, and copies of attachments needed for pending changes and “Revert”. These copies remain even if the original note is later deleted or given a password, until you delete that conversation in the session history.",
+              "This file is not synced to iCloud and is not part of .zebrabk library backups; whole-disk backups such as Time Machine may include it."
             ]
           },
           {
@@ -318,13 +354,13 @@
         "title": "コンテンツはどこに保存され、いつデバイスの外へ出るのか。",
         "intro": "このページでは、現在のZebraアプリがデータをどのように扱うか、そしてWebサイトの閲覧、メールでのサポートへのお問い合わせ、公開の問題報告の際に知っておいていただきたいことを説明します。",
         "documentType": "製品のデータ取り扱いに関する説明",
-        "lastReviewedLabel": "情報確認日：2026年10月17日",
+        "lastReviewedLabel": "情報確認日：2026年11月3日",
         "sections": [
           {
             "id": "local",
             "title": "標準ではデバイス内に保存",
             "paragraphs": [
-              "ノート、タグ、添付ファイル、設定、そこから作られる検索インデックスは、デバイス上のZebraライブラリに保存されます。書き出したファイルやバックアップは、選択した場所に保存されます。Zebraアプリにはアカウントの仕組みがなく、ノートのテキストを開発者のサーバに送信することはありません。",
+              "ノート、タグ、添付ファイル、設定、そこから作られる検索インデックスは、デバイス上のZebraライブラリに保存されます。書き出したファイルやバックアップは、選択した場所に保存されます。Zebraアプリにはアカウントの仕組みがなく、ノートのテキストを開発者のサーバに送信することはありません。選択した内容が外部エージェントに渡されるのは、下記のオプションのエージェント機能を使ったときだけです。",
               "現在のアプリには、広告、行動トラッキング、製品分析、サードパーティのクラッシュレポートサービスは含まれていません。これはZebraアプリ自体についての説明であり、Webサイトのホスティング事業者、Apple、またはご自身で選んで利用するサードパーティのサービスによる取り扱いを説明するものではありません。"
             ]
           },
@@ -359,6 +395,24 @@
             "paragraphs": [
               "Webページのクリップ、URLからのノート作成、リンクカードの表示、リモートの添付ファイルのダウンロードでは、該当するWebサイトに直接リクエストすることがあります。Webサイトには、リクエストしたURLやIPアドレスなど、通常の接続に必要な情報が送られます。SafariのWebクリップ機能拡張は、クリップを実行したときに表示中のページを読み取り、選択した内容をZebraに渡します。",
               "共有、書き出し、ショートカットなど、ご自身が許可した操作によって、選択した内容がほかのアプリや保存先に渡されることがあります。受け取った側は、その設定とポリシーに従って内容を取り扱います。"
+            ]
+          },
+          {
+            "id": "agents",
+            "title": "オプションの外部エージェント（Mac）",
+            "paragraphs": [
+              "Mac版のスマート編集、Zebraに質問、アプリに含まれるzebracli aiは、ACP（Agent Client Protocol）エージェントに接続できます。この機能はオプションです。エージェントはご自身でインストールしてサインインするプログラムで、Zebraはこれらの機能を使うときだけMac上で起動します。Zebraはモデルサービスを提供せず、開発者のサーバを経由してコンテンツを中継することもありません。",
+              "エージェントに初めて送信する前に、Zebraは送信する内容と送信先を説明し、明示的な同意を求めます。拒否しても通常の編集はそのまま続けられます。同意すると、Zebraは質問や指示、選択したテキストと前後それぞれ最大約2,000文字の文脈（短いノートでは全文）、検索で見つかったノートや参照したノート、添付した画像を送信します。「エージェントにライブラリ全体の閲覧を許可」がオンの場合、エージェントは必要に応じて、許可された他のノートや添付ファイルを一覧表示、検索、読み取りすることもあります。保存した会話を続けるとき、エージェントが元のセッションを復元できない場合は、その会話の以前の質問、回答、画像も現在のエージェントに送信します。最初は別のエージェントに送ったものでも同様です。現在除外されているノートに基づく回答は再送しません。パスワード付きのノート（ロック解除中も）、ゴミ箱のノート、除外タグの付いたノートは送信されず、アーカイブしたノートも既定では送信されません。ターミナルでzebracli aiを使う場合も、送信前に送信先を示し、ターミナルでの確認、今回の送信範囲を含むZebraの設定での同意（CLIは既定で読み取り専用MCPによるライブラリの検索をエージェントに許可します）、または明示的な--allow-data-sharingが必要です。",
+              "エージェントは通常、接続先の他社モデルサービスにコンテンツを渡して処理させます。そのコンテンツの保存、利用、削除には、エージェントとモデルサービスそれぞれの規約とプライバシーポリシーが適用されます。開発者はこれらのコンテンツを受け取らず、第三者による取り扱いを管理することもできません。エージェントはあなたのアカウントでMac上で動く独立したプログラムです。Zebraのルールが及ぶのはZebraを通じて取得したノートだけで、エージェントが独自のツールで他のファイルやネットワークにアクセスすることは防げません。",
+              "同意の対象は起動コマンドとその接続先のモデルサービスで、エージェントと起動コマンドごとに記録されます。同じエージェント内でモデルやモデルサービスを切り替えても再確認しませんが、エージェント、起動コマンド、環境変数を変えたときや、送信範囲が広がるとき（ライブラリの閲覧をオンにするなど）は改めて確認します。同意は「設定 › エージェント」でいつでも取り消せます。取り消すとZebra内の接続が停止し、以後のzebracli aiの実行にも適用されます。ターミナルですでに実行中の会話はターミナルで終了してください。同意の取り消し、ノートへのパスワード設定、ノートの削除によって、エージェントやモデルサービスに送信済みのコンテンツを取り戻すことはできません。"
+            ]
+          },
+          {
+            "id": "agent-history",
+            "title": "エージェントの会話履歴",
+            "paragraphs": [
+              "Zebraに質問の会話は、Mac上のライブラリの隣にあるAgentSessions.sqliteファイルに平文で保存されます。メッセージ、送信したノート内容のスナップショット、下書き、画像、承認待ちの変更と「元に戻す」に必要な添付ファイルのコピーが含まれます。元のノートを後で削除したりパスワードを設定したりしても、セッション履歴でその会話を削除するまでこれらのコピーは残ります。",
+              "このファイルはiCloudと同期されず、.zebrabkライブラリバックアップにも含まれません。Time Machineなどのディスク全体のバックアップには含まれることがあります。"
             ]
           },
           {
@@ -444,13 +498,13 @@
         "title": "Où restent vos contenus, et quand ils quittent votre appareil.",
         "intro": "Cette page explique comment l’app Zebra actuelle traite les données, et ce qu’il faut savoir lorsque vous visitez le site web, contactez l’assistance par e-mail ou signalez un problème public.",
         "documentType": "Informations sur le traitement des données du produit",
-        "lastReviewedLabel": "Informations vérifiées le 17 octobre 2026",
+        "lastReviewedLabel": "Informations vérifiées le 3 novembre 2026",
         "sections": [
           {
             "id": "local",
             "title": "Local par défaut",
             "paragraphs": [
-              "Les notes, tags, pièces jointes, réglages et index de recherche dérivés sont stockés dans la bibliothèque Zebra de votre appareil. Les exports et sauvegardes sont enregistrés à l’emplacement de votre choix. L’app Zebra n’a pas de système de comptes et n’envoie pas le texte de vos notes à un serveur du développeur.",
+              "Les notes, tags, pièces jointes, réglages et index de recherche dérivés sont stockés dans la bibliothèque Zebra de votre appareil. Les exports et sauvegardes sont enregistrés à l’emplacement de votre choix. L’app Zebra n’a pas de système de comptes et n’envoie pas le texte de vos notes à un serveur du développeur. Le contenu que vous choisissez n’est confié à un agent externe que lorsque vous utilisez les fonctions d’agent facultatives décrites ci-dessous.",
               "L’app actuelle ne contient ni publicité, ni suivi comportemental, ni analyse du produit, ni service tiers de rapports de plantage. Cela décrit l’app Zebra elle-même, et non les pratiques propres à un hébergeur de site web, à Apple ou à un service tiers que vous choisissez d’utiliser."
             ]
           },
@@ -485,6 +539,24 @@
             "paragraphs": [
               "Capturer une page, créer une note à partir d’une URL, afficher une carte de lien ou télécharger une pièce jointe distante peut interroger directement le site concerné. Celui-ci reçoit les informations de connexion habituelles, comme l’URL demandée et l’adresse IP. L’extension de capture pour Safari lit la page en cours lorsque vous lancez une capture et transmet le contenu sélectionné à Zebra.",
               "Le partage, les exports, Raccourcis et les autres actions que vous autorisez peuvent transmettre le contenu sélectionné à une autre app ou destination. Le destinataire traite ce contenu selon ses propres réglages et règles."
+            ]
+          },
+          {
+            "id": "agents",
+            "title": "Agents externes facultatifs (Mac)",
+            "paragraphs": [
+              "Sur Mac, l’Édition intelligente, Demander à Zebra et la commande zebracli ai fournie avec l’app peuvent se connecter à des agents ACP (Agent Client Protocol). Cette fonction est facultative : un agent est un programme que vous installez et auquel vous vous connectez vous-même. Zebra ne le lance sur votre Mac que lorsque vous utilisez ces fonctions ; Zebra ne fournit aucun service de modèles et ne relaie pas le contenu par un serveur du développeur.",
+              "Avant le premier envoi à un agent, Zebra indique ce qui sera envoyé et à qui, et vous demande un accord explicite. Vous pouvez refuser et continuer à modifier vos notes normalement. Une fois l’envoi autorisé, Zebra transmet votre question ou instruction, le texte sélectionné avec jusqu’à environ 2 000 caractères de contexte de part et d’autre (toute la note si elle est courte), les notes trouvées ou citées par vous et les images jointes. Si « Autoriser les agents à parcourir toute la bibliothèque » est activé, l’agent peut aussi lister, rechercher et lire au besoin les autres notes et pièces jointes autorisées. Si vous reprenez une conversation enregistrée et que l’agent ne peut pas restaurer sa session d’origine, Zebra envoie aussi à l’agent actuel les questions, réponses et images antérieures de cette conversation, même si elles avaient d’abord été envoyées à un autre agent ; les réponses fondées sur des notes désormais exclues ne sont pas renvoyées. Les notes protégées par mot de passe (même déverrouillées), celles de la corbeille et celles portant un tag exclu ne sont jamais envoyées ; les notes archivées ne le sont pas par défaut. Dans Terminal, zebracli ai indique aussi la destination avant l’envoi et demande une confirmation dans le terminal, un accord déjà donné dans les réglages de Zebra et couvrant cet envoi (par défaut, la CLI permet à l’agent de rechercher dans la bibliothèque via un serveur MCP en lecture seule) ou l’option explicite --allow-data-sharing.",
+              "Les agents transmettent généralement le contenu au service de modèles tiers auquel ils se connectent. La conservation, l’utilisation et la suppression de ce contenu relèvent des conditions et politiques de confidentialité de l’agent et du service ; le développeur ne reçoit pas ce contenu et ne peut pas contrôler son traitement par des tiers. Un agent est un programme distinct qui s’exécute sur votre Mac avec votre compte : les règles de Zebra ne portent que sur les notes qu’il obtient via Zebra et ne peuvent pas l’empêcher d’utiliser ses propres outils pour accéder à d’autres fichiers ou au réseau.",
+              "L’accord porte sur la commande de lancement et le service de modèles auquel elle se connecte, et il est enregistré pour chaque agent et sa commande. Changer de modèle ou de service de modèles dans le même agent ne redemande pas l’accord ; un autre agent, une autre commande, d’autres variables d’environnement ou une portée d’envoi plus large (par exemple l’exploration de la bibliothèque) le redemandent. Vous pouvez le révoquer à tout moment dans Réglages › Agents : cela arrête les connexions de Zebra et s’applique aux prochaines exécutions de zebracli ai, et une conversation déjà ouverte dans Terminal doit y être quittée. Ni la révocation, ni l’ajout d’un mot de passe à une note, ni sa suppression ne rappellent un contenu déjà envoyé à un agent ou à un service de modèles."
+            ]
+          },
+          {
+            "id": "agent-history",
+            "title": "Historique des conversations avec les agents",
+            "paragraphs": [
+              "Les conversations de Demander à Zebra sont stockées en clair sur votre Mac dans le fichier AgentSessions.sqlite, à côté de votre bibliothèque. Il contient les messages, des instantanés du contenu des notes envoyé, les brouillons, les images et des copies des pièces jointes nécessaires aux modifications en attente et à « Rétablir ». Ces copies restent, même si la note d’origine est ensuite supprimée ou protégée par mot de passe, jusqu’à ce que vous supprimiez la conversation dans l’historique des sessions.",
+              "Ce fichier n’est pas synchronisé avec iCloud et ne fait pas partie des sauvegardes .zebrabk de la bibliothèque ; les sauvegardes complètes du disque, comme Time Machine, peuvent l’inclure."
             ]
           },
           {
