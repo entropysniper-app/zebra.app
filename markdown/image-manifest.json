@@ -1,0 +1,552 @@
+[
+  {
+    "locale": "en-US",
+    "feature": "writing",
+    "file": "images/en-US/writing-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "622ba04609f56f38561eff8dc7363666988ff204a658bc20e7004feeb982fcee",
+    "sha256": "7928ce2bcd098bc84d8ddcc331e82f73fdbc4c77352dae9462e5b73c6e15a545"
+  },
+  {
+    "locale": "en-US",
+    "feature": "writing",
+    "file": "images/en-US/writing-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "622ba04609f56f38561eff8dc7363666988ff204a658bc20e7004feeb982fcee",
+    "sha256": "0e52cecc7330a2e9a06c7b59a136f54c2baf16e70cbc50fd288ca1137b229bb4"
+  },
+  {
+    "locale": "en-US",
+    "feature": "code",
+    "file": "images/en-US/code-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f51ba5da2e80eb3c4e9d3a35f20330f78960d112dc74879c3f47500ec268c71c",
+    "sha256": "5fb30cafd1ae581ddf26c32cf88853191d212a56ce8433bdbead224dfc1fe76c"
+  },
+  {
+    "locale": "en-US",
+    "feature": "code",
+    "file": "images/en-US/code-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f51ba5da2e80eb3c4e9d3a35f20330f78960d112dc74879c3f47500ec268c71c",
+    "sha256": "8c069a5470c9f7c5b19d075bd4174d914f4bbaa0142d91c3a2ba15f54e540a97"
+  },
+  {
+    "locale": "en-US",
+    "feature": "mermaid",
+    "file": "images/en-US/mermaid-720.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "9cd86454b9faf8980f6350529c930f26c021028765148bd96cbb6e493f055878",
+    "sha256": "8ac8a8a37f2f87a24a0a2ed097e7f196290a52f7cd61f00fbaf5808b36d24a5d"
+  },
+  {
+    "locale": "en-US",
+    "feature": "mermaid",
+    "file": "images/en-US/mermaid-1800.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "9cd86454b9faf8980f6350529c930f26c021028765148bd96cbb6e493f055878",
+    "sha256": "09824b7e8711f07d25a088fac51460a990901b06262fe2cf4886e95b91122f98"
+  },
+  {
+    "locale": "en-US",
+    "feature": "math",
+    "file": "images/en-US/math-720.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "4baea9392696d0da429b2cf5308f6a434891ea85b66a8c765c9856b7c61e80f6",
+    "sha256": "118047c66d84154b98a2f5bb7f90a8ddb31b309b43b3819638cc482b65047acf"
+  },
+  {
+    "locale": "en-US",
+    "feature": "math",
+    "file": "images/en-US/math-1800.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "4baea9392696d0da429b2cf5308f6a434891ea85b66a8c765c9856b7c61e80f6",
+    "sha256": "98b002b869921a824f4af55cea9c01f1ec456667e9de2df43f23c2b647dffaf8"
+  },
+  {
+    "locale": "en-US",
+    "feature": "presenter",
+    "file": "images/en-US/presenter-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "501d0ac57a47992683000f919bdcc11079e37cc1a5f4be7c00a3e5f9adc7304c",
+    "sha256": "8093a0d7c1be45d4a27c36afcf43961459ccdf95db30fadef7946ceab30db1db"
+  },
+  {
+    "locale": "en-US",
+    "feature": "presenter",
+    "file": "images/en-US/presenter-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "501d0ac57a47992683000f919bdcc11079e37cc1a5f4be7c00a3e5f9adc7304c",
+    "sha256": "1ade0300bd0ed9c9f39f3cfbe0d14e39be98c4ac6ec6c6b4126c79efd1af1a0d"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "writing",
+    "file": "images/zh-Hans/writing-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "4cb1eb7dccfcfa228c39dc9fd8bae568d1060207b51d6e580d51cc2498f06cb5",
+    "sha256": "829ad4ba0adfd8fe1a060975d70983f326a6916d73143e28c3ebd62ea0b79ed0"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "writing",
+    "file": "images/zh-Hans/writing-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "4cb1eb7dccfcfa228c39dc9fd8bae568d1060207b51d6e580d51cc2498f06cb5",
+    "sha256": "55ee48aa1d50e6e55bb34c6dbb6b5bcf6d4ed1fbe2c78cd7785cb00a6c58b319"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "code",
+    "file": "images/zh-Hans/code-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "760556bc6e15bd608ad9d39810257e359e3d2d739886fcdc8b27487bb763e903",
+    "sha256": "ef6902ca50e19b4fb58962c7a0a7f0f7a870f8303e16f1a30beee24216512505"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "code",
+    "file": "images/zh-Hans/code-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "760556bc6e15bd608ad9d39810257e359e3d2d739886fcdc8b27487bb763e903",
+    "sha256": "03ee0ec261848ac906973822dabf452d6b3ee842cd605cba633cc97870194efe"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "mermaid",
+    "file": "images/zh-Hans/mermaid-720.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "4e658cfee726cf39320d70cb76b07b324e0a43851bbb00a2db8d603f286d9243",
+    "sha256": "a7ecf9cdcaa790557cf64657f089ef6b05650fa85ae878a0bcc53e4a1c3baef8"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "mermaid",
+    "file": "images/zh-Hans/mermaid-1800.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "4e658cfee726cf39320d70cb76b07b324e0a43851bbb00a2db8d603f286d9243",
+    "sha256": "23203985933fc640dbf95232a358b97336741d3a1eb393f50fad2644901fc26d"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "math",
+    "file": "images/zh-Hans/math-720.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "6d72ac411189c014482e81212ca47b66a038a7474af6d2ba8f64c018e734003e",
+    "sha256": "94729f350d4ca497c8838d64238a1c2854f19b784d8d2257b6baa4bcbf66e20a"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "math",
+    "file": "images/zh-Hans/math-1800.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "6d72ac411189c014482e81212ca47b66a038a7474af6d2ba8f64c018e734003e",
+    "sha256": "ebfaf00fa7b26b11d10c88f271071200abce38d4d19ca1892f6be9c6d76cce38"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "presenter",
+    "file": "images/zh-Hans/presenter-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "eb5d6ed49e5f6554134a06a64c4bd938973845680c036c9abb676ca48dda4952",
+    "sha256": "63b75d67fa1354ae92b304e913d55a87ba94283f78f757a6f9f9ceda0436921c"
+  },
+  {
+    "locale": "zh-Hans",
+    "feature": "presenter",
+    "file": "images/zh-Hans/presenter-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "eb5d6ed49e5f6554134a06a64c4bd938973845680c036c9abb676ca48dda4952",
+    "sha256": "675f3b530a8e98a5c27816ef0edc21d1579ef46c9451398eb8f38381521d49e4"
+  },
+  {
+    "locale": "ja",
+    "feature": "writing",
+    "file": "images/ja/writing-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "7f997e864dc86ef9f415840ba8752761dbd3f29f07ddbb4df4a8f859fa38f44e",
+    "sha256": "05ed979964ae40b83dd78138caa6cf8017aa407e68c369506a2d65da716fc8ae"
+  },
+  {
+    "locale": "ja",
+    "feature": "writing",
+    "file": "images/ja/writing-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "7f997e864dc86ef9f415840ba8752761dbd3f29f07ddbb4df4a8f859fa38f44e",
+    "sha256": "8578fa3a21f0afa7cd7083c9044d55a4c87c7b5af4845f7db04b1e0adf4e63b4"
+  },
+  {
+    "locale": "ja",
+    "feature": "code",
+    "file": "images/ja/code-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "8c188de9d4ac9d2706a7fba4f8e582b3c33e1425060997c3e6c59b26bff07b7a",
+    "sha256": "77d0c071b39e20a8dbda35791e49a3d0f6a9b331c273b163103d174ff485fe8d"
+  },
+  {
+    "locale": "ja",
+    "feature": "code",
+    "file": "images/ja/code-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "8c188de9d4ac9d2706a7fba4f8e582b3c33e1425060997c3e6c59b26bff07b7a",
+    "sha256": "2dacecd2f5efbb673a890a3e8bff8bcce32173cb42dff70705cff796267fbd73"
+  },
+  {
+    "locale": "ja",
+    "feature": "mermaid",
+    "file": "images/ja/mermaid-720.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "f5be5e8738e537078fc233f8d83ddadfdb8ecbd73f6dadc0685649d62d53d9ef",
+    "sha256": "9d0f319a291ecd8b533b1a1f3ce61f805c25b72e481df03f9a8fa43450584457"
+  },
+  {
+    "locale": "ja",
+    "feature": "mermaid",
+    "file": "images/ja/mermaid-1800.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "f5be5e8738e537078fc233f8d83ddadfdb8ecbd73f6dadc0685649d62d53d9ef",
+    "sha256": "2d0574457d1a2c04950e16cd144d4e2da16aa00496ed7c0f192e965efaf5a621"
+  },
+  {
+    "locale": "ja",
+    "feature": "math",
+    "file": "images/ja/math-720.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "f9593a8cb6d351c9426e2e5209015a8cbd7fabf5142760c6a7676eb416564a3f",
+    "sha256": "11546e278610d05142ee3f413aabb2e11e34fe62d3b34f8af5c9d44476d640b4"
+  },
+  {
+    "locale": "ja",
+    "feature": "math",
+    "file": "images/ja/math-1800.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "f9593a8cb6d351c9426e2e5209015a8cbd7fabf5142760c6a7676eb416564a3f",
+    "sha256": "a4f79012f74d719f50c9c81dfabbcc023d3014e9b061349751350eba5655dec7"
+  },
+  {
+    "locale": "ja",
+    "feature": "presenter",
+    "file": "images/ja/presenter-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "7ecc1a6113df6c1991435af6c634b8014ce91cbb957fcb131e8adcdf0c12a06d",
+    "sha256": "5435b6941cec23150afec22d95dee9795ced9d6370866edc864147f1e376eb6f"
+  },
+  {
+    "locale": "ja",
+    "feature": "presenter",
+    "file": "images/ja/presenter-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "7ecc1a6113df6c1991435af6c634b8014ce91cbb957fcb131e8adcdf0c12a06d",
+    "sha256": "168e172e098d21142e2817c9b4ef171483620c988e49ade6aed9e9a309cfccd2"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "writing",
+    "file": "images/fr-FR/writing-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f5641b418106614c835eefb885bb68e7fba4de95c7baaa54d9569c27ea906147",
+    "sha256": "338bd84f6feabb2f00951e9d18def366435ef3582e6fc39dac255852cf4589ae"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "writing",
+    "file": "images/fr-FR/writing-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f5641b418106614c835eefb885bb68e7fba4de95c7baaa54d9569c27ea906147",
+    "sha256": "ae7c20a0a4db524cd333109dfb845c708fbbb056ee3f8cb7011363aead2da37f"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "code",
+    "file": "images/fr-FR/code-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "dbe6fbac6a3c342fa28704afbcafd2bf6d12c8bf4dfa2cf52cadebfded3731bd",
+    "sha256": "9b3adb1c71d6cb090651a870b68e2ae2efaab283540f301852b1b8ae1d144e97"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "code",
+    "file": "images/fr-FR/code-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "dbe6fbac6a3c342fa28704afbcafd2bf6d12c8bf4dfa2cf52cadebfded3731bd",
+    "sha256": "002d978f5cb89146844e048061dccbefec3c67a4547d41f42dda9420d9a30ff7"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "mermaid",
+    "file": "images/fr-FR/mermaid-720.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "f66269585a58423aa946cbfcf74d2447046872f981a75694607c523d22cb0379",
+    "sha256": "94b2b20c85dd6a92831cf64d98879bb1864fde98fb56b6885a85b89c5be0c1b7"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "mermaid",
+    "file": "images/fr-FR/mermaid-1800.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "f66269585a58423aa946cbfcf74d2447046872f981a75694607c523d22cb0379",
+    "sha256": "534a896dc2f88a06a681a84f77d1d4d3d45398d5cee5c5a929518cdf8044960f"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "math",
+    "file": "images/fr-FR/math-720.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "1e339d20a29d334daccf9c00095393e84d001fcb5b613e272a560088015049ad",
+    "sha256": "8310a4f21731a363ad4648bb0dbaf0c8a580a0ac0ad79ecd7da93f110e695a92"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "math",
+    "file": "images/fr-FR/math-1800.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "1e339d20a29d334daccf9c00095393e84d001fcb5b613e272a560088015049ad",
+    "sha256": "363ce204c0e100cb597999081f9acf3f955aa583b29a47ce9447888c93524247"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "presenter",
+    "file": "images/fr-FR/presenter-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f382751617baa1249c39961a36e686f71c0413f0e49b3b7f61d9edfebbe1cb53",
+    "sha256": "f6c9b231e9355f2cf3ee1036c1a53552bae3a0b5f2f3e41166f145d59e06c643"
+  },
+  {
+    "locale": "fr-FR",
+    "feature": "presenter",
+    "file": "images/fr-FR/presenter-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "f382751617baa1249c39961a36e686f71c0413f0e49b3b7f61d9edfebbe1cb53",
+    "sha256": "cd620271b5d1bcf4ac976dcbe6c2bdccdb0c1ebf7a711de118d2ee51532945b8"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "writing",
+    "file": "images/es-ES/writing-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "aba436e2143dea00f4344f07f3b3139f6ae5745f9d00fe0001a98757717b401b",
+    "sha256": "b73805d5e80753f5ce77734bc034b7cb6081af734a45c4ab15789943a802fd1d"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "writing",
+    "file": "images/es-ES/writing-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "aba436e2143dea00f4344f07f3b3139f6ae5745f9d00fe0001a98757717b401b",
+    "sha256": "2a2cb77c9fcea432d0c48e345ab1f12b566edbc056b159a7aef05dc78c0297d7"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "code",
+    "file": "images/es-ES/code-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "6fd533383758ad1b1737d1fb60d2d852301af4e84e6ad64a05e6e3c525895dcf",
+    "sha256": "242e319b0c81681050987e664af3d239c5c5f39af1c14f153c0a37a5acda799f"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "code",
+    "file": "images/es-ES/code-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "6fd533383758ad1b1737d1fb60d2d852301af4e84e6ad64a05e6e3c525895dcf",
+    "sha256": "37da44b5590cf1f05efc9a1c1e6cd611db52760617816a070ce5cd40a947f687"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "mermaid",
+    "file": "images/es-ES/mermaid-720.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "134baf995b825f1bb384d726de0711ef66be12e60004b8477dc29631c6aa5a31",
+    "sha256": "d358cf4269c9e29f343878166aba3982fb76e49522ee5f88195a93f60b8a751e"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "mermaid",
+    "file": "images/es-ES/mermaid-1800.jpg",
+    "originalSize": [
+      2480,
+      1124
+    ],
+    "sourceSHA256": "134baf995b825f1bb384d726de0711ef66be12e60004b8477dc29631c6aa5a31",
+    "sha256": "55a983a620984d4cd479864a9bd5cb3f45188fbf748f57a245aad56374585d51"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "math",
+    "file": "images/es-ES/math-720.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "470907e3ab53ca078de8e5782697c5ff4bb266bec5693e122921b217f7aa07a6",
+    "sha256": "c4467695d6e845ac4ab35c9e799cf34f8e176738f92d7ecf5b539d495bf73f28"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "math",
+    "file": "images/es-ES/math-1800.jpg",
+    "originalSize": [
+      2480,
+      1684
+    ],
+    "sourceSHA256": "470907e3ab53ca078de8e5782697c5ff4bb266bec5693e122921b217f7aa07a6",
+    "sha256": "c6924aa60e945354bffe3ebfa727fb56579e6887d3354e52e69f3c0ca60ab8ad"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "presenter",
+    "file": "images/es-ES/presenter-720.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "82a4078a82cbee05813f277a0381e7f5251a133aaaff72b75488b70ffb737477",
+    "sha256": "ce616142e233909b7c2cec1681e3b46941f5c4cc9d4749218515dac41bd5a189"
+  },
+  {
+    "locale": "es-ES",
+    "feature": "presenter",
+    "file": "images/es-ES/presenter-1800.jpg",
+    "originalSize": [
+      2480,
+      1534
+    ],
+    "sourceSHA256": "82a4078a82cbee05813f277a0381e7f5251a133aaaff72b75488b70ffb737477",
+    "sha256": "0d34dcf400a4edb234fe73139cd0e0e94164596e7a00b982beaab05f2fef7fae"
+  }
+]
